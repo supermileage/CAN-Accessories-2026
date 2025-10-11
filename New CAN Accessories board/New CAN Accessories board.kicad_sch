@@ -1456,6 +1456,506 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MCP6C02T-020E_CHY_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "OP2"
+				(at 19.0499 6.35 90)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MCP6C02T-020E/CHY"
+				(at 21.5899 6.35 90)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "footprint:SOT-23-6_CHY_MCH-M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/Zero-Drift-65V-High-Side-Current-Sense-Amplifier-DS20006129C.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Purpose" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "MCP6C02T-020E/CHY"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT-23-6_CHY_MCH SOT-23-6_CHY_MCH-M SOT-23-6_CHY_MCH-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP6C02T-020E_CHY_1_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 33.02 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -10.16) (xy 33.02 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output line
+					(at 0 0 0)
+					(length 7.62)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "VIP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 40.64 0 180)
+					(length 7.62)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 40.64 -2.54 180)
+					(length 7.62)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 40.64 -5.08 180)
+					(length 7.62)
+					(name "VIM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCP6C02T-020E_CHY_1_1_1"
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MCP6C02T-020E_CHY_2"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "OP3"
+				(at 19.0499 6.35 90)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MCP6C02T-020E/CHY"
+				(at 21.5899 6.35 90)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "footprint:SOT-23-6_CHY_MCH-M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/Zero-Drift-65V-High-Side-Current-Sense-Amplifier-DS20006129C.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Purpose" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "MCP6C02T-020E/CHY"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT-23-6_CHY_MCH SOT-23-6_CHY_MCH-M SOT-23-6_CHY_MCH-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP6C02T-020E_CHY_2_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 33.02 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -10.16) (xy 33.02 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output line
+					(at 0 0 0)
+					(length 7.62)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "VIP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 40.64 0 180)
+					(length 7.62)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 40.64 -2.54 180)
+					(length 7.62)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 40.64 -5.08 180)
+					(length 7.62)
+					(name "VIM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCP6C02T-020E_CHY_2_1_1"
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "NUCLEO_L432KC-NUCLEO-L432KC_1"
 			(pin_names
 				(offset 1.016)
@@ -3025,23 +3525,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 20.32 10.16 0)
+			(property "Reference" "OP1"
+				(at 19.0499 6.35 90)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "MCP6C02T-020E/CHY"
-				(at 20.32 7.62 0)
+				(at 21.5899 6.35 90)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "SOT-23-6_CHY_MCH"
+			(property "Footprint" "footprint:SOT-23-6_CHY_MCH-M"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3051,7 +3553,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "MCP6C02T-020E/CHY"
+			(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/Zero-Drift-65V-High-Side-Current-Sense-Amplifier-DS20006129C.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3068,6 +3570,14 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Purpose" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_locked" ""
@@ -3163,24 +3673,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 0 -5.08 0)
 					(length 7.62)
@@ -3254,6 +3746,26 @@
 					)
 				)
 			)
+			(symbol "MCP6C02T-020E_CHY_1_1"
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
 			(embedded_fonts no)
 		)
 	)
@@ -3310,6 +3822,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e461f6a-634c-4a86-bcb0-4ac776e35e6b")
+	)
+	(junction
+		(at 92.71 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22b0d467-049e-4b26-aba1-5f0ebfddb7f0")
 	)
 	(junction
 		(at 278.13 59.69)
@@ -3394,12 +3912,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4605233b-0e9d-4255-b1c9-7a651af77c71")
-	)
-	(junction
-		(at 92.71 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4de3bf6b-ab13-47ac-88cc-3b9616f69de0")
 	)
 	(junction
 		(at 347.98 175.26)
@@ -3870,16 +4382,6 @@
 			(type default)
 		)
 		(uuid "0ba700c4-63c3-49b3-b942-7dafb14dfda7")
-	)
-	(wire
-		(pts
-			(xy 92.71 106.68) (xy 102.87 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bde4d8f-de87-4ae2-aab6-6b51cac57629")
 	)
 	(wire
 		(pts
@@ -4743,6 +5245,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 106.68) (xy 97.79 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e954c2b-5fac-4b7c-a5f3-375166a7d929")
+	)
+	(wire
+		(pts
 			(xy 375.92 73.66) (xy 374.65 73.66)
 		)
 		(stroke
@@ -5490,6 +6002,16 @@
 			(type default)
 		)
 		(uuid "b5e424fe-bf5a-42b5-88be-6bc576543538")
+	)
+	(wire
+		(pts
+			(xy 85.09 73.66) (xy 95.25 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6e42bbd-ad3d-4122-857b-6f0f9caa3890")
 	)
 	(wire
 		(pts
@@ -6352,7 +6874,7 @@
 		(uuid "ff4b9426-1265-426c-ad33-94b35a591807")
 	)
 	(label "OA1"
-		(at 90.17 68.58 0)
+		(at 95.25 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6382,7 +6904,7 @@
 		(uuid "15a152a3-8857-43c3-8931-9895e68a0422")
 	)
 	(label "3V3"
-		(at 99.06 106.68 0)
+		(at 97.79 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6402,7 +6924,7 @@
 		(uuid "1ac79add-773c-4bc5-8574-58043011f927")
 	)
 	(label "OA3"
-		(at 90.17 63.5 0)
+		(at 95.25 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6452,7 +6974,7 @@
 		(uuid "2897be72-95b6-4c85-9ce4-f3017e822967")
 	)
 	(label "OA8"
-		(at 90.17 50.8 0)
+		(at 95.25 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6512,7 +7034,7 @@
 		(uuid "3e715370-9833-4d35-8c7e-8936e13c247d")
 	)
 	(label "STBY"
-		(at 92.71 99.06 0)
+		(at 97.79 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6522,7 +7044,7 @@
 		(uuid "40ea0963-e329-4a99-9641-5907bbb5f424")
 	)
 	(label "CANL"
-		(at 81.28 166.37 0)
+		(at 86.36 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6662,7 +7184,7 @@
 		(uuid "7e8f0beb-5873-47e3-8c47-0bf4c70348bc")
 	)
 	(label "CANH"
-		(at 92.71 101.6 0)
+		(at 97.79 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6672,7 +7194,7 @@
 		(uuid "80cf086d-70f6-4274-a237-134f0ce0cd0b")
 	)
 	(label "CANH"
-		(at 82.55 146.05 0)
+		(at 87.63 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6682,7 +7204,7 @@
 		(uuid "8cd20e44-da7c-4131-85ac-fe422a0696db")
 	)
 	(label "OA7"
-		(at 90.17 53.34 0)
+		(at 95.25 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6700,6 +7222,16 @@
 			(justify left bottom)
 		)
 		(uuid "9b8f7747-fc27-40aa-b41b-926dff073e3a")
+	)
+	(label "3V3"
+		(at 95.25 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b97bfcc-6dda-40b2-acf5-55222ee94f8c")
 	)
 	(label "OA5"
 		(at 162.56 135.89 0)
@@ -6782,7 +7314,7 @@
 		(uuid "c2e95364-4b25-46f1-a751-e84d5c6aed37")
 	)
 	(label "CANL"
-		(at 92.71 104.14 0)
+		(at 97.79 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6792,7 +7324,7 @@
 		(uuid "c3aaf4e9-cb75-4ddf-8b64-2fa8e531f119")
 	)
 	(label "OA5"
-		(at 90.17 58.42 0)
+		(at 95.25 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6812,7 +7344,7 @@
 		(uuid "ccc84b1d-19f6-4efc-bc5d-ed2a55d04edb")
 	)
 	(label "OA6"
-		(at 90.17 55.88 0)
+		(at 95.25 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6832,7 +7364,7 @@
 		(uuid "d21f3ffb-55fc-4e76-bc20-b9cf58867f90")
 	)
 	(label "OA4"
-		(at 90.17 60.96 0)
+		(at 95.25 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6862,7 +7394,7 @@
 		(uuid "db26c598-cf8d-44cd-8178-2cae55f5d793")
 	)
 	(label "TELEM_SW"
-		(at 86.36 76.2 0)
+		(at 95.25 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6892,7 +7424,7 @@
 		(uuid "ec5229e3-7340-492c-a73e-6845719f1b73")
 	)
 	(label "CANL"
-		(at 82.55 143.51 0)
+		(at 87.63 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6902,7 +7434,7 @@
 		(uuid "ed685cb6-2b52-41d5-93f6-c8011ff5249a")
 	)
 	(label "5V"
-		(at 91.44 48.26 0)
+		(at 93.98 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6922,7 +7454,7 @@
 		(uuid "f54b8d8d-be79-41cb-8ca4-393b70d3a422")
 	)
 	(label "CANH"
-		(at 81.28 168.91 0)
+		(at 86.36 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6942,7 +7474,7 @@
 		(uuid "fc547736-45ca-4596-80dd-496f4254a82f")
 	)
 	(label "OA2"
-		(at 90.17 66.04 0)
+		(at 95.25 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8393,7 +8925,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FuseClips:3586KTR"
+		(property "Footprint" "footprint:3586KTR"
 			(at 134.112 78.74 90)
 			(effects
 				(font
@@ -8596,7 +9128,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NUCLEO-L432KC:MODULE_NUCLEO-L432KC"
+		(property "Footprint" "footprint:MODULE_NUCLEO-L432KC"
 			(at 62.23 33.02 0)
 			(effects
 				(font
@@ -8615,6 +9147,14 @@
 			)
 		)
 		(property "Description" ""
+			(at 62.23 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
 			(at 62.23 33.02 0)
 			(effects
 				(font
@@ -8746,7 +9286,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MCP2562FD-E_SN:MCP2562FD-E_SN"
+		(property "Footprint" "footprint:MCP2562FD-E_SN"
 			(at 66.04 92.964 0)
 			(effects
 				(font
@@ -8764,6 +9304,14 @@
 			)
 		)
 		(property "Description" ""
+			(at 66.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
 			(at 66.04 101.6 0)
 			(effects
 				(font
@@ -8963,7 +9511,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 203.962 149.86 90)
 			(effects
 				(font
@@ -9033,7 +9581,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IRLML6344TRPBF:TRANS_IRLML6344TRPBF"
+		(property "Footprint" "footprint:TRANS_IRLML6344TRPBF"
 			(at 203.2 193.04 0)
 			(effects
 				(font
@@ -9140,90 +9688,6 @@
 		)
 	)
 	(symbol
-		(lib_id "sym:MCP6C02T-020E_CHY")
-		(at 374.65 33.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "089838ca-501d-4e93-915f-094b87728de5")
-		(property "Reference" "OP4"
-			(at 381 52.0699 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCP6C02T-020E/CHY"
-			(at 381 54.6099 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT-23-6_CHY_MCH"
-			(at 374.65 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/Zero-Drift-65V-High-Side-Current-Sense-Amplifier-DS20006129C.pdf"
-			(at 374.65 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 374.65 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c889981d-5de8-4dfb-b22a-4855d0339d9b")
-		)
-		(pin "6"
-			(uuid "7e0d4202-804b-4cf7-b7b4-45eec952a15b")
-		)
-		(pin "5"
-			(uuid "8b5b1eca-2502-4c8b-a6f8-54f1202ac336")
-		)
-		(pin "4"
-			(uuid "7f6f5b26-7b28-4508-b78a-f68afa35e171")
-		)
-		(pin "1"
-			(uuid "a697b6ca-0653-4894-b7b5-ce624877d8f4")
-		)
-		(pin "2"
-			(uuid "009cb14d-1fbe-4b06-b394-9d3ae9c34404")
-		)
-		(instances
-			(project "New CAN Accessories board"
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "OP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 152.4 128.27 0)
 		(unit 1)
@@ -9290,6 +9754,99 @@
 		)
 	)
 	(symbol
+		(lib_name "MCP6C02T-020E_CHY_2")
+		(lib_id "sym:MCP6C02T-020E_CHY")
+		(at 374.65 33.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d1a30fb-8d66-4f31-ba58-e39d23ac3651")
+		(property "Reference" "OP4"
+			(at 381 52.0699 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP6C02T-020E/CHY"
+			(at 381 54.6099 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprint:SOT-23-6_CHY_MCH-M"
+			(at 374.65 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/Zero-Drift-65V-High-Side-Current-Sense-Amplifier-DS20006129C.pdf"
+			(at 374.65 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 374.65 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 374.65 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "e05a182d-02fc-4175-8fa3-28a69a81dff0")
+		)
+		(pin "6"
+			(uuid "afc0e755-d42e-4ec2-b5c2-9f96c994d1fc")
+		)
+		(pin "5"
+			(uuid "c0f4eb8b-c07b-43c9-a20e-427ef2a267ed")
+		)
+		(pin "4"
+			(uuid "ed06954a-bb08-4784-85d6-6f4ab357e16e")
+		)
+		(pin "1"
+			(uuid "e33e8c01-7de9-482a-9920-b7217468003e")
+		)
+		(pin "2"
+			(uuid "88c8bd5f-5cdc-4ed0-bae8-858ac10b13b1")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "OP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 278.13 149.86 0)
 		(unit 1)
@@ -9316,7 +9873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 276.352 149.86 90)
 			(effects
 				(font
@@ -9587,7 +10144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IRLML6344TRPBF:TRANS_IRLML6344TRPBF"
+		(property "Footprint" "footprint:TRANS_IRLML6344TRPBF"
 			(at 275.59 90.17 0)
 			(effects
 				(font
@@ -9675,6 +10232,14 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" ""
+			(at 275.59 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "1a46ea03-79b5-43b2-95db-a3e305f6973f")
 		)
@@ -9721,7 +10286,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IRLML6344TRPBF:TRANS_IRLML6344TRPBF"
+		(property "Footprint" "footprint:TRANS_IRLML6344TRPBF"
 			(at 133.35 90.17 0)
 			(effects
 				(font
@@ -9961,90 +10526,6 @@
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sym:MCP6C02T-020E_CHY")
-		(at 162.56 135.89 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3093fd15-4cb9-4063-b72e-0094fbc5e3f0")
-		(property "Reference" "OP5"
-			(at 168.91 154.9399 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCP6C02T-020E/CHY"
-			(at 168.91 157.4799 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT-23-6_CHY_MCH"
-			(at 162.56 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/Zero-Drift-65V-High-Side-Current-Sense-Amplifier-DS20006129C.pdf"
-			(at 162.56 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 162.56 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "a95416f5-206c-44fe-866c-9822163a0056")
-		)
-		(pin "6"
-			(uuid "9bb7aa8b-7c06-4a2a-a6ba-eac9e312998c")
-		)
-		(pin "5"
-			(uuid "d566c0b8-b9dd-465e-bf92-e3f0524f6d0f")
-		)
-		(pin "4"
-			(uuid "ffe2317c-fa1c-4d3c-80b3-5978228c5fe4")
-		)
-		(pin "1"
-			(uuid "5d9e2749-de85-4e57-912f-47bbdfd32612")
-		)
-		(pin "2"
-			(uuid "1694523c-027c-4853-ac1e-f3ef97164589")
-		)
-		(instances
-			(project "New CAN Accessories board"
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "OP5")
 					(unit 1)
 				)
 			)
@@ -10318,6 +10799,99 @@
 		)
 	)
 	(symbol
+		(lib_name "MCP6C02T-020E_CHY_2")
+		(lib_id "sym:MCP6C02T-020E_CHY")
+		(at 304.8 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47f5b32b-429f-4a21-be1c-f09b835b1fac")
+		(property "Reference" "OP7"
+			(at 311.15 154.9399 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP6C02T-020E/CHY"
+			(at 311.15 157.4799 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprint:SOT-23-6_CHY_MCH-M"
+			(at 304.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/Zero-Drift-65V-High-Side-Current-Sense-Amplifier-DS20006129C.pdf"
+			(at 304.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 304.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 304.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "c1be5da8-a1a7-462d-badb-4f7aa2d20b2c")
+		)
+		(pin "6"
+			(uuid "da6a06d4-b516-44fd-b375-5cd2e4cc22ff")
+		)
+		(pin "5"
+			(uuid "bb786387-ea5d-4a66-a241-518fcdae2802")
+		)
+		(pin "4"
+			(uuid "70eafbc4-2a36-4349-9e24-5a0a803057b9")
+		)
+		(pin "1"
+			(uuid "a46aa89a-5f53-4601-8a9f-3b21c1b6fb94")
+		)
+		(pin "2"
+			(uuid "94f41880-9941-488d-a00e-3769b97fcea1")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "OP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Top_Bottom")
 		(at 280.67 64.77 270)
 		(unit 1)
@@ -10553,7 +11127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 346.202 149.86 90)
 			(effects
 				(font
@@ -10621,7 +11195,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprint:SWITCH_011CQN"
 			(at 49.53 190.5 0)
 			(effects
 				(font
@@ -10646,6 +11220,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 49.53 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -10805,6 +11387,99 @@
 			(project ""
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "MCP6C02T-020E_CHY_2")
+		(lib_id "sym:MCP6C02T-020E_CHY")
+		(at 162.56 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "559be3c3-8a98-494a-a2b0-d98fba2d8a94")
+		(property "Reference" "OP5"
+			(at 168.91 154.9399 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP6C02T-020E/CHY"
+			(at 168.91 157.4799 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprint:SOT-23-6_CHY_MCH-M"
+			(at 162.56 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/Zero-Drift-65V-High-Side-Current-Sense-Amplifier-DS20006129C.pdf"
+			(at 162.56 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 162.56 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "c05bb6f0-5870-4c8a-ab5b-e8fdcbd17a12")
+		)
+		(pin "6"
+			(uuid "8f654dbe-1c20-42f7-820e-9372ea73e49c")
+		)
+		(pin "5"
+			(uuid "01a39890-90cb-4406-aeda-3f5046620e6d")
+		)
+		(pin "4"
+			(uuid "bf339691-75e7-4c2e-866c-80bf7904957e")
+		)
+		(pin "1"
+			(uuid "ff12c4e1-7045-4127-8a14-de78c8ee4bd1")
+		)
+		(pin "2"
+			(uuid "2b7e33fd-3a64-4328-b114-3a70832c6946")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "OP5")
 					(unit 1)
 				)
 			)
@@ -11015,90 +11690,6 @@
 		)
 	)
 	(symbol
-		(lib_id "sym:MCP6C02T-020E_CHY")
-		(at 304.8 135.89 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6173a7b7-9b8d-4d5e-9bad-b3d0079e76f1")
-		(property "Reference" "OP7"
-			(at 311.15 154.9399 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCP6C02T-020E/CHY"
-			(at 311.15 157.4799 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT-23-6_CHY_MCH"
-			(at 304.8 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/Zero-Drift-65V-High-Side-Current-Sense-Amplifier-DS20006129C.pdf"
-			(at 304.8 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 304.8 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "d4c3bc14-2280-4110-aaf9-bef2b18845bc")
-		)
-		(pin "6"
-			(uuid "afc0fb64-b560-4b44-bf4b-eccfb9d5c2da")
-		)
-		(pin "5"
-			(uuid "656522b9-1716-476c-8859-25850b06ea07")
-		)
-		(pin "4"
-			(uuid "3a7687e8-4179-4269-ada8-b4623d73d653")
-		)
-		(pin "1"
-			(uuid "153a3861-0be9-46af-b89e-11eea7cbd28a")
-		)
-		(pin "2"
-			(uuid "8fe12555-65bf-493a-82de-e6ceb7731bfc")
-		)
-		(instances
-			(project "New CAN Accessories board"
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "OP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Fuse")
 		(at 205.74 181.61 0)
 		(unit 1)
@@ -11125,7 +11716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FuseClips:3586KTR"
+		(property "Footprint" "footprint:3586KTR"
 			(at 203.962 181.61 90)
 			(effects
 				(font
@@ -11162,90 +11753,6 @@
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
 					(reference "F6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sym:MCP6C02T-020E_CHY")
-		(at 232.41 135.89 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67a37360-5cf7-45a9-a914-0720f3627343")
-		(property "Reference" "OP6"
-			(at 238.76 154.9399 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCP6C02T-020E/CHY"
-			(at 238.76 157.4799 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT-23-6_CHY_MCH"
-			(at 232.41 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/Zero-Drift-65V-High-Side-Current-Sense-Amplifier-DS20006129C.pdf"
-			(at 232.41 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 232.41 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "44bf360c-8ae0-4ea0-8b62-f548512cc709")
-		)
-		(pin "6"
-			(uuid "9ef90308-b4d0-4099-9654-54fa3cac358a")
-		)
-		(pin "5"
-			(uuid "831831c4-1256-464a-b8dc-330ca4b99d59")
-		)
-		(pin "4"
-			(uuid "84afef30-edd3-49cf-a019-b195346e65db")
-		)
-		(pin "1"
-			(uuid "3363290e-fbca-4814-8628-9b1e03ee4b98")
-		)
-		(pin "2"
-			(uuid "48134d2a-4a00-465d-aaf9-95f9c5bb4587")
-		)
-		(instances
-			(project "New CAN Accessories board"
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "OP6")
 					(unit 1)
 				)
 			)
@@ -11342,7 +11849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 42.672 212.09 90)
 			(effects
 				(font
@@ -11411,7 +11918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 276.352 45.72 90)
 			(effects
 				(font
@@ -11522,6 +12029,99 @@
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "MCP6C02T-020E_CHY_2")
+		(lib_id "sym:MCP6C02T-020E_CHY")
+		(at 374.65 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ce3a7b3-1cae-43b6-a060-6c465c0b950d")
+		(property "Reference" "OP8"
+			(at 381 154.9399 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP6C02T-020E/CHY"
+			(at 381 157.4799 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprint:SOT-23-6_CHY_MCH-M"
+			(at 374.65 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/Zero-Drift-65V-High-Side-Current-Sense-Amplifier-DS20006129C.pdf"
+			(at 374.65 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 374.65 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 374.65 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "4fb0d373-1962-4a71-b758-97b7942e2eb5")
+		)
+		(pin "6"
+			(uuid "e3ad166e-1ad2-4c74-9ad4-6c639ea1cee3")
+		)
+		(pin "5"
+			(uuid "700e8488-eb9e-4976-9048-5b686280537d")
+		)
+		(pin "4"
+			(uuid "5f1e38da-4985-45b6-a767-6af06f54a774")
+		)
+		(pin "1"
+			(uuid "cb706085-114a-4d0f-943c-7927cc0fa573")
+		)
+		(pin "2"
+			(uuid "410ef3e2-c567-4913-8979-17a42ecb981e")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "OP8")
 					(unit 1)
 				)
 			)
@@ -11695,7 +12295,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IRLML6344TRPBF:TRANS_IRLML6344TRPBF"
+		(property "Footprint" "footprint:TRANS_IRLML6344TRPBF"
 			(at 203.2 90.17 0)
 			(effects
 				(font
@@ -11828,7 +12428,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FuseClips:3586KTR"
+		(property "Footprint" "footprint:3586KTR"
 			(at 346.202 181.61 90)
 			(effects
 				(font
@@ -12366,7 +12966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IRLML6344TRPBF:TRANS_IRLML6344TRPBF"
+		(property "Footprint" "footprint:TRANS_IRLML6344TRPBF"
 			(at 133.35 193.04 0)
 			(effects
 				(font
@@ -12473,6 +13073,7 @@
 		)
 	)
 	(symbol
+		(lib_name "MCP6C02T-020E_CHY_1")
 		(lib_id "sym:MCP6C02T-020E_CHY")
 		(at 232.41 33.02 270)
 		(unit 1)
@@ -12500,7 +13101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT-23-6_CHY_MCH"
+		(property "Footprint" "footprint:SOT-23-6_CHY_MCH-M"
 			(at 232.41 33.02 0)
 			(effects
 				(font
@@ -12527,6 +13128,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 232.41 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -12551,90 +13160,6 @@
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
 					(reference "OP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sym:MCP6C02T-020E_CHY")
-		(at 374.65 135.89 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97580bf8-9fc8-46e1-aedd-ae6d55c0baf5")
-		(property "Reference" "OP8"
-			(at 381 154.9399 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCP6C02T-020E/CHY"
-			(at 381 157.4799 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT-23-6_CHY_MCH"
-			(at 374.65 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/Zero-Drift-65V-High-Side-Current-Sense-Amplifier-DS20006129C.pdf"
-			(at 374.65 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 374.65 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "8fef33cd-e25c-4b95-ad25-449c1a6de9c4")
-		)
-		(pin "6"
-			(uuid "c3fc1eac-548e-45db-ac79-799283b4d818")
-		)
-		(pin "5"
-			(uuid "3d71a3a3-ddcb-4f4f-a886-92af54b7e993")
-		)
-		(pin "4"
-			(uuid "542eaacf-05eb-4ccc-a3db-91c76cae7977")
-		)
-		(pin "1"
-			(uuid "ed6b8953-52e8-4c7e-9d80-599634295c84")
-		)
-		(pin "2"
-			(uuid "c49843d9-c02b-4559-b9e4-4d9d77240d30")
-		)
-		(instances
-			(project "New CAN Accessories board"
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "OP8")
 					(unit 1)
 				)
 			)
@@ -13281,7 +13806,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IRLML6344TRPBF:TRANS_IRLML6344TRPBF"
+		(property "Footprint" "footprint:TRANS_IRLML6344TRPBF"
 			(at 345.44 90.17 0)
 			(effects
 				(font
@@ -13454,6 +13979,7 @@
 		)
 	)
 	(symbol
+		(lib_name "MCP6C02T-020E_CHY_2")
 		(lib_id "sym:MCP6C02T-020E_CHY")
 		(at 304.8 33.02 270)
 		(unit 1)
@@ -13481,7 +14007,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT-23-6_CHY_MCH"
+		(property "Footprint" "footprint:SOT-23-6_CHY_MCH-M"
 			(at 304.8 33.02 0)
 			(effects
 				(font
@@ -13508,6 +14034,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 304.8 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -13564,7 +14098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FuseClips:3586KTR"
+		(property "Footprint" "footprint:3586KTR"
 			(at 134.112 181.61 90)
 			(effects
 				(font
@@ -13601,6 +14135,99 @@
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
 					(reference "F5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "MCP6C02T-020E_CHY_2")
+		(lib_id "sym:MCP6C02T-020E_CHY")
+		(at 232.41 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc3b126e-ddb8-4c8b-8f26-fe0624df65e0")
+		(property "Reference" "OP6"
+			(at 238.76 154.9399 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP6C02T-020E/CHY"
+			(at 238.76 157.4799 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprint:SOT-23-6_CHY_MCH-M"
+			(at 232.41 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/Zero-Drift-65V-High-Side-Current-Sense-Amplifier-DS20006129C.pdf"
+			(at 232.41 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 232.41 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "3da9f0f1-457c-4667-af1e-79b681cdf4a6")
+		)
+		(pin "6"
+			(uuid "efaacafa-850b-4c5d-8cbf-1d6fdff48c86")
+		)
+		(pin "5"
+			(uuid "cd3e0ea3-bd73-43c8-8642-521add0ccb92")
+		)
+		(pin "4"
+			(uuid "a24ca1d3-7e4e-4d85-b6f6-f0f9bf7066b3")
+		)
+		(pin "1"
+			(uuid "82639798-3a4c-475e-800a-74a04ac93e2c")
+		)
+		(pin "2"
+			(uuid "de6083eb-e5aa-4617-bc8c-04073c735c54")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "OP6")
 					(unit 1)
 				)
 			)
@@ -14035,7 +14662,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IRLML6344TRPBF:TRANS_IRLML6344TRPBF"
+		(property "Footprint" "footprint:TRANS_IRLML6344TRPBF"
 			(at 345.44 193.04 0)
 			(effects
 				(font
@@ -14168,7 +14795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 134.112 45.72 90)
 			(effects
 				(font
@@ -14237,7 +14864,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 203.962 45.72 90)
 			(effects
 				(font
@@ -14444,7 +15071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 134.112 149.86 90)
 			(effects
 				(font
@@ -14469,6 +15096,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 135.89 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -14512,7 +15147,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprint:SWITCH_011CQN"
 			(at 87.63 190.5 0)
 			(effects
 				(font
@@ -14539,14 +15174,22 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" ""
+			(at 87.63 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
-			(uuid "81a7b1fb-213c-4f9c-b228-d051b852b73f")
+			(uuid "81a7b1fb-213c-4f9c-b228-d051b852b740")
 		)
 		(pin "1"
 			(uuid "2ef08966-da33-4e5c-982d-2af0363354c3")
 		)
 		(pin "6"
-			(uuid "e243e5db-4199-4a08-92ba-650b74725d5c")
+			(uuid "e243e5db-4199-4a08-92ba-650b74725d5d")
 		)
 		(pin "2"
 			(uuid "703b1d22-b9b3-42c9-aea3-58764f0ffdb5")
@@ -14555,7 +15198,7 @@
 			(uuid "6e1f3588-c81c-4781-ba09-35e0e5c1268d")
 		)
 		(pin "4"
-			(uuid "25905e70-d612-4c75-af26-149f8ed098b8")
+			(uuid "25905e70-d612-4c75-af26-149f8ed098b9")
 		)
 		(instances
 			(project "New CAN Accessories board"
@@ -14728,7 +15371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FuseClips:3586KTR"
+		(property "Footprint" "footprint:3586KTR"
 			(at 203.962 78.74 90)
 			(effects
 				(font
@@ -14797,7 +15440,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 346.202 45.72 90)
 			(effects
 				(font
@@ -14935,7 +15578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 80.772 212.09 90)
 			(effects
 				(font
@@ -15005,7 +15648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT-23-6_CHY_MCH"
+		(property "Footprint" "footprint:SOT-23-6_CHY_MCH-M"
 			(at 162.56 33.02 0)
 			(effects
 				(font
@@ -15032,6 +15675,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 162.56 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -15088,7 +15739,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FuseClips:3586KTR"
+		(property "Footprint" "footprint:3586KTR"
 			(at 276.352 78.74 90)
 			(effects
 				(font
@@ -15292,7 +15943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FuseClips:3586KTR"
+		(property "Footprint" "footprint:3586KTR"
 			(at 346.202 78.74 90)
 			(effects
 				(font
@@ -15361,7 +16012,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FuseClips:3586KTR"
+		(property "Footprint" "footprint:3586KTR"
 			(at 276.352 181.61 90)
 			(effects
 				(font
@@ -15505,7 +16156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IRLML6344TRPBF:TRANS_IRLML6344TRPBF"
+		(property "Footprint" "footprint:TRANS_IRLML6344TRPBF"
 			(at 275.59 193.04 0)
 			(effects
 				(font

@@ -3794,6 +3794,12 @@
 		(uuid "0855e200-631d-4bc1-9a03-aaabe85ba98f")
 	)
 	(junction
+		(at 101.6 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a0b1513-5c3d-4bb8-aa68-6ebc95578fdb")
+	)
+	(junction
 		(at 135.89 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3812,10 +3818,28 @@
 		(uuid "120231ea-4179-46fe-a1cf-b59c90901889")
 	)
 	(junction
+		(at 304.8 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14e51337-861c-4012-b98a-bbb0432df088")
+	)
+	(junction
+		(at 63.5 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1510e71a-1c6f-481d-b90b-d0061a440023")
+	)
+	(junction
 		(at 68.58 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "156ebb4e-a172-43cc-a39f-0d8cacb1f1fb")
+	)
+	(junction
+		(at 232.41 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a9a304a-28e6-49e3-9400-97e104590cbe")
 	)
 	(junction
 		(at 278.13 135.89)
@@ -3824,10 +3848,22 @@
 		(uuid "1e461f6a-634c-4a86-bcb0-4ac776e35e6b")
 	)
 	(junction
+		(at 232.41 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20d24b32-4f88-44bc-96ae-dc1cd2675411")
+	)
+	(junction
 		(at 92.71 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22b0d467-049e-4b26-aba1-5f0ebfddb7f0")
+	)
+	(junction
+		(at 374.65 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23fb9de9-89cd-45f4-9d0b-abf12c1b1cb8")
 	)
 	(junction
 		(at 278.13 59.69)
@@ -3926,6 +3962,12 @@
 		(uuid "51f00c28-00c7-4c62-b406-fa4be5f8c4a5")
 	)
 	(junction
+		(at 162.56 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53c02790-ef77-4c79-b1e6-82c0b41af16b")
+	)
+	(junction
 		(at 73.66 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3954,6 +3996,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6efaf5f3-1db5-4071-95c0-7d6bba261a2d")
+	)
+	(junction
+		(at 43.18 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fd8261a-3374-48fd-a130-9a7adab037f6")
 	)
 	(junction
 		(at 205.74 57.15)
@@ -4008,6 +4056,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84b0ede4-053d-416a-8cfd-15a242ea58e8")
+	)
+	(junction
+		(at 374.65 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85a16b69-6e9d-4e6e-9b84-5b692f2711b8")
 	)
 	(junction
 		(at 229.87 111.76)
@@ -4100,6 +4154,12 @@
 		(uuid "cad6c2b6-1311-4645-9a7a-0f1945b677e3")
 	)
 	(junction
+		(at 304.8 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "caf59429-096d-4c7b-8ac9-ed88f21d3347")
+	)
+	(junction
 		(at 205.74 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4166,6 +4226,12 @@
 		(uuid "e3b4a5b8-e182-40b3-bca2-49ed0d544cbb")
 	)
 	(junction
+		(at 162.56 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef70aa93-a9fa-40b7-87a8-74c653b716eb")
+	)
+	(junction
 		(at 160.02 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4194,6 +4260,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fea6513f-3131-477b-8aff-0255b4d3464d")
+	)
+	(junction
+		(at 80.01 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff01e4a4-b38b-4037-b648-cff869e1d6bc")
 	)
 	(junction
 		(at 270.51 214.63)
@@ -4226,8 +4298,16 @@
 		(uuid "7b254789-0d8b-416f-ad77-36ed9bba2367")
 	)
 	(no_connect
+		(at 54.61 201.93)
+		(uuid "9015f471-cd2b-40d4-8bad-6b0775064083")
+	)
+	(no_connect
 		(at 57.15 66.04)
 		(uuid "cf29d522-3e63-4031-a913-b5e45fb148ca")
+	)
+	(no_connect
+		(at 92.71 201.93)
+		(uuid "d5ce7855-325a-436a-93f2-5e4de10a39f5")
 	)
 	(no_connect
 		(at 85.09 71.12)
@@ -4845,7 +4925,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 187.96) (xy 63.5 207.01)
+			(xy 63.5 187.96) (xy 63.5 196.85)
 		)
 		(stroke
 			(width 0)
@@ -5115,6 +5195,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 196.85) (xy 101.6 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5204ae45-964a-4cb7-9bcf-412372328e2f")
+	)
+	(wire
+		(pts
 			(xy 135.89 41.91) (xy 135.89 33.02)
 		)
 		(stroke
@@ -5122,6 +5212,16 @@
 			(type default)
 		)
 		(uuid "52ab9838-5128-48f8-82bb-5149d3e3cb67")
+	)
+	(wire
+		(pts
+			(xy 54.61 196.85) (xy 63.5 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54fbf26c-9cd5-4ec9-93f7-00a90139d9e7")
 	)
 	(wire
 		(pts
@@ -5235,7 +5335,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 190.5) (xy 44.45 190.5)
+			(xy 31.75 190.5) (xy 43.18 190.5)
 		)
 		(stroke
 			(width 0)
@@ -5372,6 +5472,16 @@
 			(type default)
 		)
 		(uuid "64bec9c9-2cb1-4f3d-8181-aebd0d802732")
+	)
+	(wire
+		(pts
+			(xy 43.18 199.39) (xy 44.45 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64d9513b-e626-4835-b13b-ba9b3f4a167b")
 	)
 	(wire
 		(pts
@@ -5885,6 +5995,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 190.5) (xy 44.45 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a87df91b-fabd-4d03-a39a-d0ac0f613f4d")
+	)
+	(wire
+		(pts
 			(xy 135.89 111.76) (xy 160.02 111.76)
 		)
 		(stroke
@@ -5942,6 +6062,16 @@
 			(type default)
 		)
 		(uuid "aa91c6b1-16d8-47d8-a287-abf745000c54")
+	)
+	(wire
+		(pts
+			(xy 63.5 196.85) (xy 63.5 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab1824a4-84a4-4802-b0ee-137a0c144257")
 	)
 	(wire
 		(pts
@@ -6585,7 +6715,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 190.5) (xy 82.55 190.5)
+			(xy 69.85 190.5) (xy 80.01 190.5)
 		)
 		(stroke
 			(width 0)
@@ -6635,6 +6765,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 199.39) (xy 80.01 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebb31005-16b4-4962-8cb4-5f53634f2cee")
+	)
+	(wire
+		(pts
 			(xy 372.11 128.27) (xy 364.49 128.27)
 		)
 		(stroke
@@ -6672,6 +6812,16 @@
 			(type default)
 		)
 		(uuid "ed89b670-e603-46ed-abfa-746c77b77f30")
+	)
+	(wire
+		(pts
+			(xy 101.6 196.85) (xy 101.6 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eddfccdb-2b9c-4ab7-85c4-0f380f7c7471")
 	)
 	(wire
 		(pts
@@ -6755,6 +6905,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 199.39) (xy 80.01 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f585ad75-e17d-4436-914e-cca11e36f201")
+	)
+	(wire
+		(pts
 			(xy 190.5 111.76) (xy 198.12 111.76)
 		)
 		(stroke
@@ -6805,7 +6965,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 187.96) (xy 101.6 207.01)
+			(xy 101.6 187.96) (xy 101.6 196.85)
 		)
 		(stroke
 			(width 0)
@@ -6822,6 +6982,16 @@
 			(type default)
 		)
 		(uuid "fbdd6350-27c7-4416-860b-ffbe8fbd3c5b")
+	)
+	(wire
+		(pts
+			(xy 80.01 190.5) (xy 82.55 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd317793-b932-4d7d-a0f5-8b17ed99d623")
 	)
 	(wire
 		(pts
@@ -6872,6 +7042,16 @@
 			(type default)
 		)
 		(uuid "ff4b9426-1265-426c-ad33-94b35a591807")
+	)
+	(wire
+		(pts
+			(xy 43.18 190.5) (xy 43.18 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffe5c0d6-bc4a-4120-bb2c-7731da43965a")
 	)
 	(label "OA1"
 		(at 95.25 68.58 0)
@@ -7502,7 +7682,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000603395a2")
-		(property "Reference" "R2"
+		(property "Reference" "Rpd1"
 			(at 130.048 100.4316 0)
 			(effects
 				(font
@@ -7556,7 +7736,7 @@
 		(instances
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "R2")
+					(reference "Rpd1")
 					(unit 1)
 				)
 			)
@@ -7723,7 +7903,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000604082f3")
-		(property "Reference" "R25"
+		(property "Reference" "Rterm"
 			(at 44.958 144.8816 0)
 			(effects
 				(font
@@ -7776,7 +7956,7 @@
 		(instances
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "R25")
+					(reference "Rterm")
 					(unit 1)
 				)
 			)
@@ -8176,7 +8356,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000604c5e65")
-		(property "Reference" "C2"
+		(property "Reference" "Ctr2"
 			(at 95.631 113.1316 0)
 			(effects
 				(font
@@ -8229,7 +8409,7 @@
 		(instances
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "C2")
+					(reference "Ctr2")
 					(unit 1)
 				)
 			)
@@ -8308,7 +8488,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000604c7153")
-		(property "Reference" "C1"
+		(property "Reference" "Ctr1"
 			(at 33.401 113.1316 0)
 			(effects
 				(font
@@ -8361,7 +8541,7 @@
 		(instances
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "C1")
+					(reference "Ctr1")
 					(unit 1)
 				)
 			)
@@ -9042,7 +9222,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060d675b7")
-		(property "Reference" "R1"
+		(property "Reference" "Rled1"
 			(at 122.428 95.3516 0)
 			(effects
 				(font
@@ -9096,7 +9276,7 @@
 		(instances
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "R1")
+					(reference "Rled1")
 					(unit 1)
 				)
 			)
@@ -9270,7 +9450,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000612d37ca")
-		(property "Reference" "U2"
+		(property "Reference" "T1"
 			(at 66.04 89.2302 0)
 			(effects
 				(font
@@ -9346,7 +9526,7 @@
 		(instances
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "U2")
+					(reference "T1")
 					(unit 1)
 				)
 			)
@@ -9479,75 +9659,6 @@
 			(project ""
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 205.74 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "04b39194-ed27-4b8a-ac25-7ad975791892")
-		(property "Reference" "R22"
-			(at 199.39 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.05"
-			(at 199.39 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
-			(at 203.962 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 205.74 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a8546f74-7091-4898-818b-e5ebb65a08d4")
-		)
-		(pin "1"
-			(uuid "e618913e-45d4-46d7-b192-81923722bb33")
-		)
-		(instances
-			(project "New CAN Accessories board"
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -9848,15 +9959,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 278.13 149.86 0)
+		(at 270.51 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "12658113-6fd0-4cc7-9011-d10db04ad992")
-		(property "Reference" "R23"
-			(at 271.78 148.59 0)
+		(uuid "10299e3e-1e72-4c81-9b88-1fa31782ffcc")
+		(property "Reference" "Rpd7"
+			(at 272.288 203.3016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9864,8 +9975,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.05"
-			(at 271.78 151.13 0)
+		(property "Value" "10K"
+			(at 272.288 205.613 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9873,8 +9984,76 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
-			(at 276.352 149.86 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 268.732 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition23_en.pdf"
+			(at 270.51 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RS2012P-103-D-T5-3"
+			(at 270.51 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bc9fd67-a3ce-4c6a-8100-c32b9688cb9d")
+		)
+		(pin "2"
+			(uuid "712be7a3-4d5b-4abc-b7da-fef1e03765b7")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "Rpd7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 49.53 199.39 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "132664bd-5002-451f-a665-6eb108ca43d1")
+		(property "Reference" "SWsel"
+			(at 49.53 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPDT_x2"
+			(at 49.53 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprint:SWITCH_011CQN"
+			(at 49.53 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9883,7 +10062,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 278.13 149.86 0)
+			(at 49.53 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9891,8 +10070,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 278.13 149.86 0)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 49.53 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9900,17 +10079,37 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "95efda48-3ac6-4339-a9c7-16bd40e01bf6")
+		(property "Purpose" ""
+			(at 49.53 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "81a7b1fb-213c-4f9c-b228-d051b852b73f")
 		)
 		(pin "1"
-			(uuid "50b805fe-75e2-4a2b-b664-7b7aed9516a0")
+			(uuid "11206727-5b82-452b-a9b5-08d6376a33f5")
+		)
+		(pin "6"
+			(uuid "e243e5db-4199-4a08-92ba-650b74725d5c")
+		)
+		(pin "2"
+			(uuid "414419c8-4cfd-48ad-a8a4-ba621ef4470e")
+		)
+		(pin "3"
+			(uuid "6bf0c2a4-734e-456a-b332-4b610cc232ec")
+		)
+		(pin "4"
+			(uuid "25905e70-d612-4c75-af26-149f8ed098b8")
 		)
 		(instances
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "R23")
-					(unit 1)
+					(reference "SWsel")
+					(unit 2)
 				)
 			)
 		)
@@ -9983,6 +10182,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 162.56 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1edbffb6-b67d-4a1b-bd94-cfa5bdbc9356")
+		(property "Reference" "#PWR014"
+			(at 162.56 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ebe3a59-a89d-4f1f-ac76-7fa6d433ec0e")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 229.87 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10042,6 +10307,144 @@
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 270.51 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21adf821-9841-46a1-8b31-b87aa56334b7")
+		(property "Reference" "Rpd3"
+			(at 272.288 100.4316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 272.288 102.743 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 268.732 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition23_en.pdf"
+			(at 270.51 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RS2012P-103-D-T5-3"
+			(at 270.51 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef53eed1-d1bd-4668-91bc-0866d459a293")
+		)
+		(pin "2"
+			(uuid "cfe90c45-b803-4252-8546-fd753fa7191c")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "Rpd3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 340.36 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23ff1dd6-fdaf-448f-8e8f-77b9dc8c8ae2")
+		(property "Reference" "Rpd4"
+			(at 342.138 100.4316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 342.138 102.743 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 338.582 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition23_en.pdf"
+			(at 340.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RS2012P-103-D-T5-3"
+			(at 340.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a92cb85-42d8-4a12-a645-71bf3a89763a")
+		)
+		(pin "2"
+			(uuid "581e48fe-040b-4efe-8e8c-b588e565ccd0")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "Rpd4")
 					(unit 1)
 				)
 			)
@@ -10394,6 +10797,209 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 162.56 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28534308-c6f1-44be-9bfb-8718a21e1158")
+		(property "Reference" "#PWR011"
+			(at 162.56 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81a1b3c5-f064-4b54-b669-c9c18d35f641")
+		)
+		(instances
+			(project ""
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 374.65 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28d08dd3-d3ac-48b9-a388-8c65b5f7b17b")
+		(property "Reference" "Cop4"
+			(at 377.571 76.3016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 377.571 78.613 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 375.6152 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 374.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 374.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "760be30d-894a-43c2-bf1a-1af114e1b488")
+		)
+		(pin "2"
+			(uuid "b44907f5-10fe-47ce-8e2f-662394d97373")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "Cop4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 198.12 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2af117d2-6f0b-4d16-908c-3a5f3db69a70")
+		(property "Reference" "Rpd6"
+			(at 199.898 203.3016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 199.898 205.613 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 196.342 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition23_en.pdf"
+			(at 198.12 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RS2012P-103-D-T5-3"
+			(at 198.12 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1402402f-5d0d-454c-8e30-ef5af47ae0d9")
+		)
+		(pin "2"
+			(uuid "2d05991f-18e5-4cdb-bd6b-35e46610dc1e")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "Rpd6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 82.55 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10533,14 +11139,83 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 332.74 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d4c483f-e296-4e0b-a583-f036ea0588db")
+		(property "Reference" "Rled4"
+			(at 334.518 95.3516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 334.518 97.663 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 330.962 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf"
+			(at 332.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RT0805BRD07100RL"
+			(at 332.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be5271f6-3de3-4a58-9d19-9e9fc0e09796")
+		)
+		(pin "2"
+			(uuid "7c61cc8b-2338-4da6-b466-4d0880fb8a75")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "Rled4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 262.89 199.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3170e8f4-b297-4109-bbdb-c920667310fd")
-		(property "Reference" "R13"
+		(uuid "2e279b79-4858-4d10-831e-eaa4f479ec00")
+		(property "Reference" "Rled7"
 			(at 264.668 198.2216 0)
 			(effects
 				(font
@@ -10586,15 +11261,150 @@
 			)
 		)
 		(pin "1"
-			(uuid "9bfccc35-ec13-43b5-9001-9f9811d11d1f")
+			(uuid "463e04e2-3968-40cd-9fda-a7022fa73c0b")
 		)
 		(pin "2"
-			(uuid "2e8baccc-2bb5-4841-b787-e5135d51dbea")
+			(uuid "efb122e1-71e5-408c-b52b-e191ff10ecb8")
 		)
 		(instances
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "R13")
+					(reference "Rled7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 374.65 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3104b33b-b981-46e9-90f9-342a8226ee50")
+		(property "Reference" "#PWR039"
+			(at 374.65 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 374.65 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 374.65 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 374.65 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 374.65 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a5c0162-1f4d-41ea-ad1e-2825e867c4df")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 340.36 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32c340ac-089b-44f3-945e-f5dc2fb3af24")
+		(property "Reference" "Rpd8"
+			(at 342.138 203.3016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 342.138 205.613 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 338.582 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition23_en.pdf"
+			(at 340.36 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RS2012P-103-D-T5-3"
+			(at 340.36 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79817186-b755-4363-a817-e881a6f8d1e3")
+		)
+		(pin "2"
+			(uuid "24921b30-d41f-4656-a202-9f3a4b8435f2")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "Rpd8")
 					(unit 1)
 				)
 			)
@@ -10733,6 +11543,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 190.5 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43447532-bf76-4bd0-b723-fe42f9635d32")
+		(property "Reference" "Rled2"
+			(at 192.278 95.3516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 192.278 97.663 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 188.722 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf"
+			(at 190.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RT0805BRD07100RL"
+			(at 190.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf755df4-ecc7-4f3f-8edf-6f1d1e8a5883")
+		)
+		(pin "2"
+			(uuid "3a53980c-0f49-4c6f-b841-a38de69d2a42")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "Rled2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 222.25 25.4 0)
 		(unit 1)
@@ -10793,6 +11672,140 @@
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 304.8 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4752405f-d08a-4748-b94e-74a7a0e23695")
+		(property "Reference" "Cop3"
+			(at 307.721 76.3016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 307.721 78.613 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 305.7652 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 304.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 304.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b08fae8a-040c-417d-8013-7bdf9f95de3f")
+		)
+		(pin "2"
+			(uuid "3683c7a2-94f7-4218-ab78-eb8539f083de")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "Cop3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 374.65 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "475d5170-0d09-4e42-bd7f-a8808233d082")
+		(property "Reference" "#PWR013"
+			(at 374.65 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 374.65 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 374.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 374.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 374.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51034dd1-40f1-4102-bf8b-0f5af4166731")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -11032,144 +12045,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 190.5 199.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e7a36b0-6034-418c-b27c-17cf75f5e1d0")
-		(property "Reference" "R11"
-			(at 192.278 198.2216 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100"
-			(at 192.278 200.533 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 188.722 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf"
-			(at 190.5 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RT0805BRD07100RL"
-			(at 190.5 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a9085b38-1222-4f13-8ae8-e8d5fb564022")
-		)
-		(pin "2"
-			(uuid "98b9937b-05c5-48ce-a086-9eadb5da20d5")
-		)
-		(instances
-			(project "New CAN Accessories board"
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 347.98 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f520bfa-590c-4a0e-b5f0-973683b634c1")
-		(property "Reference" "R24"
-			(at 341.63 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.05"
-			(at 341.63 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
-			(at 346.202 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 347.98 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 347.98 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "68e34f13-ac81-4883-aa44-e61b2a2d0815")
-		)
-		(pin "1"
-			(uuid "c28b671c-e36c-4d02-b2a8-b33273974811")
-		)
-		(instances
-			(project "New CAN Accessories board"
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
 		(at 49.53 190.5 0)
 		(unit 1)
@@ -11179,8 +12054,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50dfd604-60fb-49e5-a036-18b2dfd961d3")
-		(property "Reference" "SW3"
-			(at 49.53 182.245 0)
+		(property "Reference" "SWsel"
+			(at 49.53 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11188,7 +12063,7 @@
 			)
 		)
 		(property "Value" "SW_DPDT_x2"
-			(at 49.53 184.785 0)
+			(at 49.53 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11251,7 +12126,7 @@
 		(instances
 			(project ""
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "SW3")
+					(reference "SWsel")
 					(unit 1)
 				)
 			)
@@ -11624,6 +12499,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 332.74 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5dbdb6c5-17c4-4093-97ec-15acce953957")
+		(property "Reference" "Rled8"
+			(at 334.518 198.2216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 334.518 200.533 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 330.962 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf"
+			(at 332.74 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RT0805BRD07100RL"
+			(at 332.74 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5121450-28fb-4aba-8d6d-43cd2b8b6171")
+		)
+		(pin "2"
+			(uuid "c8b2bb3b-bc0c-48d5-8964-fabc228a8824")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "Rled8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 294.64 25.4 0)
 		(unit 1)
@@ -11684,6 +12628,72 @@
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 304.8 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60c6ebdc-b772-4ddd-a7ec-4063bd9eccb1")
+		(property "Reference" "#PWR012"
+			(at 304.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 304.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 304.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 304.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e00062b-8e68-4ce0-b0bf-5e522ce69338")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -11824,84 +12834,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 44.45 212.09 0)
+		(at 278.13 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6b9307a9-11d3-4a19-91ae-4447566b213b")
-		(property "Reference" "R27"
-			(at 46.99 210.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 46.99 213.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 42.672 212.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 44.45 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ec2a711-3eac-43e1-a5b7-663118e76d70")
-		)
-		(pin "2"
-			(uuid "20f77c4f-e764-43ce-bc85-1576076b614c")
-		)
-		(instances
-			(project "New CAN Accessories board"
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 278.13 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6b9f56fe-df6d-45ed-b818-0642f312b16f")
-		(property "Reference" "R19"
-			(at 271.78 44.45 0)
+		(uuid "6b0d4fa0-eb42-4c94-bbac-88bc04afa173")
+		(property "Reference" "Rsh7"
+			(at 271.78 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11910,7 +12851,7 @@
 			)
 		)
 		(property "Value" "0.05"
-			(at 271.78 46.99 0)
+			(at 271.78 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11919,7 +12860,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
-			(at 276.352 45.72 90)
+			(at 276.352 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11928,7 +12869,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 278.13 45.72 0)
+			(at 278.13 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11937,7 +12878,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 278.13 45.72 0)
+			(at 278.13 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11946,15 +12887,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c4a6d320-6dc6-43ae-beb2-b871e6dd1dcf")
+			(uuid "e6b9e805-d391-4620-9647-4aa573563ecc")
 		)
 		(pin "1"
-			(uuid "93b9e13c-0216-4ddb-9fca-6c538429dba9")
+			(uuid "861848e8-c7d5-415f-97de-74305fb8285a")
 		)
 		(instances
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "R19")
+					(reference "Rsh7")
 					(unit 1)
 				)
 			)
@@ -12029,6 +12970,75 @@
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 198.12 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c8b8cd5-6443-46ab-b939-e88247c58971")
+		(property "Reference" "Rpd2"
+			(at 199.898 100.4316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 199.898 102.743 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 196.342 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition23_en.pdf"
+			(at 198.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RS2012P-103-D-T5-3"
+			(at 198.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64dc6756-6ec2-455d-8fc5-602ec59eab29")
+		)
+		(pin "2"
+			(uuid "0aaf2265-b292-4bdd-bc4c-cd9cbd5b4755")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "Rpd2")
 					(unit 1)
 				)
 			)
@@ -12196,6 +13206,75 @@
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 347.98 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fc290e2-efd4-4f5f-ad13-ca7ce1a6915a")
+		(property "Reference" "Rsh8"
+			(at 341.63 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.05"
+			(at 341.63 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 346.202 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 347.98 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 347.98 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad1542b5-d63f-4b69-a2c6-36f681add87e")
+		)
+		(pin "1"
+			(uuid "531b5447-0427-44f9-a809-ca2f12414367")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "Rsh8")
 					(unit 1)
 				)
 			)
@@ -12402,6 +13481,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 87.63 199.39 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78154982-7eda-4843-ad3c-e8a0b791615d")
+		(property "Reference" "SWtel"
+			(at 87.63 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPDT_x2"
+			(at 87.63 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprint:SWITCH_011CQN"
+			(at 87.63 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 87.63 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 87.63 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "81a7b1fb-213c-4f9c-b228-d051b852b740")
+		)
+		(pin "1"
+			(uuid "7826f9a9-ef43-4cf1-a2fe-549a59204c9b")
+		)
+		(pin "6"
+			(uuid "e243e5db-4199-4a08-92ba-650b74725d5d")
+		)
+		(pin "2"
+			(uuid "40fa912a-c8d8-43ac-8fa1-cd4e540c7357")
+		)
+		(pin "3"
+			(uuid "3048a710-1ed0-4ab0-b29b-d4996b05b3dc")
+		)
+		(pin "4"
+			(uuid "25905e70-d612-4c75-af26-149f8ed098b9")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "SWtel")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Fuse")
 		(at 347.98 181.61 0)
 		(unit 1)
@@ -12410,7 +13577,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d44031e-839f-4d52-bb30-ca1389a0b78d")
-		(property "Reference" "F11"
+		(property "Reference" "F8"
 			(at 349.504 180.4416 0)
 			(effects
 				(font
@@ -12464,7 +13631,7 @@
 		(instances
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "F11")
+					(reference "F8")
 					(unit 1)
 				)
 			)
@@ -12540,16 +13707,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 198.12 101.6 0)
+		(lib_id "Device:C")
+		(at 162.56 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7f6839f7-1b4d-45e4-967e-0380a38ddaa0")
-		(property "Reference" "R4"
-			(at 199.898 100.4316 0)
+		(uuid "81bee690-6b27-4308-aaa4-0e8c59c970e9")
+		(property "Reference" "Cop1"
+			(at 165.481 76.3016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12557,8 +13724,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
-			(at 199.898 102.743 0)
+		(property "Value" "100nF"
+			(at 165.481 78.613 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12566,8 +13733,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 196.342 101.6 90)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 163.5252 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12575,8 +13742,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition23_en.pdf"
-			(at 198.12 101.6 0)
+		(property "Datasheet" "~"
+			(at 162.56 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12584,94 +13751,24 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RS2012P-103-D-T5-3"
-			(at 198.12 101.6 0)
+		(property "Description" ""
+			(at 162.56 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "59ac67a0-b6af-4bf1-a65d-bb110a42b27f")
+			(uuid "2ba6108a-f41c-4760-bee6-759edefd7a0c")
 		)
 		(pin "2"
-			(uuid "4d39fcfc-ef2b-4071-b394-0e84815b7be0")
+			(uuid "4a44d9a9-7bbf-41d6-848d-9975cf1027b9")
 		)
 		(instances
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 270.51 204.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "81a84c53-6230-4cdf-952f-69e02a1ad8f4")
-		(property "Reference" "R14"
-			(at 272.288 203.3016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 272.288 205.613 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 268.732 204.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition23_en.pdf"
-			(at 270.51 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RS2012P-103-D-T5-3"
-			(at 270.51 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4358af35-ff65-45a3-9ebf-151b3a03a4e6")
-		)
-		(pin "2"
-			(uuid "4500d30f-3aa1-496e-8a97-55cc1757f029")
-		)
-		(instances
-			(project "New CAN Accessories board"
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "R14")
+					(reference "Cop1")
 					(unit 1)
 				)
 			)
@@ -12736,6 +13833,75 @@
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84c81ce6-1890-49f3-8a20-923d1b26cf32")
+		(property "Reference" "Rpd9"
+			(at 46.228 210.9216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 46.228 213.233 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 42.672 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition23_en.pdf"
+			(at 44.45 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RS2012P-103-D-T5-3"
+			(at 44.45 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "362a014a-afde-46a3-a986-ea48361d97ae")
+		)
+		(pin "2"
+			(uuid "721e1a49-bb2c-4119-880a-ff7daa6c63a4")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "Rpd9")
 					(unit 1)
 				)
 			)
@@ -12871,15 +14037,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 190.5 96.52 0)
+		(at 190.5 199.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9110c84b-7eb0-4fb7-a3eb-0959691b036a")
-		(property "Reference" "R3"
-			(at 192.278 95.3516 0)
+		(uuid "8e8151b3-a076-4c10-9c5c-9e3500307026")
+		(property "Reference" "Rled6"
+			(at 192.278 198.2216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12888,7 +14054,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 192.278 97.663 0)
+			(at 192.278 200.533 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12897,7 +14063,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 188.722 96.52 90)
+			(at 188.722 199.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12906,7 +14072,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf"
-			(at 190.5 96.52 0)
+			(at 190.5 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12915,7 +14081,7 @@
 			)
 		)
 		(property "Description" "RT0805BRD07100RL"
-			(at 190.5 96.52 0)
+			(at 190.5 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12924,15 +14090,83 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa7e5435-b892-4a71-9533-63528b3941d5")
+			(uuid "f4e2a4af-cb28-445a-9fbf-95614a62a002")
 		)
 		(pin "2"
-			(uuid "6a55f352-986d-43c9-a118-c0df4341639c")
+			(uuid "75d1fa35-7227-474b-8228-81760b6a0c1d")
 		)
 		(instances
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "R3")
+					(reference "Rled6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 304.8 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90f6dce4-add3-4912-83b0-d2170499d938")
+		(property "Reference" "Cop7"
+			(at 307.721 179.1716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 307.721 181.483 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 305.7652 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 304.8 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 304.8 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15ef9f2c-9e7c-4ccd-983a-219126d58748")
+		)
+		(pin "2"
+			(uuid "3ca43770-3cfd-4d52-9a92-443b2e45f3d5")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "Cop7")
 					(unit 1)
 				)
 			)
@@ -13166,34 +14400,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 332.74 96.52 0)
+		(lib_id "power:GND")
+		(at 232.41 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "985ea9b1-7e76-4a0e-846a-9998ff0c59d0")
-		(property "Reference" "R7"
-			(at 334.518 95.3516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100"
-			(at 334.518 97.663 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 330.962 96.52 90)
+		(fields_autoplaced yes)
+		(uuid "96e18e68-860a-4f88-9f14-d521b6962670")
+		(property "Reference" "#PWR041"
+			(at 232.41 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13201,8 +14418,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf"
-			(at 332.74 96.52 0)
+		(property "Value" "GND"
+			(at 232.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13210,8 +14435,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RT0805BRD07100RL"
-			(at 332.74 96.52 0)
+		(property "Datasheet" ""
+			(at 232.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 232.41 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13220,15 +14454,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "54aa160f-a80e-42c2-900f-48079a717f10")
-		)
-		(pin "2"
-			(uuid "5592b2b7-26bb-4b53-b163-cede15a6d756")
+			(uuid "f574a33d-74d4-4ea6-8afe-25d116d8a4bc")
 		)
 		(instances
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "R7")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -13298,6 +14529,74 @@
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 374.65 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c3e5f68-fea4-4598-a19a-a466b79846ae")
+		(property "Reference" "Cop8"
+			(at 377.571 179.1716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 377.571 181.483 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 375.6152 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 374.65 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 374.65 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1a34b82-4d47-4af8-8c58-65e02b99d42b")
+		)
+		(pin "2"
+			(uuid "9becdecc-6879-4d43-8c5b-6a7a725549ad")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "Cop8")
 					(unit 1)
 				)
 			)
@@ -13379,15 +14678,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 332.74 199.39 0)
+		(at 262.89 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9df98c3f-b423-46ce-bdad-ce4fddaea4c3")
-		(property "Reference" "R15"
-			(at 334.518 198.2216 0)
+		(uuid "9de5f8d8-e228-434c-b73f-ffef58fa65ba")
+		(property "Reference" "Rled3"
+			(at 264.668 95.3516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13396,7 +14695,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 334.518 200.533 0)
+			(at 264.668 97.663 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13405,7 +14704,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 330.962 199.39 90)
+			(at 261.112 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13414,7 +14713,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf"
-			(at 332.74 199.39 0)
+			(at 262.89 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13423,7 +14722,7 @@
 			)
 		)
 		(property "Description" "RT0805BRD07100RL"
-			(at 332.74 199.39 0)
+			(at 262.89 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13432,15 +14731,221 @@
 			)
 		)
 		(pin "1"
-			(uuid "0257d94d-dec6-45c9-bde1-aea44b2d7c84")
+			(uuid "62ec4c81-94f0-4f90-927b-ed696185edca")
 		)
 		(pin "2"
-			(uuid "332da14b-4e20-4d0f-9bcb-63b6945beba6")
+			(uuid "5059cede-535b-41ae-a72a-437343139ebb")
 		)
 		(instances
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "R15")
+					(reference "Rled3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 205.74 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ebd16ab-4ac5-4e14-adea-a6739b8b35ca")
+		(property "Reference" "Rsh2"
+			(at 199.39 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.05"
+			(at 199.39 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 203.962 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 205.74 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d96f23ae-03a6-4286-b972-fc15842e58f7")
+		)
+		(pin "1"
+			(uuid "4df2fcd0-bea5-48b6-974c-24c9012b2b4d")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "Rsh2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 205.74 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1796613-da1b-416d-896b-daf516755c4d")
+		(property "Reference" "Rsh6"
+			(at 199.39 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.05"
+			(at 199.39 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 203.962 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 205.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e07b321e-e68e-4f00-a26d-b517319e6264")
+		)
+		(pin "1"
+			(uuid "d409a295-bf93-4a95-b87a-4226f93c13d9")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "Rsh6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 232.41 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3cda0e4-7a85-4ac3-bfe3-0541c704770b")
+		(property "Reference" "Cop6"
+			(at 235.331 179.1716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 235.331 181.483 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 233.3752 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7debfe25-2e10-40e1-942f-2bc3b9150f62")
+		)
+		(pin "2"
+			(uuid "f2cab18b-a0eb-4f55-97a3-3e0d98c4bb83")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "Cop6")
 					(unit 1)
 				)
 			)
@@ -13505,75 +15010,6 @@
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 128.27 204.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a7aab35a-1c44-4119-8260-1ad06e1e5e02")
-		(property "Reference" "R10"
-			(at 130.048 203.3016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 130.048 205.613 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 126.492 204.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition23_en.pdf"
-			(at 128.27 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RS2012P-103-D-T5-3"
-			(at 128.27 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96ef79b3-b900-459b-af71-6154f19fcbdc")
-		)
-		(pin "2"
-			(uuid "c64c46ed-daea-40f8-bf4f-44d90c18e28a")
-		)
-		(instances
-			(project "New CAN Accessories board"
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -13704,75 +15140,6 @@
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 340.36 204.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "af72821b-a9c3-498c-9dbf-377e953ccb9a")
-		(property "Reference" "R16"
-			(at 342.138 203.3016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 342.138 205.613 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 338.582 204.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition23_en.pdf"
-			(at 340.36 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RS2012P-103-D-T5-3"
-			(at 340.36 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ca63d49-0b39-4415-90b0-1d71ed88fa1d")
-		)
-		(pin "2"
-			(uuid "f09c9951-5ad4-4e5d-b6eb-1a639897c0ea")
-		)
-		(instances
-			(project "New CAN Accessories board"
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -13913,6 +15280,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 232.41 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1a785c9-d5fa-4d9f-a713-4007ee2c181c")
+		(property "Reference" "Cop2"
+			(at 235.331 76.3016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 235.331 78.613 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 233.3752 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1011dea8-03e4-49ca-8b7b-e9dc32894698")
+		)
+		(pin "2"
+			(uuid "b313f443-4504-40dd-9e8e-d3f2798ce900")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "Cop2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 44.45 222.25 0)
 		(unit 1)
@@ -13973,6 +15408,75 @@
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 120.65 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6231508-2da3-40f4-bb66-010756fa1e2a")
+		(property "Reference" "Rled5"
+			(at 122.428 198.2216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 122.428 200.533 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 118.872 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf"
+			(at 120.65 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RT0805BRD07100RL"
+			(at 120.65 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32ad2f9c-dab9-43c1-ba3b-0af36120f18b")
+		)
+		(pin "2"
+			(uuid "05d205b6-c663-4d2d-9c21-79e6e811db73")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "Rled5")
 					(unit 1)
 				)
 			)
@@ -14367,144 +15871,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 270.51 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c2746957-4ead-42ff-95eb-734097d3c95a")
-		(property "Reference" "R6"
-			(at 272.288 100.4316 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 272.288 102.743 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 268.732 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition23_en.pdf"
-			(at 270.51 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RS2012P-103-D-T5-3"
-			(at 270.51 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d5dd091-656c-4059-ad03-38dbbce82ea9")
-		)
-		(pin "2"
-			(uuid "504f885b-8d85-4c25-b2e7-b8772febecf1")
-		)
-		(instances
-			(project "New CAN Accessories board"
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 262.89 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c33877d6-418d-476b-8e3a-8abd4f32f33a")
-		(property "Reference" "R5"
-			(at 264.668 95.3516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100"
-			(at 264.668 97.663 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 261.112 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf"
-			(at 262.89 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RT0805BRD07100RL"
-			(at 262.89 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad617ac8-7d01-4231-8d9e-39b451473557")
-		)
-		(pin "2"
-			(uuid "7f2dcc83-0d45-4d98-8406-b5e028f2cfa2")
-		)
-		(instances
-			(project "New CAN Accessories board"
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 205.74 135.89 0)
 		(unit 1)
@@ -14563,6 +15929,75 @@
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 82.55 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca584a4e-81c7-4ac8-924e-87eefb97b475")
+		(property "Reference" "Rpd10"
+			(at 84.328 210.9216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 84.328 213.233 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 80.772 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition23_en.pdf"
+			(at 82.55 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RS2012P-103-D-T5-3"
+			(at 82.55 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0ba8f62-2290-4a17-b4c0-f1d0f1652ec1")
+		)
+		(pin "2"
+			(uuid "03d268f9-734d-45b2-836a-b2d3db7845c4")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "Rpd10")
 					(unit 1)
 				)
 			)
@@ -14629,6 +16064,144 @@
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd349246-5392-4255-bfa6-ad5d32ad23a4")
+		(property "Reference" "Rsh5"
+			(at 129.54 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.05"
+			(at 129.54 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 134.112 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e9bedf31-e14f-433b-b544-d889fc6511d4")
+		)
+		(pin "1"
+			(uuid "3a66bcf1-635a-4446-85fc-bac417472824")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "Rsh5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 278.13 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d149465d-1cee-4c1c-8e76-e00fd05dc335")
+		(property "Reference" "Rsh3"
+			(at 271.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.05"
+			(at 271.78 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 276.352 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.13 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 278.13 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7870f9e7-4fab-4650-88b8-2b5f727566da")
+		)
+		(pin "1"
+			(uuid "dc58960f-1c6f-4d92-b2c6-8672e69a546e")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "Rsh3")
 					(unit 1)
 				)
 			)
@@ -14777,7 +16350,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3595c83-c0e1-403a-8b9a-b098953c3363")
-		(property "Reference" "R17"
+		(property "Reference" "Rsh1"
 			(at 129.54 44.45 0)
 			(effects
 				(font
@@ -14831,291 +16404,7 @@
 		(instances
 			(project ""
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 205.74 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d672a5e7-0f5c-4647-928d-b45d8faf6b92")
-		(property "Reference" "R18"
-			(at 199.39 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.05"
-			(at 199.39 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
-			(at 203.962 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 205.74 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5d451cab-b12a-4287-802a-39bf00959c9c")
-		)
-		(pin "1"
-			(uuid "228a8f23-8600-4936-8de4-02d3af1a4084")
-		)
-		(instances
-			(project "New CAN Accessories board"
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 340.36 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d7052e61-29fe-4fe3-a031-b767db4570b7")
-		(property "Reference" "R8"
-			(at 342.138 100.4316 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 342.138 102.743 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 338.582 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition23_en.pdf"
-			(at 340.36 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RS2012P-103-D-T5-3"
-			(at 340.36 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e73040f-dfb7-42e5-ace1-aa627a9f600f")
-		)
-		(pin "2"
-			(uuid "ff8af112-b9fa-4d7c-86ff-9492fa6314ba")
-		)
-		(instances
-			(project "New CAN Accessories board"
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 120.65 199.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d7a56476-2cce-470d-a3d1-9ca3c8e80afb")
-		(property "Reference" "R9"
-			(at 122.428 198.2216 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100"
-			(at 122.428 200.533 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 118.872 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf"
-			(at 120.65 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RT0805BRD07100RL"
-			(at 120.65 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "acca0309-e13f-4816-baf5-4959da56b7c0")
-		)
-		(pin "2"
-			(uuid "cc771ee8-9b8e-46e4-b0f6-81847a6c8abc")
-		)
-		(instances
-			(project "New CAN Accessories board"
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 135.89 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd7c5c22-2dce-4a92-bd88-28551eb351f0")
-		(property "Reference" "R21"
-			(at 129.54 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.05"
-			(at 129.54 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
-			(at 134.112 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 135.89 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purpose" ""
-			(at 135.89 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2a3bcaf0-cc2d-4464-a555-ef8be72ea102")
-		)
-		(pin "1"
-			(uuid "f51ab28f-0535-45a9-902c-f527898cd86d")
-		)
-		(instances
-			(project "New CAN Accessories board"
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "R21")
+					(reference "Rsh1")
 					(unit 1)
 				)
 			)
@@ -15131,8 +16420,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd905d85-bd88-4eb9-92dd-851272585efd")
-		(property "Reference" "SW1"
-			(at 87.63 182.245 0)
+		(property "Reference" "SWtel"
+			(at 87.63 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15140,7 +16429,7 @@
 			)
 		)
 		(property "Value" "SW_DPDT_x2"
-			(at 87.63 184.785 0)
+			(at 87.63 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15203,7 +16492,7 @@
 		(instances
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "SW1")
+					(reference "SWtel")
 					(unit 1)
 				)
 			)
@@ -15270,6 +16559,75 @@
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 347.98 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfdda134-6050-4eb3-8a92-11984e7ccf58")
+		(property "Reference" "Rsh4"
+			(at 341.63 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.05"
+			(at 341.63 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 346.202 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 347.98 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 347.98 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "97ff4c67-e589-4086-85be-d70d6a2e2256")
+		)
+		(pin "1"
+			(uuid "b151002c-3735-4b4e-af18-dd7b322f0743")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "Rsh4")
 					(unit 1)
 				)
 			)
@@ -15415,15 +16773,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 347.98 45.72 0)
+		(at 128.27 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e45a8934-7f7a-4f14-ac88-76a9c7d8d81a")
-		(property "Reference" "R20"
-			(at 341.63 44.45 0)
+		(uuid "e286c9af-46e3-4796-8d44-7f09e1be489f")
+		(property "Reference" "Rpd5"
+			(at 130.048 203.3016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15431,8 +16789,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.05"
-			(at 341.63 46.99 0)
+		(property "Value" "10K"
+			(at 130.048 205.613 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15440,8 +16798,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
-			(at 346.202 45.72 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 126.492 204.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15449,8 +16807,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 347.98 45.72 0)
+		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition23_en.pdf"
+			(at 128.27 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15458,25 +16816,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 347.98 45.72 0)
+		(property "Description" "RS2012P-103-D-T5-3"
+			(at 128.27 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "0c58e52b-32ce-47e6-9795-4223fd07fed6")
 		)
 		(pin "1"
-			(uuid "28b3f852-2499-44dc-a9f5-581d050fb03e")
+			(uuid "26dfa706-53d8-4b49-ac07-c597750209c6")
+		)
+		(pin "2"
+			(uuid "7266c00b-ceaf-4126-8aba-6c67082c59a4")
 		)
 		(instances
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "R20")
+					(reference "Rpd5")
 					(unit 1)
 				)
 			)
@@ -15552,34 +16910,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 82.55 212.09 0)
+		(lib_id "power:GND")
+		(at 232.41 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e9a60365-4e8b-4c8e-b925-9b0398f80050")
-		(property "Reference" "R26"
-			(at 85.09 210.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 85.09 213.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 80.772 212.09 90)
+		(fields_autoplaced yes)
+		(uuid "e8bf09e3-41cc-4e0b-a006-ba9f036d750d")
+		(property "Reference" "#PWR015"
+			(at 232.41 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15587,8 +16928,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 82.55 212.09 0)
+		(property "Value" "GND"
+			(at 232.41 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15596,8 +16945,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 82.55 212.09 0)
+		(property "Datasheet" ""
+			(at 232.41 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 232.41 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15606,15 +16964,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4949a0d6-0f73-4b8d-b6c1-e9e70aa1f495")
-		)
-		(pin "2"
-			(uuid "1c8cd11d-a697-426f-aa76-6a514b83d8b7")
+			(uuid "8d3ed765-5052-4b54-90ab-485d8ec0eafb")
 		)
 		(instances
-			(project ""
+			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "R26")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -15782,16 +17137,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 198.12 204.47 0)
+		(lib_id "Device:C")
+		(at 162.56 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f0314314-9bc0-4973-8dcb-6d552944e325")
-		(property "Reference" "R12"
-			(at 199.898 203.3016 0)
+		(uuid "ee473df4-3d53-4d65-87dc-6202a712cfed")
+		(property "Reference" "Cop5"
+			(at 165.481 179.1716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15799,8 +17154,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
-			(at 199.898 205.613 0)
+		(property "Value" "100nF"
+			(at 165.481 181.483 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15808,8 +17163,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 196.342 204.47 90)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 163.5252 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15817,8 +17172,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition23_en.pdf"
-			(at 198.12 204.47 0)
+		(property "Datasheet" "~"
+			(at 162.56 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15826,25 +17181,24 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RS2012P-103-D-T5-3"
-			(at 198.12 204.47 0)
+		(property "Description" ""
+			(at 162.56 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "ded65644-e550-4203-b416-828b8d7172cf")
+			(uuid "a0cf1adb-b900-4c8d-b81c-2ba9555c466b")
 		)
 		(pin "2"
-			(uuid "afd17c84-c1bf-4cdb-9374-f3560ce2f4a7")
+			(uuid "c355ea29-6fb6-4aa2-b415-f33a2b81e9a3")
 		)
 		(instances
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "R12")
+					(reference "Cop5")
 					(unit 1)
 				)
 			)
@@ -15911,6 +17265,72 @@
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 304.8 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f18bc850-aa6c-4623-867d-f19e8c187832")
+		(property "Reference" "#PWR022"
+			(at 304.8 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 304.8 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 304.8 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 304.8 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e4ef0ec-432e-4e08-85f7-3b43041c8185")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)

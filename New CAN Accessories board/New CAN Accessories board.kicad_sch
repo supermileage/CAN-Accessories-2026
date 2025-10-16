@@ -8059,7 +8059,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000604082f3")
-		(property "Reference" "Rterm"
+		(property "Reference" "Rterm1"
 			(at 44.958 144.8816 0)
 			(effects
 				(font
@@ -8112,7 +8112,7 @@
 		(instances
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "Rterm")
+					(reference "Rterm1")
 					(unit 1)
 				)
 			)
@@ -9986,7 +9986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "132664bd-5002-451f-a665-6eb108ca43d1")
-		(property "Reference" "SWsel"
+		(property "Reference" "SWsel1"
 			(at 49.53 190.5 0)
 			(effects
 				(font
@@ -10058,7 +10058,7 @@
 		(instances
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "SWsel")
+					(reference "SWsel1")
 					(unit 2)
 				)
 			)
@@ -12070,7 +12070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50dfd604-60fb-49e5-a036-18b2dfd961d3")
-		(property "Reference" "SWsel"
+		(property "Reference" "SWsel1"
 			(at 49.53 181.61 0)
 			(effects
 				(font
@@ -12142,7 +12142,7 @@
 		(instances
 			(project ""
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "SWsel")
+					(reference "SWsel1")
 					(unit 1)
 				)
 			)
@@ -13570,7 +13570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78154982-7eda-4843-ad3c-e8a0b791615d")
-		(property "Reference" "SWtel"
+		(property "Reference" "SWtel1"
 			(at 87.63 190.5 0)
 			(effects
 				(font
@@ -13642,7 +13642,7 @@
 		(instances
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "SWtel")
+					(reference "SWtel1")
 					(unit 2)
 				)
 			)
@@ -16696,7 +16696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd905d85-bd88-4eb9-92dd-851272585efd")
-		(property "Reference" "SWtel"
+		(property "Reference" "SWtel1"
 			(at 87.63 181.61 0)
 			(effects
 				(font
@@ -16768,7 +16768,7 @@
 		(instances
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "SWtel")
+					(reference "SWtel1")
 					(unit 1)
 				)
 			)

@@ -5,6 +5,158 @@
 	(uuid "88340f43-3f46-45a6-9393-130e00dc3071")
 	(paper "A3")
 	(lib_symbols
+		(symbol "ATF13-2P-BM03:ATF13-2P-BM03"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "ATF13-2P-BM03"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "ATF132PBM03"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.amphenol-sine.com/pdf/datasheet/ATF13-2P-BM03.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Board Mount Header, Right Angle, AT, 2 Pin, Snap Fit, Tin plate"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "18"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "654-ATF13-2P-BM03"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-SINE-Systems/ATF13-2P-BM03?qs=%252B6g0mu59x7L1fHh%252BF9ugjw%3D%3D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Amphenol Sine Systems"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ATF13-2P-BM03"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "ATF13-2P-BM03_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CAN_Accessories-rescue:MCP2562FD-E_SN-2021-02-19_16-08-03"
 			(pin_names
 				(offset 0.254)
@@ -3878,12 +4030,6 @@
 		(uuid "26ee5133-cb45-4f22-8cb2-9d8801e3c08b")
 	)
 	(junction
-		(at 67.31 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29fc58a2-47db-4feb-8c4c-891c696dfdff")
-	)
-	(junction
 		(at 302.26 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3966,12 +4112,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53c02790-ef77-4c79-b1e6-82c0b41af16b")
-	)
-	(junction
-		(at 73.66 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53f18893-0164-4553-af4d-222ad2be52a8")
 	)
 	(junction
 		(at 372.11 214.63)
@@ -4214,6 +4354,12 @@
 		(uuid "e21e2603-84ce-445a-9021-1fbc2aaac06b")
 	)
 	(junction
+		(at 74.93 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2b5c02b-d2b9-445f-9473-2b8598b4a2f3")
+	)
+	(junction
 		(at 198.12 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4382,6 +4528,16 @@
 			(type default)
 		)
 		(uuid "03d7a981-2fba-45de-8b2f-3a0e3e8724b4")
+	)
+	(wire
+		(pts
+			(xy 73.66 173.99) (xy 74.93 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0450c7df-cd6e-4052-9c91-a8dbf9cdea2e")
 	)
 	(wire
 		(pts
@@ -4865,6 +5021,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 158.75) (xy 73.66 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "351c3380-0fdf-447e-bf40-ff049d16d80f")
+	)
+	(wire
+		(pts
 			(xy 229.87 135.89) (xy 229.87 128.27)
 		)
 		(stroke
@@ -5022,16 +5188,6 @@
 			(type default)
 		)
 		(uuid "43a565ca-75b6-4534-9bae-e2010c641529")
-	)
-	(wire
-		(pts
-			(xy 67.31 168.91) (xy 67.31 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44e62213-d4e8-4cd7-a287-678c79fe378a")
 	)
 	(wire
 		(pts
@@ -5305,16 +5461,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 171.45) (xy 67.31 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d034653-f221-4870-8639-f012cba5ad2b")
-	)
-	(wire
-		(pts
 			(xy 372.11 176.53) (xy 372.11 214.63)
 		)
 		(stroke
@@ -5435,16 +5581,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 168.91) (xy 86.36 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6359d192-4528-45d3-b26f-77ce7152f244")
-	)
-	(wire
-		(pts
 			(xy 198.12 195.58) (xy 200.66 195.58)
 		)
 		(stroke
@@ -5485,6 +5621,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 165.1) (xy 92.71 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6721b5be-fc5a-4819-900a-7c1f1bc8a092")
+	)
+	(wire
+		(pts
 			(xy 280.67 162.56) (xy 278.13 162.56)
 		)
 		(stroke
@@ -5502,16 +5648,6 @@
 			(type default)
 		)
 		(uuid "68877329-30e4-4187-834d-ce6d0591930a")
-	)
-	(wire
-		(pts
-			(xy 80.01 173.99) (xy 73.66 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69067f04-6557-4c91-a6db-fea52a2f0591")
 	)
 	(wire
 		(pts
@@ -5735,16 +5871,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 166.37) (xy 59.69 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87c71c44-f292-4949-b936-460abc182d11")
-	)
-	(wire
-		(pts
 			(xy 82.55 207.01) (xy 101.6 207.01)
 		)
 		(stroke
@@ -5862,6 +5988,16 @@
 			(type default)
 		)
 		(uuid "96672ee1-408c-4f64-94e8-610a1d57fd83")
+	)
+	(wire
+		(pts
+			(xy 74.93 173.99) (xy 76.2 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96d5c0b1-aac1-4200-9fb6-0d6e37e62547")
 	)
 	(wire
 		(pts
@@ -5985,16 +6121,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 173.99) (xy 73.66 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a82f6e44-cd5b-4d93-be48-bc0c89aec592")
-	)
-	(wire
-		(pts
 			(xy 43.18 190.5) (xy 44.45 190.5)
 		)
 		(stroke
@@ -6072,6 +6198,16 @@
 			(type default)
 		)
 		(uuid "ab1824a4-84a4-4802-b0ee-137a0c144257")
+	)
+	(wire
+		(pts
+			(xy 74.93 173.99) (xy 74.93 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae891890-7b59-4a97-8c4e-9c09ed0e30b3")
 	)
 	(wire
 		(pts
@@ -6262,6 +6398,16 @@
 			(type default)
 		)
 		(uuid "c306b7db-96b0-47cc-99c4-88a71821e7ec")
+	)
+	(wire
+		(pts
+			(xy 73.66 158.75) (xy 82.55 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3322859-1f86-4238-a01c-fd6694869dc1")
 	)
 	(wire
 		(pts
@@ -6785,7 +6931,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 166.37) (xy 80.01 166.37)
+			(xy 82.55 161.29) (xy 76.2 161.29)
 		)
 		(stroke
 			(width 0)
@@ -6885,13 +7031,13 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 171.45) (xy 80.01 173.99)
+			(xy 92.71 165.1) (xy 92.71 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f406779d-39b4-4af0-a0fd-bba5e6746cbf")
+		(uuid "f1f7e005-2f88-4c54-85e0-df9cb1423be6")
 	)
 	(wire
 		(pts
@@ -6942,6 +7088,16 @@
 			(type default)
 		)
 		(uuid "f92edf2a-6a10-40e3-a4e7-6ad7c41d0482")
+	)
+	(wire
+		(pts
+			(xy 87.63 172.72) (xy 92.71 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9450c33-9850-43be-a881-361247e9ec9f")
 	)
 	(wire
 		(pts
@@ -7224,7 +7380,7 @@
 		(uuid "40ea0963-e329-4a99-9641-5907bbb5f424")
 	)
 	(label "CANL"
-		(at 86.36 166.37 0)
+		(at 82.55 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7634,7 +7790,7 @@
 		(uuid "f54b8d8d-be79-41cb-8ca4-393b70d3a422")
 	)
 	(label "CANH"
-		(at 86.36 168.91 0)
+		(at 82.55 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8867,212 +9023,6 @@
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x03_Top_Bottom")
-		(at 72.39 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000607180ac")
-		(property "Reference" "J10"
-			(at 73.66 160.8582 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "39301060"
-			(at 73.66 163.1696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-06A2_2x03_P4.20mm_Horizontal"
-			(at 72.39 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "ef014782-d45f-4abd-9acc-ce9e2f2a9955")
-		)
-		(pin "1"
-			(uuid "e8deb7ce-d771-4846-a090-088980ff6435")
-		)
-		(pin "6"
-			(uuid "bd702e64-bd98-4891-8a4b-a21ea33c54f9")
-		)
-		(pin "2"
-			(uuid "d659cb00-6a6b-4969-a506-16c85f951c0b")
-		)
-		(pin "3"
-			(uuid "0cfba4f6-9cb8-45da-b556-422f9b437a45")
-		)
-		(pin "4"
-			(uuid "20003ccc-0213-4cae-b40f-86af3b9e3f12")
-		)
-		(instances
-			(project "New CAN Accessories board"
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 59.69 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000607180bd")
-		(property "Reference" "#PWR07"
-			(at 59.69 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 60.071 161.9758 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b63b280a-f387-4eb3-b00c-e5ec6a4f1587")
-		)
-		(instances
-			(project "New CAN Accessories board"
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 73.66 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000607180c7")
-		(property "Reference" "#PWR08"
-			(at 73.66 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 73.787 178.3842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5d7c4636-187e-4113-84d5-073a1f869994")
-		)
-		(instances
-			(project "New CAN Accessories board"
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -12045,6 +11995,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 87.63 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f91dce7-ffbc-48bc-93be-e11738d0acac")
+		(property "Reference" "#PWR08"
+			(at 87.63 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "022e8cca-6ab3-4b43-b87c-45f45d311ea8")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
 		(at 49.53 190.5 0)
 		(unit 1)
@@ -12106,13 +12122,13 @@
 			)
 		)
 		(pin "5"
-			(uuid "81a7b1fb-213c-4f9c-b228-d051b852b73f")
+			(uuid "81a7b1fb-213c-4f9c-b228-d051b852b740")
 		)
 		(pin "1"
 			(uuid "0c759c23-4b8f-48cd-bcf1-ff92ad40a6f2")
 		)
 		(pin "6"
-			(uuid "e243e5db-4199-4a08-92ba-650b74725d5c")
+			(uuid "e243e5db-4199-4a08-92ba-650b74725d5d")
 		)
 		(pin "2"
 			(uuid "bfe24077-18b6-4ee0-951f-67935dec0da5")
@@ -12121,7 +12137,7 @@
 			(uuid "485c8ef0-e590-4894-ba9e-feb58c149dd8")
 		)
 		(pin "4"
-			(uuid "25905e70-d612-4c75-af26-149f8ed098b8")
+			(uuid "25905e70-d612-4c75-af26-149f8ed098b9")
 		)
 		(instances
 			(project ""
@@ -12493,6 +12509,70 @@
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 87.63 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d40055a-974c-4c44-becd-d7413f0e4de7")
+		(property "Reference" "#PWR07"
+			(at 87.63 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 88.011 168.3258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7708404d-d2f8-463d-bc00-9f97bdd04609")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -13542,13 +13622,13 @@
 			)
 		)
 		(pin "5"
-			(uuid "81a7b1fb-213c-4f9c-b228-d051b852b740")
+			(uuid "81a7b1fb-213c-4f9c-b228-d051b852b741")
 		)
 		(pin "1"
 			(uuid "7826f9a9-ef43-4cf1-a2fe-549a59204c9b")
 		)
 		(pin "6"
-			(uuid "e243e5db-4199-4a08-92ba-650b74725d5d")
+			(uuid "e243e5db-4199-4a08-92ba-650b74725d5e")
 		)
 		(pin "2"
 			(uuid "40fa912a-c8d8-43ac-8fa1-cd4e540c7357")
@@ -13557,7 +13637,7 @@
 			(uuid "3048a710-1ed0-4ab0-b29b-d4996b05b3dc")
 		)
 		(pin "4"
-			(uuid "25905e70-d612-4c75-af26-149f8ed098b9")
+			(uuid "25905e70-d612-4c75-af26-149f8ed098ba")
 		)
 		(instances
 			(project "New CAN Accessories board"
@@ -15016,6 +15096,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Top_Bottom")
+		(at 76.2 166.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa9e551e-2aa0-493c-9ea9-747b86be1927")
+		(property "Reference" "J10"
+			(at 68.58 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "39301040"
+			(at 62.23 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-04A2_2x02_P4.20mm_Horizontal"
+			(at 76.2 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "3d829f45-2eab-4325-bc4b-5cdeb0df3b9e")
+		)
+		(pin "4"
+			(uuid "6606e12d-7ac6-4b11-b720-7b09b13ff96e")
+		)
+		(pin "1"
+			(uuid "630ddfbb-8720-4d4b-b281-264e0902224f")
+		)
+		(pin "2"
+			(uuid "d173696a-f57f-4bb1-b779-b62591986559")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 205.74 33.02 0)
 		(unit 1)
@@ -16342,6 +16496,128 @@
 		)
 	)
 	(symbol
+		(lib_id "ATF13-2P-BM03:ATF13-2P-BM03")
+		(at 92.71 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d34db20b-ab30-461e-8399-092c18fc51ca")
+		(property "Reference" "J11"
+			(at 109.22 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ATF13-2P-BM03"
+			(at 109.22 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprint:ATF132PBM03"
+			(at 109.22 265.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.amphenol-sine.com/pdf/datasheet/ATF13-2P-BM03.pdf"
+			(at 109.22 365.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Board Mount Header, Right Angle, AT, 2 Pin, Snap Fit, Tin plate"
+			(at 92.71 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "18"
+			(at 109.22 565.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "654-ATF13-2P-BM03"
+			(at 109.22 665.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-SINE-Systems/ATF13-2P-BM03?qs=%252B6g0mu59x7L1fHh%252BF9ugjw%3D%3D"
+			(at 109.22 765.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amphenol Sine Systems"
+			(at 109.22 865.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ATF13-2P-BM03"
+			(at 109.22 965.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4364869a-1b6b-498b-b42c-b2265c43dd4d")
+		)
+		(pin "1"
+			(uuid "02f52d36-c8fd-43b1-b51d-1e0d8ab32286")
+		)
+		(instances
+			(project ""
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 135.89 45.72 0)
 		(unit 1)
@@ -16472,13 +16748,13 @@
 			)
 		)
 		(pin "5"
-			(uuid "81a7b1fb-213c-4f9c-b228-d051b852b740")
+			(uuid "81a7b1fb-213c-4f9c-b228-d051b852b742")
 		)
 		(pin "1"
 			(uuid "2ef08966-da33-4e5c-982d-2af0363354c3")
 		)
 		(pin "6"
-			(uuid "e243e5db-4199-4a08-92ba-650b74725d5d")
+			(uuid "e243e5db-4199-4a08-92ba-650b74725d5f")
 		)
 		(pin "2"
 			(uuid "703b1d22-b9b3-42c9-aea3-58764f0ffdb5")
@@ -16487,7 +16763,7 @@
 			(uuid "6e1f3588-c81c-4781-ba09-35e0e5c1268d")
 		)
 		(pin "4"
-			(uuid "25905e70-d612-4c75-af26-149f8ed098b9")
+			(uuid "25905e70-d612-4c75-af26-149f8ed098bb")
 		)
 		(instances
 			(project "New CAN Accessories board"
@@ -17062,6 +17338,72 @@
 			(project ""
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
 					(reference "OP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebd137e2-95ee-43d6-a224-6d62745f22f8")
+		(property "Reference" "#PWR040"
+			(at 74.93 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ed04573-c006-4a54-9d00-41fbb0e393fe")
+		)
+		(instances
+			(project ""
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)

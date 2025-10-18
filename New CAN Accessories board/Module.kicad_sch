@@ -1769,6 +1769,12 @@
 		(uuid "31f0ee5a-3040-472b-bf05-6a2203b2683f")
 	)
 	(junction
+		(at 67.31 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c295747-d0a0-4543-87c9-7b430022956d")
+	)
+	(junction
 		(at 64.77 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1968,6 +1974,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 78.74) (xy 33.02 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb8864b-9024-4e9b-9c84-f85e09d7b56b")
+	)
+	(wire
+		(pts
 			(xy 40.64 63.5) (xy 43.18 63.5)
 		)
 		(stroke
@@ -2058,6 +2074,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 24.13) (xy 67.31 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "debbff76-27ca-4d1b-81bf-dd1eabdf8f5d")
+	)
+	(wire
+		(pts
 			(xy 38.1 76.2) (xy 40.64 76.2)
 		)
 		(stroke
@@ -2065,6 +2091,16 @@
 			(type default)
 		)
 		(uuid "df7f3077-e390-4feb-a428-0fbb6a85411f")
+	)
+	(wire
+		(pts
+			(xy 15.24 78.74) (xy 33.02 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e49b7f42-0e70-4a41-9a5b-cf3bf3ff0519")
 	)
 	(global_label "5V"
 		(shape input)
@@ -2101,7 +2137,7 @@
 	)
 	(hierarchical_label "OA"
 		(shape input)
-		(at 67.31 24.13 0)
+		(at 69.85 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2874,7 +2910,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 33.02 83.82 0)
+		(at 15.24 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2883,7 +2919,7 @@
 		(fields_autoplaced yes)
 		(uuid "51cb7c2f-6cf2-4819-afed-0cd025976599")
 		(property "Reference" "TPgt1"
-			(at 35.56 79.2479 0)
+			(at 17.78 74.1679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2892,7 +2928,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 35.56 81.7879 0)
+			(at 17.78 76.7079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2901,7 +2937,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
-			(at 38.1 83.82 0)
+			(at 20.32 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2910,7 +2946,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 83.82 0)
+			(at 20.32 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2919,7 +2955,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 33.02 83.82 0)
+			(at 15.24 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)

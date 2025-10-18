@@ -1769,12 +1769,6 @@
 		(uuid "31f0ee5a-3040-472b-bf05-6a2203b2683f")
 	)
 	(junction
-		(at 67.31 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c295747-d0a0-4543-87c9-7b430022956d")
-	)
-	(junction
 		(at 64.77 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1974,16 +1968,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 78.74) (xy 33.02 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cb8864b-9024-4e9b-9c84-f85e09d7b56b")
-	)
-	(wire
-		(pts
 			(xy 40.64 63.5) (xy 43.18 63.5)
 		)
 		(stroke
@@ -2091,16 +2075,6 @@
 			(type default)
 		)
 		(uuid "df7f3077-e390-4feb-a428-0fbb6a85411f")
-	)
-	(wire
-		(pts
-			(xy 15.24 78.74) (xy 33.02 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e49b7f42-0e70-4a41-9a5b-cf3bf3ff0519")
 	)
 	(global_label "5V"
 		(shape input)
@@ -2620,101 +2594,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 67.31 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "143b7684-02ca-4ca3-8338-98d40542f8ec")
-		(property "Reference" "TPoa1"
-			(at 69.85 19.5579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 69.85 22.0979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
-			(at 72.39 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 67.31 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bfdc5a4a-c201-4605-89a3-bd45d95c203e")
-		)
-		(instances
-			(project "New CAN Accessories board"
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/066a2d54-ef62-4b50-bc17-9ae15f85282f"
-					(reference "TPoa3")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/199d9661-d77c-40a8-9127-2f77ddd20cbc"
-					(reference "TPoa2")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/a4a3a29c-d4d7-4a64-89ca-c4c515902e3a"
-					(reference "TPoa8")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/b4fef664-0317-4528-b914-9a729a4fa0cb"
-					(reference "TPoa7")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/df424b4d-8c7c-4d94-be97-d7e7a5882dfa"
-					(reference "TPoa6")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/e28dd46e-a6b0-42fd-b358-90f6a987ac56"
-					(reference "TPoa4")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/f4946d2d-97a8-44f8-9d9c-ff737967b4cd"
-					(reference "TPoa5")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/fb19124a-c234-4595-adc5-bbb1e37c8292"
-					(reference "TPoa1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Fuse")
 		(at 40.64 69.85 0)
 		(unit 1)
@@ -2903,101 +2782,6 @@
 				)
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071/fb19124a-c234-4595-adc5-bbb1e37c8292"
 					(reference "Rpd1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 15.24 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51cb7c2f-6cf2-4819-afed-0cd025976599")
-		(property "Reference" "TPgt1"
-			(at 17.78 74.1679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 17.78 76.7079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
-			(at 20.32 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 20.32 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 15.24 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "77b7cdf1-db81-4ca9-a2c4-4c2aac1fd40d")
-		)
-		(instances
-			(project "New CAN Accessories board"
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/066a2d54-ef62-4b50-bc17-9ae15f85282f"
-					(reference "TPgt3")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/199d9661-d77c-40a8-9127-2f77ddd20cbc"
-					(reference "TPgt2")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/a4a3a29c-d4d7-4a64-89ca-c4c515902e3a"
-					(reference "TPgt8")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/b4fef664-0317-4528-b914-9a729a4fa0cb"
-					(reference "TPgt7")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/df424b4d-8c7c-4d94-be97-d7e7a5882dfa"
-					(reference "TPgt6")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/e28dd46e-a6b0-42fd-b358-90f6a987ac56"
-					(reference "TPgt4")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/f4946d2d-97a8-44f8-9d9c-ff737967b4cd"
-					(reference "TPgt5")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/fb19124a-c234-4595-adc5-bbb1e37c8292"
-					(reference "TPgt1")
 					(unit 1)
 				)
 			)

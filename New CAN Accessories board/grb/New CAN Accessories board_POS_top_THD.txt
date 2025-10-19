@@ -1,0 +1,59 @@
+### Module positions - created on 2025-10-18 14:40
+### Printed by pcb_positions plugin
+## Unit = mm, Angle = deg.
+## Pcb Height 86.050mm, Pcb Width 110.050mm [based on Edge bounding box]
+## Side : top
+## Board Aux Origin: 0.000mm ,0.000mm
+# Ref         Val                 Package                       PosX       PosY       Pin1_PosX  Pin1_PosY    Rot     Side      Type
+TPdr2         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 32.5914    -51.0840   32.5914    -51.0840      0.0    top       THD
+TPdr4         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 55.2743    -51.0840   55.2743    -51.0840      0.0    top       THD
+TPoa8         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 109.0900   -56.8150   109.0900   -56.8150      0.0    top       THD
+TPdr3         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 43.9329    -51.0840   43.9329    -51.0840      0.0    top       THD
+J3            39301040            Molex_Mini-Fit_Jr_5569-04A2.. 46.2957    -30.4600   46.2957    -30.4600      0.0    top       THD
+TPj1          TestPoint           PinHeader_1x01_P1.00mm_Vert.. 19.8029    -41.6000   19.8029    -41.6000      0.0    top       THD
+TPgt7         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 92.7600    -60.0200   92.7600    -60.0200      0.0    top       THD
+TPgt4         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 58.7871    -59.9800   58.7871    -59.9800      0.0    top       THD
+TPj5          TestPoint           PinHeader_1x01_P1.00mm_Vert.. 65.1686    -41.6000   65.1686    -41.6000      0.0    top       THD
+TPgnd1        GND                 PinHeader_1x01_P1.00mm_Vert.. 116.9100   -85.2300   116.9100   -85.2300      0.0    top       THD
+TPoa5         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 75.0657    -56.8150   75.0657    -56.8150      0.0    top       THD
+TPoa6         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 86.4071    -56.8150   86.4071    -56.8150      0.0    top       THD
+TPdr1         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 21.2500    -51.0840   21.2500    -51.0840      0.0    top       THD
+TP12v1        12V                 PinHeader_1x01_P1.00mm_Vert.. 111.8300   -85.2300   111.8300   -85.2300      0.0    top       THD
+J5            39301040            Molex_Mini-Fit_Jr_5569-04A2.. 68.9786    -30.4600   68.9786    -30.4600      0.0    top       THD
+TPj3          TestPoint           PinHeader_1x01_P1.00mm_Vert.. 42.4857    -41.6000   42.4857    -41.6000      0.0    top       THD
+TPj4          TestPoint           PinHeader_1x01_P1.00mm_Vert.. 53.8271    -41.6000   53.8271    -41.6000      0.0    top       THD
+TPcanh1       CANH                PinHeader_1x01_P1.00mm_Vert.. 29.0400    -92.6200   29.0400    -92.6200      0.0    top       THD
+TPgt5         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 70.1286    -59.9800   70.1286    -59.9800      0.0    top       THD
+TPj7          TestPoint           PinHeader_1x01_P1.00mm_Vert.. 87.8514    -41.6000   87.8514    -41.6000      0.0    top       THD
+TPgt3         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 47.4457    -59.9800   47.4457    -59.9800      0.0    top       THD
+J1            39301040            Molex_Mini-Fit_Jr_5569-04A2.. 23.6129    -30.4600   23.6129    -30.4600      0.0    top       THD
+TPdr8         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 100.6400   -51.0840   100.6400   -51.0840      0.0    top       THD
+U1            NUCLEO_L432KC       MODULE_NUCLEO-L432KC          95.6150    -70.8800   0.0000     0.0000       -9.0    top       THD
+SWsel1        SW_DPDT_x2          SWITCH_011CQN                 72.7000    -85.6500   72.7000    -85.6500      9.0    top       THD
+TPoa4         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 63.7243    -56.8150   63.7243    -56.8150      0.0    top       THD
+TPdr5         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 66.6157    -51.0840   66.6157    -51.0840      0.0    top       THD
+TPoa7         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 97.7486    -56.8150   97.7486    -56.8150      0.0    top       THD
+J10           39301040            Molex_Mini-Fit_Jr_5569-04A2.. 32.9650    -84.3100   32.9650    -84.3100      9.0    top       THD
+J11           ATF13-2P-BM03       ATF132PBM03                   51.7200    -68.4700   51.7200    -68.4700      0.0    top       THD
+J9            39301060            Molex_Mini-Fit_Jr_5569-06A2.. 33.0000    -73.2200   33.0000    -73.2200      9.0    top       THD
+TPj2          TestPoint           PinHeader_1x01_P1.00mm_Vert.. 31.1443    -41.6000   31.1443    -41.6000      0.0    top       THD
+J6            39301040            Molex_Mini-Fit_Jr_5569-04A2.. 80.3200    -30.4600   80.3200    -30.4600      0.0    top       THD
+TPgt1         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 24.7629    -59.9800   24.7629    -59.9800      0.0    top       THD
+TPgt2         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 36.1043    -59.9800   36.1043    -59.9800      0.0    top       THD
+TPoa1         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 29.7000    -56.8150   29.7000    -56.8150      0.0    top       THD
+TP5v1         5V                  PinHeader_1x01_P1.00mm_Vert.. 104.2100   -85.2300   104.2100   -85.2300      0.0    top       THD
+TPdr6         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 77.9571    -51.0840   77.9571    -51.0840      0.0    top       THD
+J2            39301040            Molex_Mini-Fit_Jr_5569-04A2.. 34.9543    -30.4600   34.9543    -30.4600      0.0    top       THD
+TPcanl1       CANL                PinHeader_1x01_P1.00mm_Vert.. 33.6200    -92.6200   33.6200    -92.6200      0.0    top       THD
+J8            39301040            Molex_Mini-Fit_Jr_5569-04A2.. 103.0029   -30.4600   103.0029   -30.4600      0.0    top       THD
+TPgt8         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 104.1529   -59.9800   104.1529   -59.9800      0.0    top       THD
+TPj8          TestPoint           PinHeader_1x01_P1.00mm_Vert.. 99.1929    -41.6000   99.1929    -41.6000      0.0    top       THD
+TPoa3         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 52.3829    -56.8150   52.3829    -56.8150      0.0    top       THD
+J4            39301040            Molex_Mini-Fit_Jr_5569-04A2.. 57.6371    -30.4600   57.6371    -30.4600      0.0    top       THD
+TPgt6         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 79.5200    -59.5500   79.5200    -59.5500      0.0    top       THD
+J7            39301040            Molex_Mini-Fit_Jr_5569-04A2.. 91.6614    -30.4600   91.6614    -30.4600      0.0    top       THD
+TPj6          TestPoint           PinHeader_1x01_P1.00mm_Vert.. 76.5100    -41.6000   76.5100    -41.6000      0.0    top       THD
+TP3p3v1       3V3                 PinHeader_1x01_P1.00mm_Vert.. 75.2000    -89.9400   75.2000    -89.9400      0.0    top       THD
+TPdr7         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 89.2986    -51.0840   89.2986    -51.0840      0.0    top       THD
+TPoa2         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 41.0414    -56.8150   41.0414    -56.8150      0.0    top       THD
+## End

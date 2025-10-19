@@ -1,0 +1,37 @@
+### Module positions - created on 2025-10-18 14:40
+### Printed by pcb_positions plugin
+## Unit = mm, Angle = deg.
+## Pcb Height 86.050mm, Pcb Width 110.050mm [based on Edge bounding box]
+## Side : bottom
+## Board Aux Origin: 0.000mm ,0.000mm
+# Ref         Val                 Package                       PosX       PosY       Pin1_PosX  Pin1_PosY    Rot     Side      Type
+T1            MCP2562FD-E_SN      SOIC-8_3.9x4.9mm_P1.27mm      70.5500    -74.7000   73.0250    -72.7950     18.0    bottom    SMD
+OP3           MCP6C02T-020        SOT-23-6_Handsoldering        49.7487    -44.6500   50.6987    -46.0000      9.0    bottom    SMD
+Rsh1          0.05                R_2512_6332Metric_Pad1.40x3.. 22.3429    -44.6500   22.3429    -47.7000      9.0    bottom    SMD
+Cop4          100nF               C_0805_2012Metric             61.0901    -40.9400   62.0401    -40.9400     18.0    bottom    SMD
+Ctr2          100nF               C_0805_2012Metric             65.6800    -77.5550   65.6800    -76.6050     -9.0    bottom    SMD
+OP4           MCP6C02T-020        SOT-23-6_Handsoldering        61.0901    -44.6500   62.0401    -46.0000      9.0    bottom    SMD
+Rsh4          0.05                R_2512_6332Metric_Pad1.40x3.. 56.3671    -44.6500   56.3671    -47.7000      9.0    bottom    SMD
+Cop1          100nF               C_0805_2012Metric             27.0659    -40.9400   28.0159    -40.9400     18.0    bottom    SMD
+Cop6          100nF               C_0805_2012Metric             83.7730    -40.9400   84.7230    -40.9400     18.0    bottom    SMD
+Rsh6          0.05                R_2512_6332Metric_Pad1.40x3.. 79.0500    -44.6500   79.0500    -47.7000      9.0    bottom    SMD
+OP8           MCP6C02T-020        SOT-23-6_Handsoldering        106.4559   -44.6500   107.4059   -46.0000      9.0    bottom    SMD
+OP7           MCP6C02T-020        SOT-23-6_Handsoldering        95.1144    -44.6500   96.0644    -46.0000      9.0    bottom    SMD
+Cop3          100nF               C_0805_2012Metric             49.7487    -40.9400   50.6987    -40.9400     18.0    bottom    SMD
+Rsh5          0.05                R_2512_6332Metric_Pad1.40x3.. 67.7086    -44.6500   67.7086    -47.7000      9.0    bottom    SMD
+Rsh2          0.05                R_2512_6332Metric_Pad1.40x3.. 33.6843    -44.6500   33.6843    -47.7000      9.0    bottom    SMD
+Rsh8          0.05                R_2512_6332Metric_Pad1.40x3.. 101.7329   -44.6500   101.7329   -47.7000      9.0    bottom    SMD
+Cop2          100nF               C_0805_2012Metric             38.4073    -40.9400   39.3573    -40.9400     18.0    bottom    SMD
+Ctr1          100nF               C_0805_2012Metric             76.2300    -75.3350   75.2800    -75.3350      0.0    bottom    SMD
+Cop8          100nF               C_0805_2012Metric             106.4559   -40.9400   107.4059   -40.9400     18.0    bottom    SMD
+Cop7          100nF               C_0805_2012Metric             95.1144    -40.9400   96.0644    -40.9400     18.0    bottom    SMD
+OP5           MCP6C02T-020        SOT-23-6_Handsoldering        72.4316    -44.6500   73.3816    -46.0000      9.0    bottom    SMD
+OP6           MCP6C02T-020        SOT-23-6_Handsoldering        83.7730    -44.6500   84.7230    -46.0000      9.0    bottom    SMD
+Cop5          100nF               C_0805_2012Metric             72.4316    -40.9400   73.3816    -40.9400     18.0    bottom    SMD
+OP2           MCP6C02T-020        SOT-23-6_Handsoldering        38.4073    -44.6500   39.3573    -46.0000      9.0    bottom    SMD
+Rterm1        120                 R_0805_2012Metric             29.0400    -88.3775   29.0400    -87.4650     -9.0    bottom    SMD
+Rsh3          0.05                R_2512_6332Metric_Pad1.40x3.. 45.0257    -44.6500   45.0257    -47.7000      9.0    bottom    SMD
+OP1           MCP6C02T-020        SOT-23-6_Handsoldering        27.0659    -44.6500   28.0159    -46.0000      9.0    bottom    SMD
+Rpd9          10K                 R_0805_2012Metric             69.2800    -83.2625   69.2800    -82.3500     -9.0    bottom    SMD
+Rsh7          0.05                R_2512_6332Metric_Pad1.40x3.. 90.3914    -44.6500   90.3914    -47.7000      9.0    bottom    SMD
+## End

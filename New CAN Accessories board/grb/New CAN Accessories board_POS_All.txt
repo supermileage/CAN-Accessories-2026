@@ -1,0 +1,141 @@
+### Module positions - created on 2025-10-18 14:40
+### Printed by pcb_positions plugin
+## Unit = mm, Angle = deg.
+## Pcb Height 86.050mm, Pcb Width 110.050mm [based on Edge bounding box]
+## Side : ALL
+## Board Aux Origin: 0.000mm ,0.000mm
+# Ref         Val                 Package                       PosX       PosY       Pin1_PosX  Pin1_PosY    Rot     Side      Type
+TPdr2         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 32.5914    -51.0840   32.5914    -51.0840      0.0    top       THD
+F5            Fuse                3586KTR                       71.3326    -47.0430   71.0786    -40.9660     -9.0    top       SMD
+TPdr4         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 55.2743    -51.0840   55.2743    -51.0840      0.0    top       THD
+Q4            IRLML6344TRPBF      TSOT-23                       59.7371    -56.8150   58.7871    -58.1250      9.0    top       SMD
+TPoa8         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 109.0900   -56.8150   109.0900   -56.8150      0.0    top       THD
+D1            LED                 LED_0805_2012Metric           20.6329    -56.7425   20.6329    -57.6800      9.0    top       SMD
+TPdr3         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 43.9329    -51.0840   43.9329    -51.0840      0.0    top       THD
+J3            39301040            Molex_Mini-Fit_Jr_5569-04A2.. 46.2957    -30.4600   46.2957    -30.4600      0.0    top       THD
+TPj1          TestPoint           PinHeader_1x01_P1.00mm_Vert.. 19.8029    -41.6000   19.8029    -41.6000      0.0    top       THD
+TPgt7         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 92.7600    -60.0200   92.7600    -60.0200      0.0    top       THD
+TPgt4         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 58.7871    -59.9800   58.7871    -59.9800      0.0    top       THD
+Rpd1          10K                 R_0805_2012Metric             21.6029    -53.8700   22.5154    -53.8700     18.0    top       SMD
+TPj5          TestPoint           PinHeader_1x01_P1.00mm_Vert.. 65.1686    -41.6000   65.1686    -41.6000      0.0    top       THD
+TPgnd1        GND                 PinHeader_1x01_P1.00mm_Vert.. 116.9100   -85.2300   116.9100   -85.2300      0.0    top       THD
+TPoa5         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 75.0657    -56.8150   75.0657    -56.8150      0.0    top       THD
+Q1            IRLML6344TRPBF      TSOT-23                       25.7129    -56.8150   24.7629    -58.1250      9.0    top       SMD
+Rpd4          10K                 R_0805_2012Metric             55.6271    -53.8700   56.5396    -53.8700     18.0    top       SMD
+Q5            IRLML6344TRPBF      TSOT-23                       71.0786    -56.8150   70.1286    -58.1250      9.0    top       SMD
+Q3            IRLML6344TRPBF      TSOT-23                       48.3957    -56.8150   47.4457    -58.1250      9.0    top       SMD
+F4            Fuse                3586KTR                       59.9911    -47.0430   59.7371    -40.9660     -9.0    top       SMD
+Q6            IRLML6344TRPBF      TSOT-23                       82.4200    -56.8150   81.4700    -58.1250      9.0    top       SMD
+D6            LED                 LED_0805_2012Metric           77.3400    -56.7425   77.3400    -57.6800      9.0    top       SMD
+Rled3         100                 R_0805_2012Metric             45.5957    -56.7675   45.5957    -55.8550     -9.0    top       SMD
+Rled8         100                 R_0805_2012Metric             102.3029   -56.7675   102.3029   -55.8550     -9.0    top       SMD
+TPoa6         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 86.4071    -56.8150   86.4071    -56.8150      0.0    top       THD
+TPdr1         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 21.2500    -51.0840   21.2500    -51.0840      0.0    top       THD
+Rled4         100                 R_0805_2012Metric             56.9371    -56.7675   56.9371    -55.8550     -9.0    top       SMD
+TP12v1        12V                 PinHeader_1x01_P1.00mm_Vert.. 111.8300   -85.2300   111.8300   -85.2300      0.0    top       THD
+J5            39301040            Molex_Mini-Fit_Jr_5569-04A2.. 68.9786    -30.4600   68.9786    -30.4600      0.0    top       THD
+F2            Fuse                3586KTR                       37.3083    -47.0430   37.0543    -40.9660     -9.0    top       SMD
+TPj3          TestPoint           PinHeader_1x01_P1.00mm_Vert.. 42.4857    -41.6000   42.4857    -41.6000      0.0    top       THD
+Rpd3          10K                 R_0805_2012Metric             44.2857    -53.8700   45.1982    -53.8700     18.0    top       SMD
+TPj4          TestPoint           PinHeader_1x01_P1.00mm_Vert.. 53.8271    -41.6000   53.8271    -41.6000      0.0    top       THD
+TPcanh1       CANH                PinHeader_1x01_P1.00mm_Vert.. 29.0400    -92.6200   29.0400    -92.6200      0.0    top       THD
+TPgt5         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 70.1286    -59.9800   70.1286    -59.9800      0.0    top       THD
+TPj7          TestPoint           PinHeader_1x01_P1.00mm_Vert.. 87.8514    -41.6000   87.8514    -41.6000      0.0    top       THD
+TPgt3         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 47.4457    -59.9800   47.4457    -59.9800      0.0    top       THD
+D3            LED                 LED_0805_2012Metric           43.3157    -56.7425   43.3157    -57.6800      9.0    top       SMD
+J1            39301040            Molex_Mini-Fit_Jr_5569-04A2.. 23.6129    -30.4600   23.6129    -30.4600      0.0    top       THD
+TPdr8         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 100.6400   -51.0840   100.6400   -51.0840      0.0    top       THD
+U1            NUCLEO_L432KC       MODULE_NUCLEO-L432KC          95.6150    -70.8800   0.0000     0.0000       -9.0    top       THD
+F8            Fuse                3586KTR                       105.3569   -47.0430   105.1029   -40.9660     -9.0    top       SMD
+Rled1         100                 R_0805_2012Metric             22.9129    -56.7675   22.9129    -55.8550     -9.0    top       SMD
+SWsel1        SW_DPDT_x2          SWITCH_011CQN                 72.7000    -85.6500   72.7000    -85.6500      9.0    top       THD
+TPoa4         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 63.7243    -56.8150   63.7243    -56.8150      0.0    top       THD
+TPdr5         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 66.6157    -51.0840   66.6157    -51.0840      0.0    top       THD
+Rpd6          10K                 R_0805_2012Metric             78.3100    -53.8700   79.2225    -53.8700     18.0    top       SMD
+H3            MountingHole        MountingHole_3.2mm_M3_ISO14.. 19.0000    -95.0000   0.0000     0.0000        0.0    top       VIRTUAL
+TPoa7         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 97.7486    -56.8150   97.7486    -56.8150      0.0    top       THD
+Rpd7          10K                 R_0805_2012Metric             89.6514    -53.8700   90.5639    -53.8700     18.0    top       SMD
+F7            Fuse                3586KTR                       94.0154    -47.0430   93.7614    -40.9660     -9.0    top       SMD
+D7            LED                 LED_0805_2012Metric           88.6814    -56.7425   88.6814    -57.6800      9.0    top       SMD
+D4            LED                 LED_0805_2012Metric           54.6571    -56.7425   54.6571    -57.6800      9.0    top       SMD
+J10           39301040            Molex_Mini-Fit_Jr_5569-04A2.. 32.9650    -84.3100   32.9650    -84.3100      9.0    top       THD
+J11           ATF13-2P-BM03       ATF132PBM03                   51.7200    -68.4700   51.7200    -68.4700      0.0    top       THD
+J9            39301060            Molex_Mini-Fit_Jr_5569-06A2.. 33.0000    -73.2200   33.0000    -73.2200      9.0    top       THD
+Rpd8          10K                 R_0805_2012Metric             100.9929   -53.8700   101.9054   -53.8700     18.0    top       SMD
+Q7            IRLML6344TRPBF      TSOT-23                       93.7614    -56.8150   92.8114    -58.1250      9.0    top       SMD
+TPj2          TestPoint           PinHeader_1x01_P1.00mm_Vert.. 31.1443    -41.6000   31.1443    -41.6000      0.0    top       THD
+Rpd5          10K                 R_0805_2012Metric             66.9686    -53.8700   67.8811    -53.8700     18.0    top       SMD
+J6            39301040            Molex_Mini-Fit_Jr_5569-04A2.. 80.3200    -30.4600   80.3200    -30.4600      0.0    top       THD
+TPgt1         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 24.7629    -59.9800   24.7629    -59.9800      0.0    top       THD
+TPgt2         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 36.1043    -59.9800   36.1043    -59.9800      0.0    top       THD
+Q8            IRLML6344TRPBF      TSOT-23                       105.1029   -56.8150   104.1529   -58.1250      9.0    top       SMD
+TPoa1         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 29.7000    -56.8150   29.7000    -56.8150      0.0    top       THD
+Rled7         100                 R_0805_2012Metric             90.9614    -56.7675   90.9614    -55.8550     -9.0    top       SMD
+TP5v1         5V                  PinHeader_1x01_P1.00mm_Vert.. 104.2100   -85.2300   104.2100   -85.2300      0.0    top       THD
+F3            Fuse                3586KTR                       48.6497    -47.0430   48.3957    -40.9660     -9.0    top       SMD
+TPdr6         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 77.9571    -51.0840   77.9571    -51.0840      0.0    top       THD
+Rled2         100                 R_0805_2012Metric             34.2543    -56.7675   34.2543    -55.8550     -9.0    top       SMD
+J2            39301040            Molex_Mini-Fit_Jr_5569-04A2.. 34.9543    -30.4600   34.9543    -30.4600      0.0    top       THD
+D2            LED                 LED_0805_2012Metric           31.9743    -56.7425   31.9743    -57.6800      9.0    top       SMD
+Q2            IRLML6344TRPBF      TSOT-23                       37.0543    -56.8150   36.1043    -58.1250      9.0    top       SMD
+F1            Fuse                3586KTR                       25.9669    -47.0430   25.7129    -40.9660     -9.0    top       SMD
+TPcanl1       CANL                PinHeader_1x01_P1.00mm_Vert.. 33.6200    -92.6200   33.6200    -92.6200      0.0    top       THD
+J8            39301040            Molex_Mini-Fit_Jr_5569-04A2.. 103.0029   -30.4600   103.0029   -30.4600      0.0    top       THD
+TPgt8         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 104.1529   -59.9800   104.1529   -59.9800      0.0    top       THD
+TPj8          TestPoint           PinHeader_1x01_P1.00mm_Vert.. 99.1929    -41.6000   99.1929    -41.6000      0.0    top       THD
+TPoa3         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 52.3829    -56.8150   52.3829    -56.8150      0.0    top       THD
+D5            LED                 LED_0805_2012Metric           65.9986    -56.7425   65.9986    -57.6800      9.0    top       SMD
+F6            Fuse                3586KTR                       82.6740    -47.0430   82.4200    -40.9660     -9.0    top       SMD
+J4            39301040            Molex_Mini-Fit_Jr_5569-04A2.. 57.6371    -30.4600   57.6371    -30.4600      0.0    top       THD
+TPgt6         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 79.5200    -59.5500   79.5200    -59.5500      0.0    top       THD
+J7            39301040            Molex_Mini-Fit_Jr_5569-04A2.. 91.6614    -30.4600   91.6614    -30.4600      0.0    top       THD
+D8            LED                 LED_0805_2012Metric           100.0229   -56.7425   100.0229   -57.6800      9.0    top       SMD
+Rled6         100                 R_0805_2012Metric             79.6200    -56.7675   79.6200    -55.8550     -9.0    top       SMD
+TPj6          TestPoint           PinHeader_1x01_P1.00mm_Vert.. 76.5100    -41.6000   76.5100    -41.6000      0.0    top       THD
+TP3p3v1       3V3                 PinHeader_1x01_P1.00mm_Vert.. 75.2000    -89.9400   75.2000    -89.9400      0.0    top       THD
+Rled5         100                 R_0805_2012Metric             68.2786    -56.7675   68.2786    -55.8550     -9.0    top       SMD
+H2            MountingHole        MountingHole_3.2mm_M3_ISO14.. 119.0000   -95.0000   0.0000     0.0000        0.0    top       VIRTUAL
+H1            MountingHole        MountingHole_3.2mm_M3_ISO14.. 119.0000   -19.0000   0.0000     0.0000        0.0    top       VIRTUAL
+TPdr7         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 89.2986    -51.0840   89.2986    -51.0840      0.0    top       THD
+Rpd2          10K                 R_0805_2012Metric             32.9443    -53.8700   33.8568    -53.8700     18.0    top       SMD
+TPoa2         TestPoint           PinHeader_1x01_P1.00mm_Vert.. 41.0414    -56.8150   41.0414    -56.8150      0.0    top       THD
+T1            MCP2562FD-E_SN      SOIC-8_3.9x4.9mm_P1.27mm      70.5500    -74.7000   73.0250    -72.7950     18.0    bottom    SMD
+OP3           MCP6C02T-020        SOT-23-6_Handsoldering        49.7487    -44.6500   50.6987    -46.0000      9.0    bottom    SMD
+Rsh1          0.05                R_2512_6332Metric_Pad1.40x3.. 22.3429    -44.6500   22.3429    -47.7000      9.0    bottom    SMD
+Cop4          100nF               C_0805_2012Metric             61.0901    -40.9400   62.0401    -40.9400     18.0    bottom    SMD
+Ctr2          100nF               C_0805_2012Metric             65.6800    -77.5550   65.6800    -76.6050     -9.0    bottom    SMD
+OP4           MCP6C02T-020        SOT-23-6_Handsoldering        61.0901    -44.6500   62.0401    -46.0000      9.0    bottom    SMD
+Rsh4          0.05                R_2512_6332Metric_Pad1.40x3.. 56.3671    -44.6500   56.3671    -47.7000      9.0    bottom    SMD
+Cop1          100nF               C_0805_2012Metric             27.0659    -40.9400   28.0159    -40.9400     18.0    bottom    SMD
+Cop6          100nF               C_0805_2012Metric             83.7730    -40.9400   84.7230    -40.9400     18.0    bottom    SMD
+Rsh6          0.05                R_2512_6332Metric_Pad1.40x3.. 79.0500    -44.6500   79.0500    -47.7000      9.0    bottom    SMD
+OP8           MCP6C02T-020        SOT-23-6_Handsoldering        106.4559   -44.6500   107.4059   -46.0000      9.0    bottom    SMD
+OP7           MCP6C02T-020        SOT-23-6_Handsoldering        95.1144    -44.6500   96.0644    -46.0000      9.0    bottom    SMD
+Cop3          100nF               C_0805_2012Metric             49.7487    -40.9400   50.6987    -40.9400     18.0    bottom    SMD
+Rsh5          0.05                R_2512_6332Metric_Pad1.40x3.. 67.7086    -44.6500   67.7086    -47.7000      9.0    bottom    SMD
+Rsh2          0.05                R_2512_6332Metric_Pad1.40x3.. 33.6843    -44.6500   33.6843    -47.7000      9.0    bottom    SMD
+Rsh8          0.05                R_2512_6332Metric_Pad1.40x3.. 101.7329   -44.6500   101.7329   -47.7000      9.0    bottom    SMD
+Cop2          100nF               C_0805_2012Metric             38.4073    -40.9400   39.3573    -40.9400     18.0    bottom    SMD
+Ctr1          100nF               C_0805_2012Metric             76.2300    -75.3350   75.2800    -75.3350      0.0    bottom    SMD
+Cop8          100nF               C_0805_2012Metric             106.4559   -40.9400   107.4059   -40.9400     18.0    bottom    SMD
+Cop7          100nF               C_0805_2012Metric             95.1144    -40.9400   96.0644    -40.9400     18.0    bottom    SMD
+OP5           MCP6C02T-020        SOT-23-6_Handsoldering        72.4316    -44.6500   73.3816    -46.0000      9.0    bottom    SMD
+OP6           MCP6C02T-020        SOT-23-6_Handsoldering        83.7730    -44.6500   84.7230    -46.0000      9.0    bottom    SMD
+JP4           SolderJumper_2_Open SolderJumper-2_P1.3mm_Open_.. 32.9700    -89.2900   32.3200    -89.2900      0.0    bottom    VIRTUAL
+Cop5          100nF               C_0805_2012Metric             72.4316    -40.9400   73.3816    -40.9400     18.0    bottom    SMD
+OP2           MCP6C02T-020        SOT-23-6_Handsoldering        38.4073    -44.6500   39.3573    -46.0000      9.0    bottom    SMD
+Rterm1        120                 R_0805_2012Metric             29.0400    -88.3775   29.0400    -87.4650     -9.0    bottom    SMD
+Rsh3          0.05                R_2512_6332Metric_Pad1.40x3.. 45.0257    -44.6500   45.0257    -47.7000      9.0    bottom    SMD
+OP1           MCP6C02T-020        SOT-23-6_Handsoldering        27.0659    -44.6500   28.0159    -46.0000      9.0    bottom    SMD
+Rpd9          10K                 R_0805_2012Metric             69.2800    -83.2625   69.2800    -82.3500     -9.0    bottom    SMD
+Rsh7          0.05                R_2512_6332Metric_Pad1.40x3.. 90.3914    -44.6500   90.3914    -47.7000      9.0    bottom    SMD
+## End
+## 216 SMD pads
+## 131 TH pads
+## 5 Virtual pads
+## 51 Top TH modules
+## 0 Bot TH modules
+## 40 Top SMD modules
+## 29 Bot SMD modules
+## 3 Top Virtual modules
+## 1 Bot Virtual modules

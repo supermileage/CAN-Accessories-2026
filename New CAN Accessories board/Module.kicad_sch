@@ -1838,6 +1838,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 48.26) (xy 40.64 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d552d4-db9a-40c0-8877-056fa8462094")
+	)
+	(wire
+		(pts
 			(xy 33.02 102.87) (xy 40.64 102.87)
 		)
 		(stroke
@@ -2097,6 +2107,17 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "TPj"
+		(shape input)
+		(at 36.83 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "626b64cf-65f4-4e44-8fcf-7cf87e3d59b8")
 	)
 	(hierarchical_label "GATE"
 		(shape input)
@@ -2526,7 +2547,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 38.1 71.12 0)
 			(effects
 				(font
@@ -2551,6 +2572,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 38.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2782,99 +2811,6 @@
 				)
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071/fb19124a-c234-4595-adc5-bbb1e37c8292"
 					(reference "Rpd1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 40.64 48.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5be16129-559e-4498-a1d1-bb662daf776b")
-		(property "Reference" "TPj1"
-			(at 37.338 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 37.338 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
-			(at 40.64 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 40.64 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "891d430f-18a1-4a5b-ae72-b2282cf777d4")
-		)
-		(instances
-			(project "New CAN Accessories board"
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/066a2d54-ef62-4b50-bc17-9ae15f85282f"
-					(reference "TPj3")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/199d9661-d77c-40a8-9127-2f77ddd20cbc"
-					(reference "TPj2")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/a4a3a29c-d4d7-4a64-89ca-c4c515902e3a"
-					(reference "TPj8")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/b4fef664-0317-4528-b914-9a729a4fa0cb"
-					(reference "TPj7")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/df424b4d-8c7c-4d94-be97-d7e7a5882dfa"
-					(reference "TPj6")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/e28dd46e-a6b0-42fd-b358-90f6a987ac56"
-					(reference "TPj4")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/f4946d2d-97a8-44f8-9d9c-ff737967b4cd"
-					(reference "TPj5")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/fb19124a-c234-4595-adc5-bbb1e37c8292"
-					(reference "TPj1")
 					(unit 1)
 				)
 			)

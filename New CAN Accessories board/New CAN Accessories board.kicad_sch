@@ -8364,7 +8364,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "270uF"
 			(at 204.47 99.4409 0)
 			(effects
 				(font
@@ -8373,7 +8373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprint:CAPAE1030X1050M"
 			(at 201.6252 102.87 0)
 			(effects
 				(font

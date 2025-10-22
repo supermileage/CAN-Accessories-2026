@@ -2134,16 +2134,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 76.2) (xy 48.26 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71636470-a702-47db-92fc-17b575ca5290")
-	)
-	(wire
-		(pts
 			(xy 64.77 16.51) (xy 57.15 16.51)
 		)
 		(stroke
@@ -2231,6 +2221,16 @@
 			(type default)
 		)
 		(uuid "b4b13b69-e73f-4dae-81a5-912118d42475")
+	)
+	(wire
+		(pts
+			(xy 48.26 77.47) (xy 48.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2e8f56e-0b23-4ae4-ba6c-de69c205ab14")
 	)
 	(wire
 		(pts
@@ -2926,6 +2926,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 48.26 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48ec0fd2-0cb1-46f3-a8c7-f61a20e95e82")
+		(property "Reference" "Dtvs1"
+			(at 50.8 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 50.8 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 48.26 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3a3b4bc5-53a1-41bf-825c-8932388add3d")
+		)
+		(pin "1"
+			(uuid "5892cf16-7cf3-49ab-97fa-fd5d07fdc28c")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071/066a2d54-ef62-4b50-bc17-9ae15f85282f"
+					(reference "Dtvs3")
+					(unit 1)
+				)
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071/199d9661-d77c-40a8-9127-2f77ddd20cbc"
+					(reference "Dtvs2")
+					(unit 1)
+				)
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071/a4a3a29c-d4d7-4a64-89ca-c4c515902e3a"
+					(reference "Dtvs8")
+					(unit 1)
+				)
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071/b4fef664-0317-4528-b914-9a729a4fa0cb"
+					(reference "Dtvs7")
+					(unit 1)
+				)
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071/df424b4d-8c7c-4d94-be97-d7e7a5882dfa"
+					(reference "Dtvs6")
+					(unit 1)
+				)
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071/e28dd46e-a6b0-42fd-b358-90f6a987ac56"
+					(reference "Dtvs4")
+					(unit 1)
+				)
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071/f4946d2d-97a8-44f8-9d9c-ff737967b4cd"
+					(reference "Dtvs5")
+					(unit 1)
+				)
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071/fb19124a-c234-4595-adc5-bbb1e37c8292"
+					(reference "Dtvs1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 33.02 92.71 0)
 		(unit 1)
@@ -3212,104 +3310,6 @@
 				)
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071/fb19124a-c234-4595-adc5-bbb1e37c8292"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 48.26 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae52545a-6930-49cd-a39d-3556cf8025f1")
-		(property "Reference" "D9"
-			(at 50.8 80.0099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 50.8 82.5499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 48.26 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b35113ae-f07d-4ce4-9674-adf5329ea4f4")
-		)
-		(pin "2"
-			(uuid "c2e20ace-d1d9-4fea-87d0-85e14e35f677")
-		)
-		(instances
-			(project ""
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/066a2d54-ef62-4b50-bc17-9ae15f85282f"
-					(reference "D11")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/199d9661-d77c-40a8-9127-2f77ddd20cbc"
-					(reference "D10")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/a4a3a29c-d4d7-4a64-89ca-c4c515902e3a"
-					(reference "D16")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/b4fef664-0317-4528-b914-9a729a4fa0cb"
-					(reference "D15")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/df424b4d-8c7c-4d94-be97-d7e7a5882dfa"
-					(reference "D14")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/e28dd46e-a6b0-42fd-b358-90f6a987ac56"
-					(reference "D12")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/f4946d2d-97a8-44f8-9d9c-ff737967b4cd"
-					(reference "D13")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/fb19124a-c234-4595-adc5-bbb1e37c8292"
-					(reference "D9")
 					(unit 1)
 				)
 			)

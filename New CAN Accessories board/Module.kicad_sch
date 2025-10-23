@@ -344,7 +344,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_TVS"
+		(symbol "Device:D_Zener"
 			(pin_numbers
 				(hide yes)
 			)
@@ -363,7 +363,7 @@
 					)
 				)
 			)
-			(property "Value" "D_TVS"
+			(property "Value" "D_Zener"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -389,7 +389,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(property "Description" "Zener diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -398,7 +398,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode TVS thyrector"
+			(property "ki_keywords" "diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -416,22 +416,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_TVS_0_1"
+			(symbol "D_Zener_0_1"
 				(polyline
 					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -453,12 +441,24 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "D_TVS_1_1"
+			(symbol "D_Zener_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
-					(name "A1"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -476,7 +476,7 @@
 				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
-					(name "A2"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1812,12 +1812,6 @@
 		(uuid "31f0ee5a-3040-472b-bf05-6a2203b2683f")
 	)
 	(junction
-		(at 33.02 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34bb8639-b298-4439-b125-6c6254bc7836")
-	)
-	(junction
 		(at 64.77 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2190,16 +2184,6 @@
 			(type default)
 		)
 		(uuid "debbff76-27ca-4d1b-81bf-dd1eabdf8f5d")
-	)
-	(wire
-		(pts
-			(xy 26.67 76.2) (xy 33.02 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df7f3077-e390-4feb-a428-0fbb6a85411f")
 	)
 	(wire
 		(pts
@@ -2755,104 +2739,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
-		(at 48.26 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48ec0fd2-0cb1-46f3-a8c7-f61a20e95e82")
-		(property "Reference" "Dtvs1"
-			(at 50.8 80.0099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 50.8 82.5499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 48.26 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3a3b4bc5-53a1-41bf-825c-8932388add3d")
-		)
-		(pin "1"
-			(uuid "5892cf16-7cf3-49ab-97fa-fd5d07fdc28c")
-		)
-		(instances
-			(project "New CAN Accessories board"
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/066a2d54-ef62-4b50-bc17-9ae15f85282f"
-					(reference "Dtvs3")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/199d9661-d77c-40a8-9127-2f77ddd20cbc"
-					(reference "Dtvs2")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/a4a3a29c-d4d7-4a64-89ca-c4c515902e3a"
-					(reference "Dtvs8")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/b4fef664-0317-4528-b914-9a729a4fa0cb"
-					(reference "Dtvs7")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/df424b4d-8c7c-4d94-be97-d7e7a5882dfa"
-					(reference "Dtvs6")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/e28dd46e-a6b0-42fd-b358-90f6a987ac56"
-					(reference "Dtvs4")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/f4946d2d-97a8-44f8-9d9c-ff737967b4cd"
-					(reference "Dtvs5")
-					(unit 1)
-				)
-				(path "/88340f43-3f46-45a6-9393-130e00dc3071/fb19124a-c234-4595-adc5-bbb1e37c8292"
-					(reference "Dtvs1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 33.02 92.71 0)
 		(unit 1)
@@ -3233,6 +3119,112 @@
 				)
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071/fb19124a-c234-4595-adc5-bbb1e37c8292"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 48.26 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b40ce109-9586-4915-bc4d-8e7b1817d0d5")
+		(property "Reference" "D_TVS1"
+			(at 51.435 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Zener"
+			(at 51.435 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMF"
+			(at 48.26 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 48.26 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 48.26 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d7f7e60-920b-4616-9c2f-d780b87e1541")
+		)
+		(pin "2"
+			(uuid "178a82e8-3d87-4bc4-aec0-605e65e238d8")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071/066a2d54-ef62-4b50-bc17-9ae15f85282f"
+					(reference "D_TVS3")
+					(unit 1)
+				)
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071/199d9661-d77c-40a8-9127-2f77ddd20cbc"
+					(reference "D_TVS2")
+					(unit 1)
+				)
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071/a4a3a29c-d4d7-4a64-89ca-c4c515902e3a"
+					(reference "D_TVS8")
+					(unit 1)
+				)
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071/b4fef664-0317-4528-b914-9a729a4fa0cb"
+					(reference "D_TVS7")
+					(unit 1)
+				)
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071/df424b4d-8c7c-4d94-be97-d7e7a5882dfa"
+					(reference "D_TVS6")
+					(unit 1)
+				)
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071/e28dd46e-a6b0-42fd-b358-90f6a987ac56"
+					(reference "D_TVS4")
+					(unit 1)
+				)
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071/f4946d2d-97a8-44f8-9d9c-ff737967b4cd"
+					(reference "D_TVS5")
+					(unit 1)
+				)
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071/fb19124a-c234-4595-adc5-bbb1e37c8292"
+					(reference "D_TVS1")
 					(unit 1)
 				)
 			)

@@ -7943,6 +7943,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x08_Pin")
+		(at 99.06 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bc90e95-d08f-4f12-8cb7-023e9acf558f")
+		(property "Reference" "TP4"
+			(at 99.695 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x08_Pin"
+			(at 99.695 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+			(at 99.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated"
+			(at 99.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 99.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "d5d7accc-653d-4e32-a8cd-70a03f228ef3")
+		)
+		(pin "6"
+			(uuid "4467b745-8b79-41f7-8de9-31fbfba30cf8")
+		)
+		(pin "7"
+			(uuid "0b0d1c1c-2f5a-4e49-98c1-bec508b1f075")
+		)
+		(pin "1"
+			(uuid "d811dacb-76cd-4717-ae2e-47ee8acb9752")
+		)
+		(pin "2"
+			(uuid "f1a07870-4e2a-4d94-8deb-9c60d1fe4338")
+		)
+		(pin "5"
+			(uuid "cca029f2-1d00-43d0-a6d5-98277b4e428f")
+		)
+		(pin "3"
+			(uuid "b7824198-90d1-4616-ab53-ca33a7c33462")
+		)
+		(pin "8"
+			(uuid "9aa4d016-1c8f-4565-9c00-00e0d22e3d49")
+		)
+		(instances
+			(project "New CAN Accessories board"
+				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 25.4 21.59 0)
 		(unit 1)
@@ -8707,8 +8801,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da0d6beb-23d3-4841-9a83-8067dc74dd38")
-		(property "Reference" "TP5"
-			(at 81.915 156.845 0)
+		(property "Reference" "TP3"
+			(at 81.915 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8716,7 +8810,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08_Pin"
-			(at 81.915 159.385 0)
+			(at 81.915 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8785,7 +8879,7 @@
 		(instances
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
-					(reference "TP5")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -9073,6 +9167,16 @@
 				(justify left)
 			)
 		)
+		(pin "TPdr" input
+			(at 163.83 44.45 180)
+			(uuid "e59e1fb4-62e8-4f8c-ae9c-8c2501b344f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
@@ -9138,6 +9242,16 @@
 		(pin "TPj" input
 			(at 134.62 41.91 180)
 			(uuid "24d097db-ef82-4626-beaa-ac42e3be509c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TPdr" input
+			(at 134.62 44.45 180)
+			(uuid "38a345dc-3e32-4e4f-8866-18d210082556")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9217,6 +9331,16 @@
 				(justify left)
 			)
 		)
+		(pin "TPdr" input
+			(at 189.23 59.69 180)
+			(uuid "ff35ac82-57f7-40c6-b9fb-4041c4270949")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
@@ -9282,6 +9406,16 @@
 		(pin "TPj" input
 			(at 163.83 57.15 180)
 			(uuid "04158a1c-86ec-4c90-95db-7686b937241d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TPdr" input
+			(at 163.83 59.69 180)
+			(uuid "1607b641-e181-4f99-a8e8-18d484f8285e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9361,6 +9495,16 @@
 				(justify left)
 			)
 		)
+		(pin "TPdr" input
+			(at 134.62 59.69 180)
+			(uuid "5a2ccd97-f0db-4a44-9997-c8210e780c28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
@@ -9426,6 +9570,16 @@
 		(pin "TPj" input
 			(at 189.23 41.91 180)
 			(uuid "f69f78ea-35c5-40a1-a333-6e664fbbc54d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TPdr" input
+			(at 189.23 44.45 180)
+			(uuid "2b64fc29-4352-4137-887b-e28527b894e1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9505,6 +9659,16 @@
 				(justify left)
 			)
 		)
+		(pin "TPdr" input
+			(at 110.49 59.69 180)
+			(uuid "736785db-7a66-497b-b7ee-26ec2380f9b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "New CAN Accessories board"
 				(path "/88340f43-3f46-45a6-9393-130e00dc3071"
@@ -9570,6 +9734,16 @@
 		(pin "TPj" input
 			(at 109.22 41.91 180)
 			(uuid "92d72904-a708-4b0c-b7f1-e60e7f0c3f3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TPdr" input
+			(at 109.22 44.45 180)
+			(uuid "9a2b50b9-0d99-4b6d-b9bf-f5ddc49f90d9")
 			(effects
 				(font
 					(size 1.27 1.27)

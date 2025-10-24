@@ -19243,7 +19243,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "Rled6"
-			(at 0.1025 -0.1 90)
+			(at 3.9205 -0.054 90)
 			(layer "F.SilkS")
 			(uuid "f6384db7-0c33-47e0-b489-bc096002f7d1")
 			(effects

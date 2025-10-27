@@ -1,9 +1,10 @@
-### Module positions - created on 2025-10-18 14:40
+### Module positions - created on 2025-10-24 11:56
 ### Printed by pcb_positions plugin
 ## Unit = mm, Angle = deg.
-## Pcb Height 86.050mm, Pcb Width 110.050mm [based on Edge bounding box]
+## Pcb Height 91.050mm, Pcb Width 106.050mm [based on Edge bounding box]
 ## Side : bottom
 ## Board Aux Origin: 0.000mm ,0.000mm
 # Ref         Val                 Package                       PosX       PosY       Pin1_PosX  Pin1_PosY    Rot     Side      Type
-JP4           SolderJumper_2_Open SolderJumper-2_P1.3mm_Open_.. 32.9700    -89.2900   32.3200    -89.2900      0.0    bottom    VIRTUAL
+JP1           SolderJumper_2_Open SolderJumper-2_P1.3mm_Open_.. 32.4500    -93.6500   31.8000    -93.6500      0.0    bottom    VIRTUAL
+G***          LOGO                logo                          91.7400    -79.1800   0.0000     0.0000       18.0    bottom    VIRTUAL
 ## End

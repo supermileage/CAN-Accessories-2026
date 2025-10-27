@@ -1,48 +1,57 @@
-### Module positions - created on 2025-10-18 14:40
+### Module positions - created on 2025-10-24 11:56
 ### Printed by pcb_positions plugin
 ## Unit = mm, Angle = deg.
-## Pcb Height 86.050mm, Pcb Width 110.050mm [based on Edge bounding box]
+## Pcb Height 91.050mm, Pcb Width 106.050mm [based on Edge bounding box]
 ## Side : top
 ## Board Aux Origin: 0.000mm ,0.000mm
 # Ref         Val                 Package                       PosX       PosY       Pin1_PosX  Pin1_PosY    Rot     Side      Type
 F5            Fuse                3586KTR                       71.3326    -47.0430   71.0786    -40.9660     -9.0    top       SMD
-Q4            IRLML6344TRPBF      TSOT-23                       59.7371    -56.8150   58.7871    -58.1250      9.0    top       SMD
-D1            LED                 LED_0805_2012Metric           20.6329    -56.7425   20.6329    -57.6800      9.0    top       SMD
-Rpd1          10K                 R_0805_2012Metric             21.6029    -53.8700   22.5154    -53.8700     18.0    top       SMD
-Q1            IRLML6344TRPBF      TSOT-23                       25.7129    -56.8150   24.7629    -58.1250      9.0    top       SMD
-Rpd4          10K                 R_0805_2012Metric             55.6271    -53.8700   56.5396    -53.8700     18.0    top       SMD
+Q4            IRLML6344TRPBF      TSOT-23                       59.0000    -56.8150   58.0500    -58.1250      9.0    top       SMD
+D1            LED                 LED_0805_2012Metric           18.7000    -50.5000   18.7000    -49.5625     -9.0    top       SMD
+Rpd1          10K                 R_0805_2012Metric             18.0000    -55.0000   18.0000    -55.9125      9.0    top       SMD
+Q1            IRLML6344TRPBF      TSOT-23                       23.1100    -56.8150   22.1600    -58.1250      9.0    top       SMD
+Rpd4          10K                 R_0805_2012Metric             53.5000    -55.0000   53.5000    -55.9125      9.0    top       SMD
 Q5            IRLML6344TRPBF      TSOT-23                       71.0786    -56.8150   70.1286    -58.1250      9.0    top       SMD
-Q3            IRLML6344TRPBF      TSOT-23                       48.3957    -56.8150   47.4457    -58.1250      9.0    top       SMD
-F4            Fuse                3586KTR                       59.9911    -47.0430   59.7371    -40.9660     -9.0    top       SMD
-Q6            IRLML6344TRPBF      TSOT-23                       82.4200    -56.8150   81.4700    -58.1250      9.0    top       SMD
-D6            LED                 LED_0805_2012Metric           77.3400    -56.7425   77.3400    -57.6800      9.0    top       SMD
-Rled3         100                 R_0805_2012Metric             45.5957    -56.7675   45.5957    -55.8550     -9.0    top       SMD
-Rled8         100                 R_0805_2012Metric             102.3029   -56.7675   102.3029   -55.8550     -9.0    top       SMD
-Rled4         100                 R_0805_2012Metric             56.9371    -56.7675   56.9371    -55.8550     -9.0    top       SMD
-F2            Fuse                3586KTR                       37.3083    -47.0430   37.0543    -40.9660     -9.0    top       SMD
-Rpd3          10K                 R_0805_2012Metric             44.2857    -53.8700   45.1982    -53.8700     18.0    top       SMD
-D3            LED                 LED_0805_2012Metric           43.3157    -56.7425   43.3157    -57.6800      9.0    top       SMD
-F8            Fuse                3586KTR                       105.3569   -47.0430   105.1029   -40.9660     -9.0    top       SMD
-Rled1         100                 R_0805_2012Metric             22.9129    -56.7675   22.9129    -55.8550     -9.0    top       SMD
-Rpd6          10K                 R_0805_2012Metric             78.3100    -53.8700   79.2225    -53.8700     18.0    top       SMD
-Rpd7          10K                 R_0805_2012Metric             89.6514    -53.8700   90.5639    -53.8700     18.0    top       SMD
-F7            Fuse                3586KTR                       94.0154    -47.0430   93.7614    -40.9660     -9.0    top       SMD
-D7            LED                 LED_0805_2012Metric           88.6814    -56.7425   88.6814    -57.6800      9.0    top       SMD
-D4            LED                 LED_0805_2012Metric           54.6571    -56.7425   54.6571    -57.6800      9.0    top       SMD
-Rpd8          10K                 R_0805_2012Metric             100.9929   -53.8700   101.9054   -53.8700     18.0    top       SMD
-Q7            IRLML6344TRPBF      TSOT-23                       93.7614    -56.8150   92.8114    -58.1250      9.0    top       SMD
-Rpd5          10K                 R_0805_2012Metric             66.9686    -53.8700   67.8811    -53.8700     18.0    top       SMD
-Q8            IRLML6344TRPBF      TSOT-23                       105.1029   -56.8150   104.1529   -58.1250      9.0    top       SMD
-Rled7         100                 R_0805_2012Metric             90.9614    -56.7675   90.9614    -55.8550     -9.0    top       SMD
-F3            Fuse                3586KTR                       48.6497    -47.0430   48.3957    -40.9660     -9.0    top       SMD
-Rled2         100                 R_0805_2012Metric             34.2543    -56.7675   34.2543    -55.8550     -9.0    top       SMD
-D2            LED                 LED_0805_2012Metric           31.9743    -56.7425   31.9743    -57.6800      9.0    top       SMD
-Q2            IRLML6344TRPBF      TSOT-23                       37.0543    -56.8150   36.1043    -58.1250      9.0    top       SMD
-F1            Fuse                3586KTR                       25.9669    -47.0430   25.7129    -40.9660     -9.0    top       SMD
-D5            LED                 LED_0805_2012Metric           65.9986    -56.7425   65.9986    -57.6800      9.0    top       SMD
-F6            Fuse                3586KTR                       82.6740    -47.0430   82.4200    -40.9660     -9.0    top       SMD
-D8            LED                 LED_0805_2012Metric           100.0229   -56.7425   100.0229   -57.6800      9.0    top       SMD
-Rled6         100                 R_0805_2012Metric             79.6200    -56.7675   79.6200    -55.8550     -9.0    top       SMD
-Rled5         100                 R_0805_2012Metric             68.2786    -56.7675   68.2786    -55.8550     -9.0    top       SMD
-Rpd2          10K                 R_0805_2012Metric             32.9443    -53.8700   33.8568    -53.8700     18.0    top       SMD
+Q3            IRLML6344TRPBF      TSOT-23                       47.0000    -56.8150   46.0500    -58.1250      9.0    top       SMD
+F4            Fuse                3586KTR                       59.2540    -47.0430   59.0000    -40.9660     -9.0    top       SMD
+Q6            IRLML6344TRPBF      TSOT-23                       82.7460    -56.7720   81.7960    -58.0820      9.0    top       SMD
+D6            LED                 LED_0805_2012Metric           78.0000    -51.0000   78.0000    -50.0625     -9.0    top       SMD
+Rled3         100                 R_0805_2012Metric             43.9950    -55.0000   43.9950    -55.9125      9.0    top       SMD
+Rled8         100                 R_0805_2012Metric             104.0000   -55.0000   104.0000   -55.9125      9.0    top       SMD
+Rled4         100                 R_0805_2012Metric             56.0000    -55.0000   56.0000    -55.9125      9.0    top       SMD
+F2            Fuse                3586KTR                       35.2540    -47.0430   35.0000    -40.9660     -9.0    top       SMD
+Rpd3          10K                 R_0805_2012Metric             41.4950    -55.0000   41.4950    -55.9125      9.0    top       SMD
+D_TVS1        D_Zener             D_SMF                         19.0000    -58.0000   20.4500    -58.0000     18.0    top       SMD
+D3            LED                 LED_0805_2012Metric           41.9950    -50.5000   41.9950    -49.5625     -9.0    top       SMD
+D_TVS4        D_Zener             D_SMF                         54.5000    -58.0000   55.9500    -58.0000     18.0    top       SMD
+D_TVS3        D_Zener             D_SMF                         42.4950    -58.0000   43.9450    -58.0000     18.0    top       SMD
+F8            Fuse                3586KTR                       107.0000   -47.0000   106.7460   -40.9230     -9.0    top       SMD
+Rled1         100                 R_0805_2012Metric             20.0000    -55.0000   20.0000    -55.9125      9.0    top       SMD
+D_TVS6        D_Zener             D_SMF                         78.0000    -58.0000   79.4500    -58.0000     18.0    top       SMD
+Rpd6          10K                 R_0805_2012Metric             77.0000    -55.0000   77.0000    -55.9125      9.0    top       SMD
+D_TVS5        D_Zener             D_SMF                         66.5000    -58.0000   67.9500    -58.0000     18.0    top       SMD
+Rpd7          10K                 R_0805_2012Metric             89.0000    -55.0000   89.0000    -55.9125      9.0    top       SMD
+F7            Fuse                3586KTR                       95.2540    -47.2280   95.0000    -41.1510     -9.0    top       SMD
+D7            LED                 LED_0805_2012Metric           90.0000    -51.0000   90.0000    -50.0625     -9.0    top       SMD
+D4            LED                 LED_0805_2012Metric           54.5000    -51.0000   54.5000    -50.0625     -9.0    top       SMD
+Rpd8          10K                 R_0805_2012Metric             101.0000   -55.0000   101.0000   -55.9125      9.0    top       SMD
+Q7            IRLML6344TRPBF      TSOT-23                       95.0000    -57.0000   94.0500    -58.3100      9.0    top       SMD
+D_TVS7        D_Zener             D_SMF                         90.0000    -58.0000   91.4500    -58.0000     18.0    top       SMD
+Rpd5          10K                 R_0805_2012Metric             65.5000    -55.0000   65.5000    -55.9125      9.0    top       SMD
+D_TVS8        D_Zener             D_SMF                         102.0000   -58.0000   103.4500   -58.0000     18.0    top       SMD
+Q8            IRLML6344TRPBF      TSOT-23                       106.7460   -56.7720   105.7960   -58.0820      9.0    top       SMD
+Rled7         100                 R_0805_2012Metric             92.0000    -55.0000   92.0000    -55.9125      9.0    top       SMD
+F3            Fuse                3586KTR                       47.2540    -47.0430   47.0000    -40.9660     -9.0    top       SMD
+Rled2         100                 R_0805_2012Metric             32.0000    -55.0000   32.0000    -55.9125      9.0    top       SMD
+D2            LED                 LED_0805_2012Metric           30.0000    -50.5000   30.0000    -49.5625     -9.0    top       SMD
+Q2            IRLML6344TRPBF      TSOT-23                       35.0000    -56.8150   34.0500    -58.1250      9.0    top       SMD
+F1            Fuse                3586KTR                       23.3640    -47.0430   23.1100    -40.9660     -9.0    top       SMD
+D_TVS2        D_Zener             D_SMF                         30.5000    -58.0000   31.9500    -58.0000     18.0    top       SMD
+D5            LED                 LED_0805_2012Metric           66.5000    -51.0000   66.5000    -50.0625     -9.0    top       SMD
+F6            Fuse                3586KTR                       83.0000    -47.0000   82.7460    -40.9230     -9.0    top       SMD
+D8            LED                 LED_0805_2012Metric           102.0000   -51.0000   102.0000   -50.0625     -9.0    top       SMD
+Rled6         100                 R_0805_2012Metric             79.5000    -55.0000   79.5000    -55.9125      9.0    top       SMD
+Cbulk1        270uF               CAPAE1030X1050M               54.6100    -68.3100   58.9600    -68.3100     18.0    top       SMD
+Rled5         100                 R_0805_2012Metric             68.0000    -55.0000   68.0000    -55.9125      9.0    top       SMD
+Rpd2          10K                 R_0805_2012Metric             29.5000    -55.0000   29.5000    -55.9125      9.0    top       SMD
 ## End

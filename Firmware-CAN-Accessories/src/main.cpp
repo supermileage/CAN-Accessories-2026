@@ -3,33 +3,41 @@ using std::string;
 
 class Accessory {
   public:
-    string name;
-    int mosfet_gate;
-    int CAN_ID;
+    string Name;
+    PinName Mosfet_gate;
+    int Can_ID;
+    bool Do_it_blink_question_mark;
 
-    Accessory(string name, int mosfet_gate, int CAN_ID) {
-      name = name;
-      mosfet_gate = mosfet_gate;
-      CAN_ID = CAN_ID;
+    Accessory(string name, PinName mosfet_gate, int CAN_ID, bool do_it_blink_question_mark) { //mosfet gate doubles as index
+      Name = name;
+      Mosfet_gate = mosfet_gate;
+      Can_ID = CAN_ID;
+      Do_it_blink_question_mark = do_it_blink_question_mark;
     }
 };
 
-string accessory_list = {"headlights", "wipers", "left_indicator"}
+// CREATING OBJECTS
+Accessory headlights = Accessory("headlights", PB_4, 0, 0);
+Accessory wipers = Accessory("wipers", PB_5, 1, 0);
+Accessory left_indicator = Accessory("left_indicator", PA_8, 2, 1);
+Accessory right_indicator = Accessory("right_indicator", PB_1, 3, 1);
+Accessory horn = Accessory("horn", PB_6, 4, 0);
+Accessory hazards = Accessory("hazards", PB_7, 5, 1); 
+Accessory extra1 = Accessory("extra1", PB_0, 6, 0);
+Accessory extra2 = Accessory("extra2", PA_10, 7, 0);
 
-Accessory headlights = Accessory("headlights", 1, 1);
-Accessory wipers = Accessory("wipers", 2, 2);
-Accessory left_indicator = Accessory("left_indicator", 3, 3);
-Accessory right_indicator = Accessory("right_indicator", 4, 4);
-Accessory horn = Accessory("horn", 5, 5);
-Accessory hazards = Accessory("hazards", 6, 6);
+//GATE PINS
+PinName gate_list[8] = {PB_4, PB_5, PA_8, PB_1, PB_6, PB_7, PB_0, PA_10}; //consistent with indices
 
+//INITIALIZATION
 int current_states[6] = {0, 0, 0, 0, 0, 0};
 int new_states[6] = {0, 0, 0, 0, 0, 0};
-
 int bits[8] = {0};
 
+//CAN INITIALIZATION
 CAN can(PA_9, PA_12);
 
+//FUNCTIONS
 void can_message_received() {
   CANMessage incoming_message;
   can.read(incoming_message);
@@ -41,19 +49,24 @@ void can_message_received() {
       uint8_t data_byte = incoming_message.data[1];
       for (int i = 0; i<8; i++) {
         bool bit = (data_byte >> i) & 0x01;
-        change_state(i, bit);
+        change_state(i, bit); //i=0 is accessory index 0 (headlights), i=7 is accessory index 7 (extra), going from left to right
+        break;
       }
     
     case (1):
       //ain't nobody use toggle mode
+      break;
     
     case (2):
-      //stuff
+      uint8_t data_byte = incoming_message.data[1];
+      uint8_t id = data_byte >> 1;
+      uint8_t set = data_byte & 0x01;
+      break;
   }
 }
 
 void change_state(int id, int state) {
-
+  DigitalOut(gate_list[id], state);
 }
 
 
@@ -65,23 +78,4 @@ int main() {
   while (true) {
     
   }
-}
-
-
-
-// put function declarations here:
-int myFunction(int, int);
-
-void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-}
-
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
 }

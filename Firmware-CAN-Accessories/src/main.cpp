@@ -1,4 +1,9 @@
 #include "mbed.h"
+#include <iostream>
+#include <CAN.h>
+#include <vector>
+#include "Accessory.h"
+
 using std::string;
 
 class Accessory {

@@ -6,82 +6,82 @@
 
 using std::string;
 
-class Accessory {
-  public:
-    string Name;
-    PinName Mosfet_gate;
-    int CAN_ID;
-    bool Do_it_blink_question_mark;
+//CAN CONNECTIONS
+#define CAN_TX PA_12
+#define CAN_RX PA_9
+#define CAN_STBY PA_11
 
-    Accessory(string name, PinName mosfet_gate, int can_id, bool do_it_blink_question_mark) { //mosfet gate doubles as index
-      Name = name;
-      Mosfet_gate = mosfet_gate;
-      CAN_ID = can_id;
-      Do_it_blink_question_mark = do_it_blink_question_mark;
-    }
-};
+//Gates
+#define GATE1 PB_4
+#define GATE2 PB_5  
+#define GATE3 PA_8
+#define GATE4 PB_1
+#define GATE5 PB_6
+#define GATE6 PB_7
+#define GATE7 PB_0
+#define GATE8 PA_10
 
-// CREATING OBJECTS
-Accessory headlights = Accessory("headlights", PB_4, 0, 0);
-Accessory wipers = Accessory("wipers", PB_5, 1, 0);
-Accessory left_indicator = Accessory("left_indicator", PA_8, 2, 1);
-Accessory right_indicator = Accessory("right_indicator", PB_1, 3, 1);
-Accessory horn = Accessory("horn", PB_6, 4, 0);
-Accessory hazards = Accessory("hazards", PB_7, 5, 1); 
-Accessory extra1 = Accessory("extra1", PB_0, 6, 0);
-Accessory extra2 = Accessory("extra2", PA_10, 7, 0);
+//Board Switch
+#define SWITCH PB_3
 
-//GATE PINS
-PinName gate_list[8] = {PB_4, PB_5, PA_8, PB_1, PB_6, PB_7, PB_0, PA_10}; //consistent with indices
+#define BAUD_RATE 50000
+#define CAN_FORMAT 0x60
 
-//INITIALIZATION
-int current_states[8] = {0, 0, 0, 0, 0, 0, 0, 0};
-int new_states[8] = {0, 0, 0, 0, 0, 0, 0, 0};
-int bits[8] = {0};
+int main(){
 
-//CAN INITIALIZATION
-CAN can(PA_9, PA_12);
+//Declare all Accessories
+//Not really sure how the two boards play out
+                      //PinName_Board_Name_InitialState_Blinks
+Accessory headlights  (GATE1, 1, "headlights", 0, 0);
+Accessory wiper       (GATE2, 1, "wiper", 0, 0);
+Accessory left_indic  (GATE3, 2, "left_indic", 1, 1);
+Accessory right_indic (GATE4, 2, "right_indic", 1, 1);
+Accessory horn        (GATE5, 1, "horn", 0, 0);
+Accessory breaklights (GATE6, 0, "breaklights", 1, 1) ;
+Accessory extra1      (GATE7, 2, "extra1", 0, 0);
+Accessory extra2      (GATE8, 2, "extra2", 0 ,0);
 
-//FUNCTIONS
-void can_message_received() {
-  CANMessage incoming_message;
-  can.read(incoming_message);
+//Pointer because you cant copy accesory type
+std::vector<Accessory*>totalAccList = {&headlights, &wiper, &left_indic, &right_indic, &horn, &breaklights, &extra1, &extra2};
+int amount_of_acc = totalAccList.size();
 
-  unsigned char operation_mode = incoming_message.data[0];
+DigitalIn boardSwitch(PB_3);
 
-  switch (operation_mode) {
-    case (0): {
-      uint8_t data_byte = incoming_message.data[1];
-      for (int i = 0; i<8; i++) {
-        bool bit = (data_byte >> i) & 0x01;
-        change_state(i, bit); //i=0 is accessory index 0 (headlights), i=7 is accessory index 7 (extra), going from left to right
-      }
-      break;
-    }
-    case (1): {
-      //ain't nobody use toggle mode
-      break;
-    }
-    case (2): {
-      uint8_t data_byte = incoming_message.data[1];
-      uint8_t id = data_byte >> 1;
-      uint8_t set = data_byte & 0x01;
-      break;
-    }
+//Initialize Accessory List Vector
+std::vector<Accessory*> boardAccList;
+//Fill up Accessory List Vector based on what board your on
+for(int i = 0; i < amount_of_acc; i++){
+  if(totalAccList[i]->board == boardSwitch.read() || 2){
+    boardAccList.push_back(totalAccList[i]);
   }
 }
 
-void change_state(int id, int state) {
-  DigitalOut(gate_list[id], state);
+int sizeBoardAcc = boardAccList.size();
+
+
+
+
+//Initialize CAN
+CAN can(CAN_RX, CAN_TX, BAUD_RATE);
+CANMessage incoming_message;
+
+int mode = incoming_message.data[0];
+if(can.read(incoming_message)){
+  switch(mode){
+  
+  //Initial State  
+  case 0:
+    for(int i = 0; i < sizeBoardAcc; i++){
+    }
+  case 1:
+      //We literally have zero toggles LOL
+
+  //on off implementation
+  case 2:
+
+  }
 }
 
 
 
-int main() {
-  
-  can.attach(&can_message_received, CAN::RxIrq);
-  
-  while (true) {
-    
-  }
 }

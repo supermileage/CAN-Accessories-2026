@@ -2,7 +2,8 @@
 #include <iostream>
 #include <CAN.h>
 #include <vector>
-#include "Accessory.h"
+#include "accessory.h"
+#include <chrono>
 
 using std::string;
 
@@ -37,12 +38,12 @@ Accessory wiper       (GATE2, 1, "wiper", 0, 0);
 Accessory left_indic  (GATE3, 2, "left_indic", 1, 1);
 Accessory right_indic (GATE4, 2, "right_indic", 1, 1);
 Accessory horn        (GATE5, 1, "horn", 0, 0);
-Accessory breaklights (GATE6, 0, "breaklights", 1, 1) ;
+Accessory brakelights (GATE6, 0, "brakelights", 1, 1) ;
 Accessory extra1      (GATE7, 2, "extra1", 0, 0);
 Accessory extra2      (GATE8, 2, "extra2", 0 ,0);
 
 //Pointer because you cant copy accesory type
-std::vector<Accessory*>totalAccList = {&headlights, &wiper, &left_indic, &right_indic, &horn, &breaklights, &extra1, &extra2};
+std::vector<Accessory*>totalAccList = {&headlights, &wiper, &left_indic, &right_indic, &horn, &brakelights, &extra1, &extra2};
 int amount_of_acc = totalAccList.size();
 
 DigitalIn boardSwitch(PB_3);
@@ -58,30 +59,33 @@ for(int i = 0; i < amount_of_acc; i++){
 
 int sizeBoardAcc = boardAccList.size();
 
-
-
-
 //Initialize CAN
 CAN can(CAN_RX, CAN_TX, BAUD_RATE);
-CANMessage incoming_message;
+CANMessage msg;
 
-int mode = incoming_message.data[0];
-if(can.read(incoming_message)){
+int mode = msg.data[0];
+if(can.read(msg)){
   switch(mode){
   
   //Initial State  
-  case 0:
-    for(int i = 0; i < sizeBoardAcc; i++){
-    }
-  case 1:
+//  case 0: {
+//
+//  }
+//  case 1:
       //We literally have zero toggles LOL
 
   //on off implementation
   case 2:
-
+    int num_useful_bytes = msg.len;
+    for(int j = 0; (j < num_useful_bytes-1); j++) {
+      int data_byte = msg.data[j+1];
+      bool next_state = (data_byte & 1);
+      int acc = data_byte >> 1;
+      if(totalAccList[acc]->board == boardSwitch.read() || totalAccList[acc]->board == 2){
+        (*totalAccList[acc]).updateState(next_state);
+      }
+    }
   }
 }
-
-
 
 }

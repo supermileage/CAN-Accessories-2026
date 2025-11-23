@@ -1,7 +1,9 @@
-#include "mbed.h"
+#include <mbed.h>
 #include <iostream>
 #include <CAN.h>
 #include <vector>
+#include "accessory.h"
+#include <chrono>
 #include "accessory.h"
 #include <chrono>
 
@@ -41,18 +43,20 @@ Accessory horn        (GATE5, 1, "horn", 0, 0);
 Accessory brakelights (GATE6, 0, "brakelights", 1, 1) ;
 Accessory extra1      (GATE7, 2, "extra1", 0, 0);
 Accessory extra2      (GATE8, 2, "extra2", 0 ,0);
+//Can remove extra 1 and 2
 
 //Pointer because you cant copy accesory type
 std::vector<Accessory*>totalAccList = {&headlights, &wiper, &left_indic, &right_indic, &horn, &brakelights, &extra1, &extra2};
 int amount_of_acc = totalAccList.size();
 
-DigitalIn boardSwitch(PB_3);
-
+DigitalIn boardSwitch(SWITCH);
+/*
 //Initialize Accessory List Vector
 std::vector<Accessory*> boardAccList;
 //Fill up Accessory List Vector based on what board your on
+
 for(int i = 0; i < amount_of_acc; i++){
-  if(totalAccList[i]->board == boardSwitch.read() || 2){
+  if(totalAccList[i]->board == boardSwitch.read() || totalAccList[i]->board == 2){
     boardAccList.push_back(totalAccList[i]);
   }
 }
@@ -60,19 +64,36 @@ for(int i = 0; i < amount_of_acc; i++){
 int sizeBoardAcc = boardAccList.size();
 
 //Initialize CAN
+DigitalOut canstby(CAN_STBY);
+canstby = 0;
+
 CAN can(CAN_RX, CAN_TX, BAUD_RATE);
 CANMessage msg;
 
-int mode = msg.data[0];
-if(can.read(msg)){
-  switch(mode){
-  
+
+bool nextState;
+
+
+while(true){
+
+  int mode = msg.data[0];
+  if(can.read(msg)){
+    switch(mode)
+    {
+    
   //Initial State  
-//  case 0: {
-//
-//  }
-//  case 1:
+    case 0:
+      for(int j = 0; j < 8; j++){
+        nextState = msg.data[1] >> j;
+        nextState = (nextState & 1);
+        if((totalAccList[j])->board == boardSwitch.read() || (totalAccList[j]->board == 2)){
+          (*totalAccList[j]).updateState(nextState);
+        }
+      }
+  //case 1:
       //We literally have zero toggles LOL
+
+
 
   //on off implementation
   case 2:
@@ -87,5 +108,6 @@ if(can.read(msg)){
     }
   }
 }
+} 
 
 }

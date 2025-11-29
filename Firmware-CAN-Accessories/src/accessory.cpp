@@ -1,6 +1,9 @@
-#include <mbed.h>
+#include "mbed.h"
 #include <chrono>
 #include "accessory.h"
+
+
+using std::string;
 
 Accessory::Accessory(PinName pin, PinName isensePin, int board, string name, int initial_state, int blinks_int) : out(pin){
         this->pin = pin;
@@ -21,14 +24,11 @@ void Accessory::updateState(bool newState){
         current_state = newState;
 
         if(newState && blinks_int){
-        if(newState && blinks_int){
 
             out = newState;
             t.attach(callback(this, &Accessory::blinks), BLINK_RATE);
-            t.attach(callback(this, &Accessory::blinks), BLINK_RATE);
         }
 
-        else if(!newState && blinks_int){
         else if(!newState && blinks_int){
             t.detach();
             out = newState;

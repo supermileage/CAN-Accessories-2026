@@ -9,8 +9,8 @@ using std::string;
 
 //CAN CONNECTIONS
 #define CAN_TX PA_12
-#define CAN_RX PA_9
-#define CAN_STBY PA_11
+#define CAN_RX PA_11
+#define CAN_STBY PA_9
 
 //Gates
 #define GATE1 PB_4
@@ -22,25 +22,41 @@ using std::string;
 #define GATE7 PB_0
 #define GATE8 PA_10
 
+//Current Sense Op amp output pins
+#define OA1 PA_0
+#define OA2 PA_1
+#define OA3 PA_3
+#define OA4 PA_4
+#define OA5 PA_5
+#define OA6 PA_6
+#define OA7 PA_7
+#define OA8 PA_2
+
 //Board Switch
 #define SWITCH PB_3
 
+//CAN
 #define BAUD_RATE 50000
 #define CAN_FORMAT 0x60
 
-int main(){
+//Telemetry
+Ticker t;
+int send_can_message(int message) {
 
+}
+
+int main(){
 //Declare all Accessories
 //Not really sure how the two boards play out
                       //PinName_Board_Name_InitialState_Blinks
-Accessory headlights  (GATE1, 1, "headlights", 0, 0);
-Accessory wiper       (GATE2, 1, "wiper", 0, 0);
-Accessory left_indic  (GATE3, 2, "left_indic", 1, 1);
-Accessory right_indic (GATE4, 2, "right_indic", 1, 1);
-Accessory horn        (GATE5, 1, "horn", 0, 0);
-Accessory brakelights (GATE6, 0, "brakelights", 1, 1) ;
-Accessory extra1      (GATE7, 2, "extra1", 0, 0);
-Accessory extra2      (GATE8, 2, "extra2", 0 ,0);
+Accessory headlights  (GATE1, OA1, 1, "headlights", 0, 0);
+Accessory wiper       (GATE2, OA2, 1, "wiper", 0, 0);
+Accessory left_indic  (GATE3, OA3,2, "left_indic", 1, 1);
+Accessory right_indic (GATE4, OA4, 2, "right_indic", 1, 1);
+Accessory horn        (GATE5, OA5, 1, "horn", 0, 0);
+Accessory brakelights (GATE6, OA6, 0, "brakelights", 1, 1) ;
+Accessory extra1      (GATE7, OA7, 2, "extra1", 0, 0);
+Accessory extra2      (GATE8, OA8, 2, "extra2", 0 ,0);
 
 //Pointer because you cant copy accesory type
 std::vector<Accessory*>totalAccList = {&headlights, &wiper, &left_indic, &right_indic, &horn, &brakelights, &extra1, &extra2};
@@ -56,21 +72,32 @@ for(int i = 0; i < amount_of_acc; i++){
     boardAccList.push_back(totalAccList[i]);
   }
 }
-
 int sizeBoardAcc = boardAccList.size();
 
 //Initialize CAN
 CAN can(CAN_RX, CAN_TX, BAUD_RATE);
 CANMessage msg;
 
+bool nextState;
+
+while(true) {
+
+//Process messages
 int mode = msg.data[0];
 if(can.read(msg)){
   switch(mode){
   
   //Initial State  
-//  case 0: {
-//
-//  }
+  case 0: {
+  for(int j = 0; j < amount_of_acc; j++){
+          nextState = msg.data[1] >> j;
+          nextState = (nextState & 1);
+          if((totalAccList[j])->board == boardSwitch.read() || (totalAccList[j]->board == 2)){
+              (*totalAccList[j]).updateState(nextState);
+              printf("MODE 1: Object %s has been initialized\n", totalAccList[j]->name.c_str());
+            }
+        }
+    }
 //  case 1:
       //We literally have zero toggles LOL
 
@@ -83,9 +110,12 @@ if(can.read(msg)){
       int acc = data_byte >> 1;
       if(totalAccList[acc]->board == boardSwitch.read() || totalAccList[acc]->board == 2){
         (*totalAccList[acc]).updateState(next_state);
+        printf("MODE 2: Object %s has been initialized\n", totalAccList[j]->name.c_str());
       }
     }
   }
 }
+//Send telemetry message
 
+}
 }

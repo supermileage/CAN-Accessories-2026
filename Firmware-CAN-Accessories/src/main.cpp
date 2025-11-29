@@ -8,8 +8,8 @@ using std::string;
 
 //CAN CONNECTIONS
 #define CAN_TX PA_12
-#define CAN_RX PA_9
-#define CAN_STBY PA_11
+#define CAN_RX PA_11
+#define CAN_STBY PA_9
 
 //Gates
 #define GATE1 PB_4
@@ -77,27 +77,28 @@ int main(){
     CAN can(CAN_RX, CAN_TX, BAUD_RATE);
     CANMessage incoming_message;
 
-    //first byte contains the operation mode
-    int mode = incoming_message.data[0];
+    while (true)
+    {
+        if(can.read(incoming_message)){
+            
+            int mode = incoming_message.data[0];
+            switch(mode){
+                //Initial State  
+                case 0:
 
-    if(can.read(incoming_message)){
-        switch(mode){
-            //Initial State  
-            case 0:
-                for(int i = 0; i < sizeBoardAcc; i++)
-                {
-                    
-                }
-            // case 1:
-            //     //We literally have zero toggles LOL
-
-            // //on off implementation
-            case 2:
-
-            // default:
-
+                case 1:
+                //     //We literally have zero toggles LOL
+    
+                // //on off implementation
+                case 2:
+    
+                // default:
+    
+            }
         }
     }
+
+    //first byte contains the operation mode
 
 
 

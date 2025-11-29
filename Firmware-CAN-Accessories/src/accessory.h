@@ -32,7 +32,7 @@ class Accessory{
 
     private:
     DigitalOut out;
-    DigitalIn isenseIn;
+    AnalogIn isenseIn;
     Ticker t;
 
 };

@@ -12,6 +12,7 @@ class Accessory{
     public:
     
     PinName pin;
+    PinName isensePin;
     int     board;
     string  name;
     int     initial_state;
@@ -20,13 +21,14 @@ class Accessory{
     int     current_state;
     int     id;
 
-    Accessory(PinName pin, int board, string name, int initial_state, int blinks_int);
-    Accessory(PinName pin, int board, string name, int initial_state, int blinks_int);
+    Accessory(PinName pin, PinName isensePin, int board, string name, int initial_state, int blinks_int);
     void updateState(bool newState);
     void blinks();
+    void telem_message();
 
     private:
     DigitalOut out;
+    DigitalIn isenseIn;
     Ticker t;
 
 };

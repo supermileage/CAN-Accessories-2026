@@ -2,14 +2,17 @@
 #include <chrono>
 #include "accessory.h"
 
-Accessory::Accessory(PinName pin, int board, string name, int initial_state, int blinks_int) : out(pin){
-    this->pin = pin;
-    this->board = board;
-    this->name = name;
-    this->initial_state = initial_state;
-    current_state = initial_state;
-    this->blinks_int = blinks_int;
-    }
+Accessory::Accessory(PinName pin, PinName isensePin, int board, string name, int initial_state, int blinks_int) : out(pin){
+        this->pin = pin;
+        this->isensePin = isensePin;
+        this->board = board;
+        this->name = name;
+        this->initial_state = initial_state;
+        current_state = initial_state;
+        //out = initial_state;
+        this->blinks_int = blinks_int;
+}
+
 
 void Accessory::updateState(bool newState){
 
@@ -42,5 +45,9 @@ void Accessory::updateState(bool newState){
 void Accessory::blinks(){
 
     out = !out;
+
+}
+
+void Accessory::telem_message(){
 
 }

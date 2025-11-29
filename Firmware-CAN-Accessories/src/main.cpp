@@ -4,15 +4,13 @@
 #include <vector>
 #include "accessory.h"
 #include <chrono>
-#include "accessory.h"
-#include <chrono>
 
 using std::string;
 
 //CAN CONNECTIONS
 #define CAN_TX PA_12
-#define CAN_RX PA_9
-#define CAN_STBY PA_11
+#define CAN_RX PA_11
+#define CAN_STBY PA_9
 
 //Gates
 #define GATE1 PB_4
@@ -41,16 +39,14 @@ Accessory left_indic  (GATE3, 2, "left_indic", 1, 1);
 Accessory right_indic (GATE4, 2, "right_indic", 1, 1);
 Accessory horn        (GATE5, 1, "horn", 0, 0);
 Accessory brakelights (GATE6, 0, "brakelights", 1, 1) ;
-Accessory extra1      (GATE7, 2, "extra1", 0, 0);
-Accessory extra2      (GATE8, 2, "extra2", 0 ,0);
 //Can remove extra 1 and 2
 
 //Pointer because you cant copy accesory type
-std::vector<Accessory*>totalAccList = {&headlights, &wiper, &left_indic, &right_indic, &horn, &brakelights, &extra1, &extra2};
+std::vector<Accessory*>totalAccList = {&headlights, &wiper, &left_indic, &right_indic, &horn, &brakelights};
 int amount_of_acc = totalAccList.size();
 
 DigitalIn boardSwitch(SWITCH);
-/*
+
 //Initialize Accessory List Vector
 std::vector<Accessory*> boardAccList;
 //Fill up Accessory List Vector based on what board your on
@@ -73,41 +69,57 @@ CANMessage msg;
 
 bool nextState;
 
+DigitalOut ctx(CAN_TX);
+DigitalOut crx(CAN_RX);
 
-while(true){
+while(true)
+{
 
-  int mode = msg.data[0];
-  if(can.read(msg)){
-    switch(mode)
+
+    // for (int i = 0; i < amount_of_acc; i++)
+    // {
+    //     (* (totalAccList[i])).updateState(1);        
+    // }
+    if(can.read(msg))
     {
+        
+        //int mode = msg.data[0];
+        switch(msg.data[0])
+        {
     
   //Initial State  
-    case 0:
-      for(int j = 0; j < 8; j++){
-        nextState = msg.data[1] >> j;
-        nextState = (nextState & 1);
-        if((totalAccList[j])->board == boardSwitch.read() || (totalAccList[j]->board == 2)){
-          (*totalAccList[j]).updateState(nextState);
-        }
-      }
+            case 0:
+                for(int j = 0; j < 6; j++){
+                    nextState = (msg.data[1] >> j) & 1;
+                    
+                    //if((totalAccList[j])->board == boardSwitch.read() || (totalAccList[j]->board == 2)){
+                        (*(totalAccList[j])).updateState(nextState);
+                    //}
+                }
+            break;
   //case 1:
-      //We literally have zero toggles LOL
+      //We literally have zero toggles LOL 
 
 
 
   //on off implementation
-  case 2:
-    int num_useful_bytes = msg.len;
-    for(int j = 0; (j < num_useful_bytes-1); j++) {
-      int data_byte = msg.data[j+1];
-      bool next_state = (data_byte & 1);
-      int acc = data_byte >> 1;
-      if(totalAccList[acc]->board == boardSwitch.read() || totalAccList[acc]->board == 2){
-        (*totalAccList[acc]).updateState(next_state);
-      }
+            case 2:
+                int num_useful_bytes = msg.len;
+                
+                for(int j = 1; (j < num_useful_bytes); j++)
+                {
+                    //int data_byte = msg.data[j+1];
+                    bool next_state = (msg.data[j] & 1);
+                    int acc = msg.data[j] >> 1;
+                    
+                    //if(totalAccList[acc]->board == boardSwitch.read() || totalAccList[acc]->board == 2){
+                        (*(totalAccList[acc])).updateState(next_state);
+                    //}
+                }
+        }
     }
-  }
-}
+
+    
 } 
 
 }

@@ -11,7 +11,7 @@ Accessory::Accessory(PinName pin, int board, string name, int initial_state, int
     this->blinks_int = blinks_int;
     }
 
-void Accessory::updateState(bool newState){
+void Accessory::updateState(int newState){
 
     if(current_state != newState){
 

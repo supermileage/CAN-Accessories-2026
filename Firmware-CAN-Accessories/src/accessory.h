@@ -1,4 +1,4 @@
-#include <mbed.h>
+#include "mbed.h"
 #include <chrono>
 
 using namespace std::chrono_literals;
@@ -18,7 +18,7 @@ class Accessory{
     int     id;
 
     Accessory(PinName pin, int board, string name, int initial_state, int blinks_int);
-    void updateState(bool newState);
+    void updateState(int newState);
     void blinks();
 
     private:

@@ -20,7 +20,7 @@ Accessory::Accessory(PinName pin, PinName isensePin, int board, string name, int
 
 void Accessory::updateState(bool newState){
 
-    if(current_state != newState){
+    //if(current_state != newState){
 
         current_state = newState;
 
@@ -30,7 +30,7 @@ void Accessory::updateState(bool newState){
             t.attach(callback(this, &Accessory::blinks), BLINK_RATE);
         }
 
-        else if(!newState && blinks_int){
+        else if((!newState && blinks_int)){
             t.detach();
             out = newState;
         }
@@ -38,7 +38,7 @@ void Accessory::updateState(bool newState){
         else{
             out = newState;
         }
-    }
+    //}
 
 
 };

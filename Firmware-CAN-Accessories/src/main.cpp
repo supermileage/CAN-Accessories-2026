@@ -77,11 +77,11 @@ CAN can(CAN_RX, CAN_TX, BAUD_RATE);
 DigitalOut can_stby(CAN_STBY);
 can_stby=0;
 
-if(!can.filter(0x60, 0x7FF))
-{
-    //printf("no can fdilter");
-    left_indic.updateState(1);
-}
+// if(!can.filter(0x60, 0x7FF))
+// {
+//     //printf("no can fdilter");
+//     left_indic.updateState(1);
+// }
 
 CANMessage msg;
 
@@ -92,32 +92,34 @@ bool nextState;
 
 
 
-for (int i = 0; i < 2; i++)
-{
-     //(* (totalAccList[i])).updateState(1);  
-    headlights.updateState(1); 
-    wiper.updateState(1);
-    ThisThread::sleep_for(1000ms);
-    headlights.updateState(0);
-    ThisThread::sleep_for(1000ms);
-}
+// for (int i = 0; i < 2; i++)
+// {
+//      //(* (totalAccList[i])).updateState(1);  
+//     headlights.updateState(1); 
+//     wiper.updateState(1);
+//     ThisThread::sleep_for(1000ms);
+//     headlights.updateState(0);
+//     ThisThread::sleep_for(1000ms);
+// }
 while(true)
 {
-    if(can.read(msg))
+    if(can.read(msg) && msg.id == CAN_FORMAT)
     {
-        headlights.updateState(1);
+        // right.updateState(1);
         //int mode = msg.data[0];
-        /*switch(msg.data[0])
+        switch(msg.data[0])
         {
     
   //Initial State  
-            case 0: {
+            case 0: 
                 for(int j = 0; j < 6; j++)
+                {
                     nextState = (msg.data[1] >> j) & 1;
                     
-                    //if((totalAccList[j])->board == boardSwitch.read() || (totalAccList[j]->board == 2)){
+                    if((totalAccList[j])->board == boardSwitch.read() || (totalAccList[j]->board == 2)){
                         (*(totalAccList[j])).updateState(nextState);
-                    //}
+                    }
+                }
                 
             break;
             
@@ -134,11 +136,11 @@ while(true)
                     bool next_state = (msg.data[j] & 1);
                     int acc = msg.data[j] >> 1;
                     
-                    //if(totalAccList[acc]->board == boardSwitch.read() || totalAccList[acc]->board == 2){
+                    if(totalAccList[acc]->board == boardSwitch.read() || totalAccList[acc]->board == 2){
                         (*(totalAccList[acc])).updateState(next_state);
-                    //}
+                    }
                 }
-        }*/
+        }
     }
 
 } 

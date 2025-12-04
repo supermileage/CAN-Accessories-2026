@@ -77,7 +77,7 @@ bool nextState;
 //Telemetry
 Ticker telem_ticker;
 CANMessage telem_msg;
-telem_msg.id = 0x61;
+telem_msg.id = 0x61; //temporary, will change based on what telemetry wants
 telem_msg.len = (amount_of_acc - 1); //must change if number of accessories > 7, -1 because byte 8 telem is checksum
 int send_telem_message() {
   for(int j = 0; j < amount_of_acc; j++) {

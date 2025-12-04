@@ -2,6 +2,7 @@
 
 using namespace std::chrono_literals;
 #define BLINK_RATE 1000ms
+#define TELEM_RATE 1000ms
 
 using std::string;
 
@@ -23,8 +24,9 @@ class Accessory{
 
     private:
     DigitalOut out;
-    DigitalIn isenseIn;
+    AnalogIn isenseIn;
     Ticker t;
+    Ticker telem_ticker;
 
 };
 

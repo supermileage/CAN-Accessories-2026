@@ -12,7 +12,7 @@ Accessory::Accessory(PinName pin, PinName isensePin, int board, string name, int
         this->name = name;
         this->initial_state = initial_state;
         current_state = initial_state;
-        //out = initial_state;
+        out = initial_state;
         this->blinks_int = blinks_int;
 }
 
@@ -49,5 +49,5 @@ void Accessory::blinks(){
 }
 
 void Accessory::telem_message(){
-
+    
 }

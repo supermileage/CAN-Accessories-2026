@@ -39,19 +39,13 @@ using std::string;
 #define BAUD_RATE 50000
 #define CAN_FORMAT 0x60
 
-//Telemetry
-Ticker t;
-int send_can_message(int message) {
-
-}
-
 int main(){
 //Declare all Accessories
 //Not really sure how the two boards play out
                       //PinName_Board_Name_InitialState_Blinks
 Accessory headlights  (GATE1, OA1, 1, "headlights", 0, 0);
 Accessory wiper       (GATE2, OA2, 1, "wiper", 0, 0);
-Accessory left_indic  (GATE3, OA3,2, "left_indic", 1, 1);
+Accessory left_indic  (GATE3, OA3, 2, "left_indic", 1, 1);
 Accessory right_indic (GATE4, OA4, 2, "right_indic", 1, 1);
 Accessory horn        (GATE5, OA5, 1, "horn", 0, 0);
 Accessory brakelights (GATE6, OA6, 0, "brakelights", 1, 1) ;
@@ -79,6 +73,19 @@ CAN can(CAN_RX, CAN_TX, BAUD_RATE);
 CANMessage msg;
 
 bool nextState;
+
+//Telemetry
+Ticker telem_ticker;
+CANMessage telem_msg;
+telem_msg.id = 0x61;
+telem_msg.len = (amount_of_acc - 1); //must change if number of accessories > 7, -1 because byte 8 telem is checksum
+int send_telem_message() {
+  for(int j = 0; j < amount_of_acc; j++) {
+    telem_msg.data[j] = AnalogIn (totalAccList[j]->isensePin);
+  }
+  can.write(telem_msg);
+}
+telem_ticker.attach(&send_telem_message, TELEM_RATE);
 
 while(true) {
 
@@ -115,7 +122,5 @@ if(can.read(msg)){
     }
   }
 }
-//Send telemetry message
-
 }
 }

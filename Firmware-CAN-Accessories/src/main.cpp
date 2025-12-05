@@ -53,25 +53,25 @@ int send_can_message(int message) {
 int main(){
 //Declare all Accessories
                       //Gate,Opamp,Board,Name,InitialState,Blinks
-Accessory headlights  (GATE1, OA1, FRONT, "headlights",  0, 0);// id0
-Accessory wiper       (GATE2, OA2, FRONT, "wiper",       0, 0);// id1
-Accessory left_indic  (GATE3, OA3, BOTH , "left_indic",  1, 1);// id2
-Accessory right_indic (GATE4, OA4, BOTH , "right_indic", 1, 1);// id3
+Accessory headlights  (GATE1, OA1, FRONT, "headlights" , 0, 0);// id0
+Accessory wiper       (GATE2, OA2, FRONT, "wiper"      , 0, 0);// id1
+Accessory leftIndic   (GATE3, OA3, BOTH , "leftIndic"  , 1, 1);// id2
+Accessory rightIndic  (GATE4, OA4, BOTH , "rightIndic" , 1, 1);// id3
 Accessory horn        (GATE5, OA5, FRONT, "horn"       , 0, 0);// id4
 Accessory brakelights (GATE6, OA6, BACK , "brakelights", 1, 1);// id5
 
 //Pointer because you cant copy accesory type
-std::vector<Accessory*>totalAccList = {&headlights, &wiper, &left_indic, &right_indic, &horn, &brakelights};
-int amount_of_acc = totalAccList.size();
+std::vector<Accessory*>totalAccList = {&headlights, &wiper, &leftIndic, &rightIndic, &horn, &brakelights};
+int accAmount = totalAccList.size();
 
 //Declare board switch pin
 DigitalIn boardSwitch(SWITCH);
 
 //Initialize CAN
 CAN can(CAN_RX, CAN_TX, BAUD_RATE);
-DigitalOut can_stby(CAN_STBY);
+DigitalOut canStby(CAN_STBY);
 //disable CAN standby
-can_stby=0;
+canStby=0;
 
 CANMessage msg;
 
@@ -84,7 +84,7 @@ while(true)
     
             //IOPERATION MODE 0: Set status of all accessories at once
             case 0: 
-                for(int j = 0; j < amount_of_acc; j++)
+                for(int j = 0; j < accAmount; j++)
                 {
                     bool nextState = (msg.data[1] >> j) & 1;
                     
@@ -100,11 +100,11 @@ while(true)
                 
                 for(int j = 1; j < msg.len; j++)
                 {
-                    bool next_state = (msg.data[j] & 1);
+                    bool nextState = (msg.data[j] & 1);
                     int acc = msg.data[j] >> 1;
                     
                     if(totalAccList[acc]->board == boardSwitch.read() || totalAccList[acc]->board == BOTH){
-                        (*(totalAccList[acc])).updateState(next_state);
+                        (*(totalAccList[acc])).updateState(nextState);
                     }
                 }
         }

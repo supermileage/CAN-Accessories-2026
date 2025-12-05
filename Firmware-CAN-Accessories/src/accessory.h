@@ -12,13 +12,13 @@ class Accessory{
     PinName isensePin;
     int     board;
     string  name;
-    int     initial_state;
-    int     blinks_int;
-    int     current_state;
+    int     initialState;
+    int     blinks;
+    int     currentState;
 
-    Accessory(PinName pin, PinName isensePin, int board, string name, int initial_state, int blinks_int);
+    Accessory(PinName pin, PinName isensePin, int board, string name, int initialState, int blinks);
     void updateState(bool newState);
-    void blinks();
+    void blink();
     void telem_message();
 
     private:

@@ -5,16 +5,16 @@
 
 using std::string;
 
-Accessory::Accessory(PinName pin, PinName isensePin, int board, string name, int initial_state, int blinks_int) : out(pin), isenseIn(isensePin)
+Accessory::Accessory(PinName pin, PinName isensePin, int board, string name, int initialState, int blinks) : out(pin), isenseIn(isensePin)
 {
         this->pin = pin;
         this->isensePin = isensePin;
         this->board = board;
         this->name = name;
-        this->initial_state = initial_state;
-        current_state = initial_state;
+        this->initialState = initialState;
+        this->currentState = initialState;
         //out = initial_state;
-        this->blinks_int = blinks_int;
+        this->blinks = blinks;
 }
 
 
@@ -22,15 +22,15 @@ void Accessory::updateState(bool newState){
 
     //if(current_state != newState){
 
-        current_state = newState;
+        currentState = newState;
 
-        if(newState && blinks_int){
+        if(newState && blinks){
 
             out = newState;
-            t.attach(callback(this, &Accessory::blinks), BLINK_RATE);
+            t.attach(callback(this, &Accessory::blink), BLINK_RATE);
         }
 
-        else if((!newState && blinks_int)){
+        else if((!newState && blinks)){
             t.detach();
             out = newState;
         }
@@ -43,7 +43,7 @@ void Accessory::updateState(bool newState){
 
 };
 
-void Accessory::blinks(){
+void Accessory::blink(){
 
     out = !out;
 

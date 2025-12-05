@@ -78,10 +78,11 @@ bool nextState;
 Ticker telem_ticker;
 CANMessage telem_msg;
 telem_msg.id = 0x61; //temporary, will change based on what telemetry wants
-telem_msg.len = (amount_of_acc - 1); //must change if number of accessories > 7, -1 because byte 8 telem is checksum
+telem_msg.len = amount_of_acc;
 int send_telem_message() {
-  for(int j = 0; j < amount_of_acc; j++) {
-    telem_msg.data[j] = AnalogIn (totalAccList[j]->isensePin);
+  for(int i = 0; i < amount_of_acc; i++) {
+    AnalogIn current_val(totalAccList[i]->isensePin);
+    telem_msg.data[i] = AnalogIn (totalAccList[i]->isensePin);
   }
   can.write(telem_msg);
 }

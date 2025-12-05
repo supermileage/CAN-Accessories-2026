@@ -39,6 +39,11 @@ using std::string;
 #define BAUD_RATE 50000
 #define CAN_FORMAT 0x60
 
+//ADC
+#define vref 3.3
+#define op_amp_gain = 20
+#define r_shunt = 0.05
+
 int main(){
 //Declare all Accessories
 //Not really sure how the two boards play out
@@ -81,8 +86,9 @@ telem_msg.id = 0x61; //temporary, will change based on what telemetry wants
 telem_msg.len = amount_of_acc;
 int send_telem_message() {
   for(int i = 0; i < amount_of_acc; i++) {
-    AnalogIn current_val(totalAccList[i]->isensePin);
-    telem_msg.data[i] = AnalogIn (totalAccList[i]->isensePin);
+    int raw_adc = totalAccList[i]->isenseIn;
+    int current_draw = (raw_adc*vref)/(op_amp_gain*r_shunt*1000); //in milli-amps
+    telem_msg.data[i] = current_draw; //tell telemetry order of accessories based on totalAccList
   }
   can.write(telem_msg);
 }

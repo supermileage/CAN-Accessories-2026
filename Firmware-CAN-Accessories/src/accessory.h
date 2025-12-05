@@ -1,7 +1,7 @@
 #include "mbed.h"
 
 using namespace std::chrono_literals;
-#define BLINK_RATE 1000ms
+#define BLINK_RATE 500ms
 
 using std::string;
 

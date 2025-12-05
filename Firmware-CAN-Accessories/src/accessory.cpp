@@ -5,7 +5,7 @@
 
 using std::string;
 
-Accessory::Accessory(PinName pin, PinName isensePin, int board, string name, int initial_state, int blinks_int) : out(pin){
+Accessory::Accessory(PinName pin, PinName isensePin, int board, string name, int initial_state, int blinks_int) : out(pin), isenseIn(isensePin){
         this->pin = pin;
         this->isensePin = isensePin;
         this->board = board;

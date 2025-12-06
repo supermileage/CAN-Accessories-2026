@@ -21,8 +21,9 @@ class Accessory{
     void updateState(bool newState);
     void blinks();
     void telem_message(std::vector<Accessory*>);
+    AnalogIn get_i_sense();
 
-    //private
+    private:
     DigitalOut out;
     AnalogIn isenseIn;
     Ticker t;

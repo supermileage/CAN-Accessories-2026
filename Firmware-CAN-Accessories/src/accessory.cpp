@@ -48,3 +48,7 @@ void Accessory::blinks(){
     out = !out;
 
 }
+
+AnalogIn Accessory::get_i_sense(){
+    return isenseIn;
+}

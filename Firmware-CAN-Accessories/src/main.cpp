@@ -52,7 +52,7 @@ int send_telem(std::vector<Accessory*> totalAccList, CANMessage telem_msg){
   telem_msg.id = 0x61; //edit based on what telemetry wants
   telem_msg.len = 8; //temp
   for(int i = 0; i < totalAccList.size(); i++) {
-    int raw_adc = totalAccList[i]->isenseIn;
+    int raw_adc = (*totalAccList[i]).get_i_sense();
     int current_draw = (raw_adc*vref)/(op_amp_gain*r_shunt*1000); //in milli-amps
     telem_msg.data[i] = current_draw; //tell telemetry order of accessories based on totalAccList
   }

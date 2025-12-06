@@ -43,16 +43,29 @@ using std::string;
 //CAN
 #define BAUD_RATE 500000
 #define CAN_FORMAT 0x60
+CAN can(CAN_RX, CAN_TX, BAUD_RATE);
+
+//ADC
+#define vref 3.3
+#define op_amp_gain 20
+#define r_shunt 0.05
 
 //Telemetry
-Ticker t;
-int send_can_message(int message) {
-
+Ticker telem_ticker;
+int send_telem_message(std::vector<Accessory*> totalAccList, CANMessage telem_msg) {
+    telem_msg.id = 0x61;
+    telem_msg.len = 8;
+    for(int i = 0; i < totalAccList.size(); i++) {
+        int raw_adc = (*totalAccList[i]).get_i_sense();
+        int current_draw = (raw_adc*vref)/(op_amp_gain*r_shunt*1000); //in milli-amps
+        telem_msg.data[i] = current_draw;
+    }
+    can.write(telem_msg);
 }
 
 int main(){
 //Declare all Accessories
-                      //Gate,Opamp,Board,Name,InitialState,Blinks
+//Gate,Opamp,Board,Name,InitialState,Blinks
 Accessory headlights  (GATE1, OA1, FRONT, "headlights" , 0, 0);// id0
 Accessory wiper       (GATE2, OA2, FRONT, "wiper"      , 0, 0);// id1
 Accessory leftIndic   (GATE3, OA3, BOTH , "leftIndic"  , 1, 1);// id2
@@ -67,16 +80,26 @@ int accAmount = totalAccList.size();
 //Declare board switch pin
 DigitalIn boardSwitch(SWITCH);
 
+//MAYBE USELESS (ACTUALLY USELESS)
+std::vector<Accessory*> boardAccList;
+for(int i = 0; i < accAmount; i++){
+    if(totalAccList[i]->board == boardSwitch.read() || totalAccList[i]->board == BOTH) {
+        boardAccList.push_back(totalAccList[i]);
+    }
+}
+
 //Initialize CAN
-CAN can(CAN_RX, CAN_TX, BAUD_RATE);
 DigitalOut canStby(CAN_STBY);
 //disable CAN standby
 canStby=0;
-
 CANMessage msg;
+CANMessage telem_msg;
+telem_ticker.attach(callback([&]() {send_telem_message(totalAccList, telem_msg);}), TELEM_RATE);
 
-while(true)
-{
+bool nextState;
+
+while(true) {
+    //Process messages
     if(can.read(msg) && msg.id == CAN_FORMAT)
     {
         switch(msg.data[0])

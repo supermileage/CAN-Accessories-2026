@@ -1,6 +1,7 @@
 #include "mbed.h"
 #include <chrono>
 #include "accessory.h"
+#include <vector>
 
 
 using std::string;
@@ -49,6 +50,6 @@ void Accessory::blink(){
 
 }
 
-void Accessory::telem_message(){
-
+AnalogIn Accessory::get_i_sense(){
+    return isenseIn;
 }

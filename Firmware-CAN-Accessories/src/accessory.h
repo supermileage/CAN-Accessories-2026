@@ -2,6 +2,7 @@
 
 using namespace std::chrono_literals;
 #define BLINK_RATE 500ms
+#define TELEM_RATE 1000ms
 
 using std::string;
 
@@ -19,11 +20,11 @@ class Accessory{
     Accessory(PinName pin, PinName isensePin, int board, string name, int initialState, int blinks);
     void updateState(bool newState);
     void blink();
-    void telem_message();
+    AnalogIn get_i_sense();
 
     private:
     DigitalOut out;
-    DigitalIn isenseIn;
+    AnalogIn isenseIn;
     Ticker t;
 
 };

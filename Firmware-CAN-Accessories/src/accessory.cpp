@@ -1,6 +1,7 @@
 #include "mbed.h"
 #include <chrono>
 #include "accessory.h"
+#include <vector>
 
 
 using std::string;
@@ -46,8 +47,4 @@ void Accessory::blinks(){
 
     out = !out;
 
-}
-
-void Accessory::telem_message(){
-    
 }

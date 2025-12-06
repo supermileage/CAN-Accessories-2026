@@ -20,9 +20,9 @@ class Accessory{
     Accessory(PinName pin, PinName isensePin, int board, string name, int initial_state, int blinks_int);
     void updateState(bool newState);
     void blinks();
-    void telem_message();
+    void telem_message(std::vector<Accessory*>);
 
-    private:
+    //private
     DigitalOut out;
     AnalogIn isenseIn;
     Ticker t;

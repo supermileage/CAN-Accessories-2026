@@ -39,15 +39,30 @@ using std::string;
 #define BAUD_RATE 50000
 #define CAN_FORMAT 0x60
 
+CAN can(CAN_RX, CAN_TX, BAUD_RATE);
+
 //ADC
 #define vref 3.3
-#define op_amp_gain = 20
-#define r_shunt = 0.05
+#define op_amp_gain 20
+#define r_shunt 0.05
+
+//Telemetry
+Ticker telem_ticker;
+int send_telem(std::vector<Accessory*> totalAccList, CANMessage telem_msg){
+  telem_msg.id = 0x61; //edit based on what telemetry wants
+  telem_msg.len = 8; //temp
+  for(int i = 0; i < totalAccList.size(); i++) {
+    int raw_adc = totalAccList[i]->isenseIn;
+    int current_draw = (raw_adc*vref)/(op_amp_gain*r_shunt*1000); //in milli-amps
+    telem_msg.data[i] = current_draw; //tell telemetry order of accessories based on totalAccList
+  }
+  can.write(telem_msg);
+}
 
 int main(){
 //Declare all Accessories
 //Not really sure how the two boards play out
-                      //PinName_Board_Name_InitialState_Blinks
+//PinName_Board_Name_InitialState_Blinks
 Accessory headlights  (GATE1, OA1, 1, "headlights", 0, 0);
 Accessory wiper       (GATE2, OA2, 1, "wiper", 0, 0);
 Accessory left_indic  (GATE3, OA3, 2, "left_indic", 1, 1);
@@ -74,25 +89,28 @@ for(int i = 0; i < amount_of_acc; i++){
 int sizeBoardAcc = boardAccList.size();
 
 //Initialize CAN
-CAN can(CAN_RX, CAN_TX, BAUD_RATE);
 CANMessage msg;
 
 bool nextState;
 
 //Telemetry
-Ticker telem_ticker;
+// Ticker telem_ticker;
 CANMessage telem_msg;
-telem_msg.id = 0x61; //temporary, will change based on what telemetry wants
-telem_msg.len = amount_of_acc;
-int send_telem_message() {
-  for(int i = 0; i < amount_of_acc; i++) {
-    int raw_adc = totalAccList[i]->isenseIn;
-    int current_draw = (raw_adc*vref)/(op_amp_gain*r_shunt*1000); //in milli-amps
-    telem_msg.data[i] = current_draw; //tell telemetry order of accessories based on totalAccList
-  }
-  can.write(telem_msg);
-}
-telem_ticker.attach(&send_telem_message, TELEM_RATE);
+// telem_msg.id = 0x61; //temporary, will change based on what telemetry wants
+// telem_msg.len = amount_of_acc;
+// int send_telem_message() {
+//   for(int i = 0; i < amount_of_acc; i++) {
+//     int raw_adc = totalAccList[i]->isenseIn;
+//     int current_draw = (raw_adc*vref)/(op_amp_gain*r_shunt*1000); //in milli-amps
+//     telem_msg.data[i] = current_draw; //tell telemetry order of accessories based on totalAccList
+//   }
+//   can.write(telem_msg);
+// }
+telem_ticker.attach(callback([&]() {send_telem(totalAccList, telem_msg);}),TELEM_RATE);
+
+// telem_ticker.attach(&Accessory::telem_message, TELEM_RATE);
+// headlights.telem_message();
+// right_indic.telem_message();
 
 while(true) {
 

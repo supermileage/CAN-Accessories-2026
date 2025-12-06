@@ -38,7 +38,6 @@ using std::string;
 //CAN
 #define BAUD_RATE 50000
 #define CAN_FORMAT 0x60
-
 CAN can(CAN_RX, CAN_TX, BAUD_RATE);
 
 //ADC

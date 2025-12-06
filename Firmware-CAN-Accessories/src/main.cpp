@@ -30,7 +30,7 @@ using std::string;
 #define OA5 PA_5
 #define OA6 PA_6
 #define OA7 PA_7
-#define OA8 PA_2
+#define OA8 PA_2 //not actually an ADC
 
 //Board Switch
 #define SWITCH PB_3

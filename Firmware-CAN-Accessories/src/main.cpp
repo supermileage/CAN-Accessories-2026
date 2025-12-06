@@ -121,14 +121,14 @@ if(can.read(msg)){
   //Initial State  
   case 0: {
   for(int j = 0; j < amount_of_acc; j++){
-          nextState = msg.data[1] >> j;
-          nextState = (nextState & 1);
-          if((totalAccList[j])->board == boardSwitch.read() || (totalAccList[j]->board == 2)){
-              (*totalAccList[j]).updateState(nextState);
-              printf("MODE 1: Object %s has been initialized\n", totalAccList[j]->name.c_str());
-            }
-        }
-    }
+    nextState = msg.data[1] >> j;
+    nextState = (nextState & 1);
+      if((totalAccList[j])->board == boardSwitch.read() || (totalAccList[j]->board == 2)){
+        (*totalAccList[j]).updateState(nextState);
+          printf("MODE 1: Object %s has been initialized\n", totalAccList[j]->name.c_str());
+      }
+  }
+  }
 //  case 1:
       //We literally have zero toggles LOL
 

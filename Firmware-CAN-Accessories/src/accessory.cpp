@@ -50,6 +50,6 @@ void Accessory::blink(){
 
 }
 
-AnalogIn Accessory::get_i_sense(){
-    return isenseIn;
+float Accessory::get_i_sense(){
+    return isenseIn.read();
 }

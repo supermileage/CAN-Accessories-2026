@@ -20,7 +20,7 @@ class Accessory{
     Accessory(PinName pin, PinName isensePin, int board, string name, int initialState, int blinks);
     void updateState(bool newState);
     void blink();
-    AnalogIn get_i_sense();
+    float get_i_sense();
 
     private:
     DigitalOut out;

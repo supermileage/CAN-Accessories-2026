@@ -52,13 +52,26 @@ CAN can(CAN_RX, CAN_TX, BAUD_RATE);
 
 //Telemetry
 Ticker telem_ticker;
-int send_telem_message(std::vector<Accessory*> totalAccList, CANMessage telem_msg) {
+volatile bool send_telem_flag = false;
+
+void set_telem_flag() {
+    send_telem_flag = true;
+}
+
+void send_telem_message(std::vector<Accessory*> totalAccList, CANMessage telem_msg) {
     telem_msg.id = 0x61;
     telem_msg.len = 8;
     for(int i = 0; i < totalAccList.size(); i++) {
-        int raw_adc = (*totalAccList[i]).get_i_sense();
-        int current_draw = (raw_adc*vref)/(op_amp_gain*r_shunt*1000); //in milli-amps
-        telem_msg.data[i] = current_draw;
+        float raw_adc = (*totalAccList[i]).get_i_sense();
+        float current_draw = (raw_adc*vref)/(op_amp_gain*r_shunt*1000.0f); //in milli-amps
+
+        if (current_draw < 0) {
+            current_draw = 0;
+        }
+        if (current_draw > 255) {
+            current_draw = 255;
+        }
+        telem_msg.data[i] = (uint8_t)current_draw; //currently can only communiate in range 0-255mA, will fix
     }
     can.write(telem_msg);
 }
@@ -94,11 +107,17 @@ DigitalOut canStby(CAN_STBY);
 canStby=0;
 CANMessage msg;
 CANMessage telem_msg;
-telem_ticker.attach(callback([&]() {send_telem_message(totalAccList, telem_msg);}), TELEM_RATE);
+telem_ticker.attach(callback(&set_telem_flag), TELEM_RATE);
+//telem_ticker.attach(callback([&]() {send_telem_message(totalAccList, telem_msg);}), TELEM_RATE); STM DID NOT LIKE THIS
 
 bool nextState;
 
 while(true) {
+    if(send_telem_flag) {
+            send_telem_flag = false;
+            send_telem_message(totalAccList, telem_msg);
+        }
+
     //Process messages
     if(can.read(msg) && msg.id == CAN_FORMAT)
     {

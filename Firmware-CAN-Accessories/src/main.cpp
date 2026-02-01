@@ -50,31 +50,39 @@ CAN can(CAN_RX, CAN_TX, BAUD_RATE);
 #define op_amp_gain 20
 #define r_shunt 0.05
 
-//Telemetry
-Ticker telem_ticker;
-volatile bool send_telem_flag = false;
+// //Telemetry
+// Ticker telem_ticker;
+// volatile bool send_telem_flag = false;
 
-void set_telem_flag() {
-    send_telem_flag = true;
-}
+// void set_telem_flag() {
+//     send_telem_flag = true;
+// }
 
-void send_telem_message(std::vector<Accessory*> totalAccList, CANMessage telem_msg) {
-    telem_msg.id = 0x61;
-    telem_msg.len = 8;
-    for(int i = 0; i < totalAccList.size(); i++) {
-        float raw_adc = (*totalAccList[i]).get_i_sense();
-        float current_draw = (raw_adc*vref)/(op_amp_gain*r_shunt*1000.0f); //in milli-amps
+// void send_telem_message(std::vector<Accessory*> totalAccList, CANMessage telem_msg) {
+//     telem_msg.len = 4;
+//     for(int i = 0; i < totalAccList.size(); i++) {
+//         telem_msg.id = i;
+//         float raw_adc = (*totalAccList[i]).get_i_sense();
+//         int32_t encoded = (int32_t)round(raw_adc * 1000);
 
-        if (current_draw < 0) {
-            current_draw = 0;
-        }
-        if (current_draw > 255) {
-            current_draw = 255;
-        }
-        telem_msg.data[i] = (uint8_t)current_draw; //currently can only communiate in range 0-255mA, will fix
-    }
-    can.write(telem_msg);
-}
+//         telem_msg.data[0] = (encoded >> 24) & 0xFF;
+//         telem_msg.data[1] = (encoded >> 16) & 0xFF;
+//         telem_msg.data[2] = (encoded >> 8)  & 0xFF;
+//         telem_msg.data[3] = encoded & 0xFF;
+//         //float current_draw = (raw_adc*vref)/(op_amp_gain*r_shunt*1000.0f); //in milli-amps
+
+
+//         // if (current_draw < 0) {
+//         //     current_draw = 0;
+//         // }
+//         // if (current_draw > 255) {
+//         //     current_draw = 255;
+//         // }
+//         //telem_msg.data[i] = (uint8_t)current_draw; //currently can only communiate in range 0-255mA, will fix
+//         can.write(telem_msg);
+//     }
+// }
+
 
 int main(){
 //Declare all Accessories
@@ -83,7 +91,7 @@ Accessory headlights  (GATE1, OA1, FRONT, "headlights" , 0, 0);// id0
 Accessory wiper       (GATE2, OA2, FRONT, "wiper"      , 0, 0);// id1
 Accessory leftIndic   (GATE3, OA3, BOTH , "leftIndic"  , 1, 1);// id2
 Accessory rightIndic  (GATE4, OA4, BOTH , "rightIndic" , 1, 1);// id3
-Accessory horn        (GATE5, OA5, FRONT, "horn"       , 0, 0);// id4
+Accessory horn        (GATE7, OA5, FRONT, "horn"       , 0, 0);// id4
 Accessory brakelights (GATE6, OA6, BACK , "brakelights", 1, 1);// id5
 
 //Pointer because you cant copy accesory type
@@ -106,17 +114,19 @@ DigitalOut canStby(CAN_STBY);
 //disable CAN standby
 canStby=0;
 CANMessage msg;
-CANMessage telem_msg;
-telem_ticker.attach(callback(&set_telem_flag), TELEM_RATE);
+// CANMessage telem_msg;
+// if (boardSwitch.read()) {
+//     telem_ticker.attach(callback(&set_telem_flag), TELEM_RATE);
+// }
 //telem_ticker.attach(callback([&]() {send_telem_message(totalAccList, telem_msg);}), TELEM_RATE); STM DID NOT LIKE THIS
 
 bool nextState;
 
 while(true) {
-    if(send_telem_flag) {
-            send_telem_flag = false;
-            send_telem_message(totalAccList, telem_msg);
-        }
+    // if(send_telem_flag) {
+    //         send_telem_flag = false;
+    //         send_telem_message(totalAccList, telem_msg);
+    //     }
 
     //Process messages
     if(can.read(msg) && msg.id == CAN_FORMAT)

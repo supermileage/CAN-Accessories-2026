@@ -87,27 +87,29 @@ CAN can(CAN_RX, CAN_TX, BAUD_RATE);
 int main(){
 //Declare all Accessories
 //Gate,Opamp,Board,Name,InitialState,Blinks
-Accessory headlights  (GATE1, OA1, FRONT, "headlights" , 0, 0);// id0
-Accessory wiper       (GATE2, OA2, FRONT, "wiper"      , 0, 0);// id1
-Accessory leftIndic   (GATE3, OA3, BOTH , "leftIndic"  , 1, 1);// id2
-Accessory rightIndic  (GATE4, OA4, BOTH , "rightIndic" , 1, 1);// id3
-Accessory horn        (GATE7, OA5, FRONT, "horn"       , 0, 0);// id4
-Accessory brakelights (GATE6, OA6, BACK , "brakelights", 1, 1);// id5
+
+Accessory idleLights    (GATE1, OA1, BACK, "idleLights"  , 0, 0);// id6
+Accessory headlights    (GATE1, OA1, FRONT, "headlights" , 0, 0);// id0
+Accessory wiper         (GATE2, OA2, FRONT, "wiper"      , 0, 0);// id1
+Accessory leftIndic     (GATE3, OA3, BOTH , "leftIndic"  , 1, 1);// id2
+Accessory rightIndic    (GATE4, OA4, BOTH , "rightIndic" , 1, 1);// id3
+Accessory horn          (GATE7, OA5, FRONT, "horn"       , 0, 0);// id4
+Accessory brakelights   (GATE6, OA6, BACK , "brakelights", 1, 0);// id5
 
 //Pointer because you cant copy accesory type
-std::vector<Accessory*>totalAccList = {&headlights, &wiper, &leftIndic, &rightIndic, &horn, &brakelights};
-int accAmount = totalAccList.size();
+std::vector<Accessory*>totalAccList= {&headlights, &wiper, &leftIndic, &rightIndic, &horn, &brakelights, &idleLights};
+
 
 //Declare board switch pin
 DigitalIn boardSwitch(SWITCH);
 
-//MAYBE USELESS (ACTUALLY USELESS)
-std::vector<Accessory*> boardAccList;
-for(int i = 0; i < accAmount; i++){
-    if(totalAccList[i]->board == boardSwitch.read() || totalAccList[i]->board == BOTH) {
-        boardAccList.push_back(totalAccList[i]);
-    }
-}
+/*
+std::vector<Accessory*>totalAccList;
+if(boardSwitch.read()) std::vector<Accessory*>totalAccList = totalAccListFront;
+else                   std::vector<Accessory*>totalAccList = totalAccListBack;
+*/
+
+int accAmount = totalAccList.size();
 
 //Initialize CAN
 DigitalOut canStby(CAN_STBY);
